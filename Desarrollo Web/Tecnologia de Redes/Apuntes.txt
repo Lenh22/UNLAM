@@ -1,0 +1,23 @@
+Interferencia: Altera,modifica o interrumpe señal al viajar de una fuente a receptor
+Ruido: Señal no deseada que se mezcla con la señal util que queremos transmitir
+Señales: Electrica, Opticas, Electroopticas, Electromagneticas
+Canal:Camino donde viaja una señal de comunicacion e incluye equipos electricos en los extremos
+Canal analogo/ Canal digital
+Codigo datos: Trozos de informacion, se aplican datos a transmitir por lineas o canales teleinformaticos
+Tanto la trasmisora y receptora deben saber el mismo codigo
+Codec: Codifica y decodifica datos, siendo asimetrico (tipos de Stream)
+	Transmisión: Convertir una señal de analógica a digital y viceversa
+	Compresión : Comprimir y descomprimir datos, para maximizar el provecho de dispositivos de almacenaje
+	Encriptación: Convertir datos a un formato legible solo mediante contraseña, para administrar el acceso informático
+Modulacion: Modificacion de la onda portadora que contiene ondas que contiene info para ser transmitida
+Modulacion de multifase: La señal portadora tiene varias modulaciones por bits
+Modulacion 2b1q: Es digital, usa pulsos que contienen 2 binarios y codifica en cuaternarios
+Mod. Cap: De los 80' da señales de 2Mbits, basado en multiplexacion
+Mod. Ortogonal: Separa ortogonal y distribuye datos sobre la cant de portadores, tiene bajas interferencias
+Cod señales: representado en digital (ceros y unos) en señal electrica
+Sincronica: técnica que consiste en el enviar una trama de datos (conjunto de caracteres) que configura un bloque de 
+información comenzando con un conjunto de bits de sincronismo (SYN) y terminando con otro conjunto de bits de final de bloque (ETB). En este caso, los bits de sincronismo tienen la función de sincronizar los relojes existentes tanto en el emisor como en el receptor
+Asíncrona: tiene lugar cuando el proceso de sincronización entre emisor y receptor se realiza en cada palabra de código transmitido. 
+También se dice que se establece una relación asíncrona cuando no hay ninguna relación temporal entre la estación que transmite y la que recibe
+
+

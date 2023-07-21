@@ -1,0 +1,58 @@
+-------TP1-P1--------------
+Modulacion: Los sistema de comunicacion a larga distancia envian una señal oscilante-continua
+llamada portadora que es modificada por los trasmisores, se aplica en comunicaciones analogas
+y digitales
+
+Multiplexacion por division de frecuencias: La transmision de dos o mas señales portadoras al 
+mismo tiempo, pero en diferente frecuencia dan origen a este concepto 
+
+Velocidad de modulacion: El numero de veces por segundo que se puede cambiar una señal 
+poradora de estado (modulacion) de la linea y es sinonimo de BAUDS
+
+Velocidad de transmision Serie: Es el numero de bits que pueden transmitirse en un determinado
+circuito de datos por segundo y es sinonimo de MBPS
+
+RS 232: Es una norma serie de comunicacion asincronica creada para la interaccion entre modem
+y computadora
+
+La convergencia de conceptos entre telecomuncaciones y el procesamiento de informacion se lo
+denomina teleinformatica o telematica y se usa para resolver problemas entre la concectivad
+entre equipos remotos y la comunicacion entre funciones distribuidas de procesamiento de datos
+
+Demodulador: Circuito que acepta una portadura modulada, recrea secuencia de bits usada para
+modularla
+
+Dentro de las comunicaciones series asincronicas y de portadoras, la atenuacion de la señal
+en un medio de comunicacion como cables multipar es solucionado al instalar un amplificador
+de señal o land driver 
+
+Ancho de banda: El espectro o segmento de frecuencia donde el emisor puede transmitir,
+acotado por su frecuencia mas baja y mas alta, que cuando mayor el segmento, 
+aumenta la transmisiion de canal y velocidad
+
+El uso de concepto de multiplexaciion por division de tiempos permite que varios pares fuentes
+se cominiquen al mismo tiempo con varios pares destino convirtiendo el medio de transmision en
+Un canal compartido
+-------TP1-P2
+Los errores en la comunicación se producen porque los sistemas de transmisión son
+susceptibles a interferencias que pueden causar: Todas correctas
+
+PAQUETE: Dentro de las comunicaciones de una red, la unidad de información compuesta por una cantidad de datos
+pequeña
+
+CRC para la deteccion de errores se informa al final dentro del bloque de datos
+
+Protocolo: Conjunto de programas q hacen un formato, acuerdo o procedimiento para transmision
+de informacion
+
+-------TP2-P1
+Se dice que la topologia tipo Bus es muy confiable cuando tenemos una cantidad limitada de
+maquinas conectadas (Entre 7 y 12) puesto que superar dicho limite empieza la aparicion de 
+mensajes de colision por la difusion de todos los paquetes, Verdadero
+
+En una instalacion de cableado estructurado, el backbone se coloca con una bandeja en
+el techo y el entretecho construido de placas de yeso acusticas, ese espacio es el pleno
+
+Topologia fisica: Es la distribucion fisica de una red de telecomunicaciones o forma en que
+los nodos de una red estan conectados con todos sus componentes
+
