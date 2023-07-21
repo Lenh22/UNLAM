@@ -1,0 +1,22 @@
+Miel es una plataforma para alumnos y profesores desarrollado por el departamento de Ingenieria e investicaciones tecnologicas, 
+donde habra informacion sobre las materias de cada uno
+Asi que significa que es un gestionador de la universidad(educativo) donde se puede hacer remotamete. Los
+profesores tambien tienen la administracion del contenido como la interaccion del alumno/docente
+
+En cuanto a su contenido estetico veo que su color principal es el verde
+que simboliza naturaleza y la armonia, el login esta en la zona derecha de la pantalla
+y debajo tiene unas secciones sobre informacion que puede ser util.
+El isotipo y el logotivo estan en el lateral izquierdo de la pantalla, colocados
+en una barra semitransparente fija
+Al logearse se puede ver la barra de navegacion en la izquierda con su menu
+En el centro estan las materias ordenadas por orden alfabetico 
+
+Al hacerle inspeccion a la pagina esta usando obviamente HTML, y el Css esta usando
+el framework w3css al ver el nombre de las class que usan en el html
+Tambien veo funciones de JScript
+Y entre su contenido vi en la pagina el JQuery, al igual que libreria Modernizr, DatePicker
+
+Creo que unas mejoras aunque las veo solo opcionales serian agregar un boton que haga un 
+cambio a modo nocturno, y otra de las opciones seria agregar una notificacion como tiene Whatsapp Web
+Que al recibir un mensaje estando fuera de la pagina de Wsp lo que hara es llegar una notificacion de cuadro
+en la parte lateral derecha abajo de la pantalla

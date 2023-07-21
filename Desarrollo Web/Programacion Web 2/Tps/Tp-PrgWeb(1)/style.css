@@ -1,0 +1,9 @@
+section{
+    background-image: url('https://cdn.unlam.edu.ar/static/mielV4/imagenes/home/foto-home-1.jpg')
+}
+.centrado{
+    width: 100%;
+    display: block;
+    height: 2em;
+    text-align: center;
+}
