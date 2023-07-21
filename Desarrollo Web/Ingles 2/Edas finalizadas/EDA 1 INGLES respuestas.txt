@@ -1,0 +1,41 @@
+1.c
+2.a
+3.b
+4.a
+5.d
+6.a
+7.d
+8.d
+9.a
+10.Falso
+11.No hay voz
+12.Verdadero
+13.No hay voz
+14.Falsa
+15.Falsa
+16.Falsa
+17.d
+18.d
+19.c
+20.c
+-----
+1 A
+2 A
+3 C
+4 C
+5 D o C
+6 C o D
+7 A
+8 B o C
+9 A
+10 C o B
+11 A
+12 B
+13 B
+14 A
+15 B
+16 B
+17 C
+18 D
+19 C
+20 C
