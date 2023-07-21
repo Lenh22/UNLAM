@@ -1,0 +1,34 @@
+Funcional:
+
+-El cliente se debe registrar 
+-El usuario debe iniciar sesion
+-El cliente puede subcribirse a planes
+-El cliente puede modificar su info personal
+-El cliente solo puede cambiar su nro celular cada 3 meses
+-La operadora permite realizar cobros
+-La operadora hace la factura
+-El adm puede crear o modificar grupos portales
+-El adm puede eliminar portales
+-El cliente puede activar o desactivar planes
+-La operadora debe cobrar factura
+-El adm tiene al menos 2 portales
+-Las operadoras cobran un porcentaje dependiendo el servicio
+-El cliente puede darse de baja de los planes
+-El adm puede modificar o registrar operadoras y paises
+
+No Funcional:
+-El programa debe estar activo las 24 horas
+-Se debe autentificar el ingreso del usuario por seguridad
+-Modificar el nro celular tiene se puede en un lapso de 3 meses minimo
+
+
+Cliente (Nombre,apellido,email,nrocelular,contraseña)
+Planes (Nombre,costoMensual,descripcion,PortalAsociado, fecha de vencimiento)
+Portal (Nombre, resumen,fechaCreacion,idGrupo)
+Factura (Cliente, Plan, fecha, montoTotal)
+Operadora (RazonSocial,pais,direccion,email,telefono)
+Impuesto (Nombre, costo, frecuencia)
+
+<<Frecuencia>> (Mensual, Trismestral, Anual)
+<<Servicio>> (Perso, Cla, Mov)
+

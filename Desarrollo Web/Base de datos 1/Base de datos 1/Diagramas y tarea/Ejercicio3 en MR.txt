@@ -1,0 +1,15 @@
+FK -A-
+PK *A*
+
+Empleado( *legajo*, nombre, apellido, -cod_depa-
+Contratado( *-legajo-*, valor_hora_comun, valor_horas_extras, -CUIT_consultora-) 
+Efectivo(*-legajo-*, salario,) 
+Departamento( *cod*, descripcion,
+Consultora( *CUIT*, razon_social, telefono 
+
+Lista de FK
+Empleado.cod_depa -> Departamento.cod
+Contratado.legajo -> Empleado.legajo
+Efectivo.legajo -> Empleado.legajo
+Contratado.CUIT_consultora -> Consultora.CUIT
+

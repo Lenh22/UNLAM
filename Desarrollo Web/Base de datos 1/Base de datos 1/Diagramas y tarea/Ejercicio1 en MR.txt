@@ -1,0 +1,18 @@
+PK: *asterisco*
+FK: -linea media-
+
+
+instructor(*-codigo-*, nombre, correo)
+alumno( *legajo*, nombre)
+curso( *-cod-* cuota, duracion, nombre, -cod_Instructor-)
+
+alumno_telefono( *-legajo-*, -telefono-)
+
+cursan_alumno(*cod_curso*, *legajo_alumno*)
+
+Lista de claves Foraneas
+
+alumno_telefono.legajo -> alumno.legajo
+curso.cod_instructor -> instructor.codigo
+cursan_alumno.cod_curso -> curso.codigo
+cursan_alumno.legajo_alumno -> alumno.legajo

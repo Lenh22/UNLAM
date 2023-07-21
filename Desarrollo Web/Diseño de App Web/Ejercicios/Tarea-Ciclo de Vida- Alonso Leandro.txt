@@ -1,0 +1,74 @@
+1. MODELO DE CASCADA
+El modelo de cascada gue uno de los primeros propuestos, en este modelo 
+hay que completar cada paso para poder ir al siguiente
+-En la etapa de Requerimiento (Funcional y No funcional) se le consulta al 
+usuario como se organizara el documento
+-Diseño de Sistema se establece la forma, arquitectura que tendra y sus 
+relaciones
+-Implementacion, etapa donde se desarrolla y testea
+-Integracion, se corrigen todos los errores antes de entregarlo
+-Mantenimiento, se debe sostener con el tiempo el software para que funcione
+bien
+
+Ventajas
+Facil de entender
+Orientado a documentos
+Define antes de diseñar y codificar
+Desventajas
+Es rigido y poco flexible
+Los errores son costosos ademas de la dificultad de detectar errores
+Se necesita tener en claro todo desde el comienzo
+
+2.MODELO ITERATIVO
+El modelo  va repitiendo el proceso mientras avanza poco a poco 
+en cada iteracion
+
+Ventajas
+Reduce el tiempo de  desarrollo inicial
+Si hay un error, desecha la ultima iteracion
+No es necesario tener todos los requerimientos del principio
+Desventajas
+El cliente al tener una entrega temprana le da mala impresion
+Requiere al cliente siempre en el curso del proyecto
+Es vulnerable a la falta de robustez del sistema
+
+3.MODELO ESPIRAL
+Es de versiones incrementales, perfecto para clientes que solo tienen la base
+Las partes son:
+Determinar de objetos
+Se especifica el alcance del producto software que alcanzara al final de la repeticion
+Analisis de riesgos
+Se analizan todos los riesgos potenciales que pueden llegar a afectar el desarrollo
+Desarrollo y prueba
+Se analiza, diseña, contruye e incrementa el producto
+Planifica
+Se realiza estudios de la situacion actual y se pregunta si es necesario incrementar o no
+
+Ventajas
+Para el desarrollo de grandes proyectos es el mejor
+Combinable con otros modelos
+Los riesgo de deteccion de errores es baja
+Cada error se soluciona en el area correspondiente
+Desventajas
+Suma costo temporal en cada vuelta
+Aveces es costoso realizar el analisis de riesgo
+Hay cierta incertidumbre de hasta donde llega el presupuesto inicial
+
+
+4.SCRUM
+Roles:
+Owner, es la representacion del cliente , expresa lo q quiere el cliente
+Dev team, los responsables a desarrollar el producto
+Scrum Master, responsable de organizar y hacer entender al equipo
+
+Arteactos
+Product Backlog,es una lista de requerimientos priorizadas, que es administrada por el Product Owner.
+Evoluciona a lo largo del proyecto
+Sprint backlog, lista de requerimientos para un Sprint. Es administrada por Dev. Team.
+Solo el team puede modificarlo
+
+Eventos
+Daily Meeting, duran 15 min, mislo lugar y hora. Se actualizan entre el equipo
+Sprint Review, dura 2 a 4 horas. Se presenta el incremento de produccion, asisten todos
+es informal, se obtiene el feedback
+Sprint Retrospective, dura 1 a 2 horas, revision de trabajo, identificar oportunidades del prox sprint

@@ -1,0 +1,66 @@
+Instructor(*Cod*, nombre, email)
+Alumno(*Legajo*, nombre)
+Telefono(*-legajo_alum-*, *nro_telefono*)
+Curso(*cod_cur*, nombre, cuota, duracion, -cod_instruc-)
+Toman(*-Cod_curso-*, *-Legajo-*)
+
+Lista de FK
+Curso.cod_instruc > Instructor.Cod
+Toman.legajo_alum > Alumno.legajo
+Toman.cod_curso > Curso.cod_cur
+
+EJ 3
+Empleado(*Legajo*, nombre, apellido, -cod_depa-
+Contratado(*-Legajo-*Valor_hr_comun, valor_hr_extra, -CUIT-
+Efectivo(*-Legajo-*salario
+Consultoria(*CUIT*, razon_social, telefono
+Departamento(*Codigo*, descripcion
+
+Empleado.cod_depa > Departamento.codigo
+Contratado.CUIT > Consultora.CUIT
+Contratado.legajo > Empleado.legajo
+Efectivo.legajo > Empleado.legajo
+
+
+EJ4
+
+A(*a1*, a2
+B(*-a1-*, b1
+AyB(*-a1a1-*, *a1b1*)
+C(*-a1-*, c1
+D(*-a1-*, d1
+E(*-f1-*,*-f2-* *e1*, e2
+F(*f1*, *f2*, -a1-
+H(*h1*, h2,
+H3(*-h1-*, *h3* 
+I(*i1*, *i2*, *i3*
+X(*f1*, *f2**-i1-*, *-i2-*, *-i3-*, *-h1-*
+HH(*-h1-* *-h1x2-* *r1*
+
+Lista de claves
+
+B.a1 > A.a1
+D.a1 > A.a1 
+E.a1 > A.a1
+AyB.a1a1 > A.a1
+AyB.a1b1 > B.b1
+E.f1 > F.f1
+E.f2 > F.f2
+F.a1 > A.a1
+H3.h1 > H.h1
+HH.h1 > H.h1
+X.i1 > I.i1
+X.i2 > I.i2
+X.i3 > I.i3
+X.h1 > H.h1
+
+
+Persona(TIPO,NRDOC,nombre,domicilio,telefono 			PK:NRDOC, TIPO 
+Invitado(TIPO,NRDOC,email,					PK: NRDOC, TIPO		FK:Invitados.NRDOC+TIPO > Personas.NRDOC+TIPO 
+Empleados(TIPO,NRDOC,sueldo,cod_gen				PK: NRDOC, TIPO		FK:Empleado.NRDOC+TIPO > Personas.NRDOC+TIPO/Empleados.cod_gen > Tarea.cod_gen
+Asistir(TIPO,NRDOC,nroUnico					PK:TIPO,NRDOC		FK:Asistir.NRDOC+TIPO > Invitados.NRDOC+TIPO/Asistir.NRDOC+TIPO > Empleados.NRDOC+TIPO/Asistir.nroUnico > Fiesta.nroUnico
+Fiesta(NROUNICO,fechaYHora,valorToral,cod_salon,cod_show	PK:NROUNICO		FK:Fiesta.cod_salon > Salon.cod_salon/Fiesta.codShow > Show.codShow
+Salon(COD_SALON,capacidad,nombre				PK:COD_SALON	
+Tarea(COD_GEN,descripcion					PK:COD_GEN
+Show(CODSHOW,nombre,costo					PK:CODSHOW		
+Tipo(CODSHOW,COD,descripcion					PK:CODSHOW,COD		FK:Tipo.codShow > Show.codShow

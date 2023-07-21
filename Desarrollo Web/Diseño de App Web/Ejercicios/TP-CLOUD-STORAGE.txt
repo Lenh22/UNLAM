@@ -1,0 +1,27 @@
+Funcional:
+-El cliente puede crear albumes
+-El cliente debe registrarse
+-El cliente puede subir archivos
+-El cliente puede cerrar su cuenta
+-El cliente puede eliminar sus archivos
+-El cliente puede pedir un plan
+-El cliente puede cancelar la solicitud de su plan
+-El cliente debe pagar el plan deseado
+-El cliente puede cambiar su foto de perfil
+
+-El usuario debe iniciar sesion para operar el sistema
+-El sistema debe saludar al cliente en su cumpleaños
+
+-El adm puede gestionar las cuenta de los clientes
+-El adm puede aprobar o rechazar solicitud de planes
+
+No Funcional:
+-El software permite archivos PDF, Word, Excel,Imágenes (png, jpg, jpeg, bitmap), archivos de audio y video
+-La aplicacion debe soportar multiples cargas de archivos simultaneos
+-La aplicacion debe repartir diferentes almacenamientos a los clientes dependiendo su plan
+-Cada album creado debe pertenecer a un unico cliente
+-El cliente debe tener una cuenta con un tipo de estado (Pendiente de verificación, cuenta activa, cuenta inactiva y cuenta cerrada)
+-Debe existir el album donde se quiera subir archivos
+
+
+

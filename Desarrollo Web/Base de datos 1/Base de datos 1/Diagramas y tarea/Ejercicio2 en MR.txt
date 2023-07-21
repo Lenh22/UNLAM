@@ -1,0 +1,18 @@
+FK -A-
+PK *A*
+
+Habitante(*Nro_doc*, *tipo_doc*, nombre, apellido, fnac, -cod_vivir-)
+Vivienda(-*cod*-, direccion, nro_direcc, nro_calle, )
+		localidad, cp, m2_terreno, m2_const, -cod_municipio-) 
+Municipio(*cod* , intendente, nombre, )
+Propietarios(*-Tipo_cod_habitante, nro_doc_habitante, cod_vivienda-*)
+
+
+Lista de claves foraneas (FK)
+
+Habitante.cod_vivir -> Vivienda.cod
+Vivienda.cod_municipio -> Municipio.cod
+Propiedad.tipo_doc_habitante + nro_doc_habitante -> Habitante.tipo_doc + nro_doc
+Propiedad.cod_vivienda -> Vivienda.cod
+
+
