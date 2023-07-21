@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+header, main{
+    max-width: 60em;
+    margin: auto;
+}
+
+h1{
+    margin: 1em 0;
+}
+
+input[type="text"], select{
+    width: 100%;
+    display: block;
+    padding: 0.3em;
+    box-sizing: border-box;
+}
+
+input[type="radio"]{
+    margin: 0 0.3em 0 1em;
+}
+
+input[type="submit"], .input[type="button"]{
+    display: block;
+    float: right;
+    padding: 0.5em;
+    margin: 1em;
+}
+
+input.error, select.error{
+    border:1px solid crimson;
+    color: #000;
+}
+
+section, article{
+    margin:1em 0;
+}
+
+#mensaje{
+    margin-top: 2em;
+}
+
+#mostrar{
+    padding: 0.5em;
+}
+
+#resultado{
+    
+}
+
+.oculto{
+    display: none;
+}
+
+.condiciones{
+    margin-top: 0.5em;
+}
+
+.error{
+    color: crimson;
+}

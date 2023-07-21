@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+body{
+    background-color: #1E1B3C;
+    font-family: 'Nunito', sans-serif;
+    color:#fff;
+}
+header,footer,.bg-negro{
+    background-color: #06081C;
+}
+
+.contenedor-video{
+    border:6px solid #fff;
+    border-radius: 0.5em;
+    width: auto;
+}
+.contenedor-video iframe{
+    max-width: 100%;
+}
+
+.fecha-evento{
+    line-height: 0.9em;
+    margin-top: -3.5em;
+    font-size: 1.2em;
+}
+.lista-eventos{
+    color:#fff;
+}
+.lista-eventos h3{
+    font-size: 1.1em;
+}
+.lista-eventos img{
+    width: 120px;
+}
+.lista-eventos li{
+    margin: 1em 0;
+}
+.logo{
+    max-width: 200px;
+}
+.logo-colegio,.logo{
+    position: relative;
+    z-index: 10;
+}
+.nav.navbar{
+    height: 100px;
+}
+.nav-item{
+    text-transform: uppercase;
+}
+.texto-amarillo{
+    color:#f3c316;
+}
+.texto-celeste,.navbar-dark .navbar-nav .nav-link .texto-celeste{
+    color:#3AC2ED!important;
+}
+.texto-naranja{
+    color:#EE9011;
+}
+.texto-fucsia{
+    color:#E42845;
+}
+.texto-verde-agua, .navbar-dark .navbar-nav .nav-link .texto-verde-agua{
+    color:#1DA5A5!important;
+}
+.texto-verde{
+    color:#0EAC39;
+}
+.bg-amarillo{
+    background-color:#f3c316;
+}
+.bg-celeste{
+    background-color:#3AC2ED!important;
+}
+.bg-naranja{
+    background-color:#EE9011;
+}
+.bg-fucsia{
+    background-color:#E42845;
+}
+.bg-verde-agua{
+    background-color:#1DA5A5;
+}
+.bg-verde{
+    background-color:#0EAC39;
+}
+/*footer*/
+footer{
+    font-size: 0.9em;
+    margin-bottom: 0;
+    padding: 2em 0;
+    margin-top: 3em;
+    border-top: 8px solid #20a3a3;
+}
+.footer-bottom{
+    background-color: #e52547;
+    color:#fff;
+    font-size: 0.9em;
+    text-align: center;
+    padding: 1em 0;
+}
+.logo-footer, .logo-colegio-footer{
+    max-width: 200px;
+}
+/*Expo*/
+.rincon-literario{
+    max-width: 400px;
+}
+.visuales{
+    max-width: 400px;
+    margin-top: 120px;
+}
+.portfolios{
+    max-width: 230px;
+}
+.multimuestra{
+    max-width: 290px;
+    margin-left: 150px;
+}
+.espacio-cine{
+    max-width: 250px;
+    margin-left: 150px;
+}
+.para-escuchar{
+    max-width: 250px;
+    margin-top: -60px;
+}
+.expo-botones a img, .portfolio a img{
+    opacity: 1;
+    transform: scale(1);
+    transition: 0.5s;
+}
+.expo-botones a:hover img, .portfolio a:hover img{
+    opacity: 0.7;
+    transform: scale(0.95);
+}
+/*lista eventos*/
+.lista-eventos{
+    position: relative;
+}
+ol li {
+    height: 60px;
+}
+
+ol li {
+    padding-left: 20px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+ol:before {
+    content:"";
+    width: 2px;
+    height: calc(100% - 60px);
+    margin-top: 30px;
+    background: white;
+    position:absolute;
+    left:31px;
+    z-index: -2;
+}
+ol li:before {
+    content:"";
+    width: 26px;
+    height: 26px;
+    background: #fff;
+    position: absolute;
+    left: 19px;
+    margin-top: 9px;
+    border-radius: 50%;
+    z-index: -1;
+}
+ol li:nth-child(1)::before,ol li:nth-child(7)::before {
+    background:#f3c316;
+}
+ol li:nth-child(2)::before,ol li:nth-child(8)::before {
+    background:#EE9011;
+}
+ol li:nth-child(3)::before,ol li:nth-child(9)::before {
+    background:#E42845;
+}
+ol li:nth-child(4)::before,ol li:nth-child(10)::before {
+    background:#3AC2ED;
+}
+ol li:nth-child(5)::before,ol li:nth-child(11)::before {
+    background:#1DA5A5;
+}
+ol li:nth-child(6)::before,ol li:nth-child(12)::before {
+    background:#0EAC39;
+}
+.item.active, .dropdown-item:active {
+    background-color:#1DA5A5!important;
+}
+/*Porfolio*/
+.portfolio img{
+    border-radius: 10px;
+}
+.portfolio .rectangulo{
+    height: 30px;
+    position: absolute;
+    bottom: -5px;
+    border-radius: 10px;
+    left: -5px;
+    width: 50%;
+}
+.portfolio h3{
+    position: absolute;
+    left: 50px;
+    bottom: 0px;
+    z-index: 10;
+}
+@media screen and (min-width:60em){
+    .envivo{
+        max-width: 200px;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    .anotate{
+        max-width: 250px;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    .lo-que-viene{
+        max-width: 300px;
+        margin-top: 2em;
+        margin-bottom: 0.3em;
+    }
+    .navbar-expand-lg {
+        height: 90px;
+        padding-top: 90px;
+    }
+    .paso{
+        max-width: 500px;
+    }
+    .expo{
+        max-width: 200px;
+    }
+
+}

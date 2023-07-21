@@ -1,0 +1,89 @@
+﻿<!--
+La etiqueta <a>
+Es dentro de esta etiqueta y de su cierre (</a>) dónde encontraremos el enlace. Todo lo que esté dentro de ella, ya sea texto o una imagen, estará considerado como un enlace y el navegador lo interpretará así.
+
+Atributo href
+Para que un enlace esté activo debemos indicar dentro de él el destino del mismo. Para establecer este destino le colocamos a la etiqueta <a> este atributo. La etiqueta completa nos quedaría así:
+<a href=“enlace”>Pincha aquí para ir al destino del enlace</a>
+
+Atributo target:
+Sirve para definir la forma en la que se accederá a la nueva url. Por ejemplo:
+_self: Es el valor por defecto del parámetro target. El enlace se abrirá en el mismo marco en el que está alojado.
+_blank: Para hacer que ese enlace se abra en una ventana a parte.
+
+Direcciones absolutas y relativas
+Las direcciones absolutas son aquellas que contienen la url completa. 
+Las direcciones relativas vemos que no está la url completa. En este tipo de direcciones, las partes que faltan de la dirección el navegador las genera de la propia página en la que está el enlace.
+
+Enlazar una imagen
+Para que un enlace nos diriga directamente a una imagen. Le hemos indicado al enlace que nos abra la imagen en una ventana diferente gracias al target:blank. El código es el siguiente:
+<a href="./imagenes/unlam.jpg" target="_blank">Ir a ver el logo de la UNLAM</a>
+Esta vez el enlace está en la imagen. Si pinchas en ella, irás al artículo dónde vimos por primera vez esa fotografía. Primero te mostramos el código:
+<a href="/curso-de-html/mapas-de-imagenes/" target="_blank"><img src="./imagenes/unlam.jpg" alt="Pincha para ir al enlace" width="300" height="214" border="0"></a>
+
+Mailto
+La url mailto es aquella que te lleva directamente a una dirección de correo y, más concretamente, a redactar un mensaje. Una dirección mailto sería la siguiente:
+<a href="mailto:correodeejemplo@correodeejemplo.com">correodeejemplo@correodeejemplo.com</a>
+
+Anclas HTML
+Sirve para dirigir al usuario a otra parte distinta pero dentro de la misma página en la que estamos. 
+Para crear un ancla debemos crear primero el lugar al que queremos acceder. Debemos escribir lo siguiente:
+<a name="Inicio"></a>
+Y después debemos escribir un enlace con el código siguiente:
+<a href="Inicio">Enlace para acceder al ancla</a><br/>
+-->
+
+
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo con Etiqueta de Enlaces</title>
+</head>
+
+<body>
+
+<a name="Inicio">Inicio</a><br/><br/>
+Ejemplo de Enlaces<br/>
+<a href="http://www.unlam.edu.ar/">Pincha aquí para ir al Sitio Web de la UNLAM</a><br/>
+<br/>
+
+Ejemplo de Enlaces con atributo _self<br/>
+<a href="http://www.unlam.edu.ar/" target="_self">Pincha aquí para ir al Sitio Web de la UNLAM</a><br/>
+<br/>
+
+Ejemplo de Enlaces con atributo _blank<br/>
+<a href="http://www.unlam.edu.ar/" target="_blank">Pincha aquí para ir al Sitio Web de la UNLAM</a><br/>
+<br/>
+
+Ejemplo de Enlaces a una imagen con direccionamiento absoluto<br/>
+<a href="C:\Users\laboratorios\Desktop\4 - Etiquetas de Enlaces\4_Ejemplos\imagenes\unlam.jpg" target="_blank">Ir a ver el logo de la UNLAM</a><br/>
+<br/>
+
+Ejemplo de Enlaces a una imagen con direccionamiento relativo<br/>
+<a href=".\imagenes\unlam.jpg" target="_blank">Ir a ver el logo de la UNLAM</a><br/>
+<br/>
+
+Ejemplo de Enlaces sobre una imagen con direccionamiento relativo<br/>
+<a href="http://www.unlam.edu.ar/" target="_blank"><img src="./imagenes/unlam.jpg" width="150" height="107"></a>
+<br/>
+
+Ejemplo de Mailto<br/>
+<a href="mailto:correodeejemplo@correodeejemplo.com">correodeejemplo@correodeejemplo.com</a><br/>
+<br/>
+
+Ejemplo de Mailto con asunto<br/>
+<a href="mailto:correodeejemplo@correodeejemplo.com?subject=Consulta">Haga clic parar enviar una consulta</a></br>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+Ejemplo de Enlace Ancla<br/>
+<a href="#Inicio">Enlace para acceder al ancla</a><br/>
+
+</body>
+</html>
+
+
+
+

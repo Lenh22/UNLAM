@@ -1,0 +1,21 @@
+body{
+    background-image: url(../img/fondo04.png);
+}
+h1{
+    background-color: rgb(13, 57, 107);
+    color:#fff;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+a:hover{
+    text-decoration: none;
+    background-color: #000;
+    color:#fff;
+    padding: 10px;
+    display: inline-block;
+    margin:10px 5px;
+}
+.texto-centrado{
+    text-align: center;
+}

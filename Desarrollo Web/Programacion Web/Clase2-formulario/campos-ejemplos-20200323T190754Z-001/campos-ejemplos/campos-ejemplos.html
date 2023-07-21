@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formularios HTML</title>
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+        <header>
+            <h1>Campos y Atributos de Formularios</h1>
+        </header>
+        <section>
+
+            <article>
+                <h2>Select y Option</h2>    
+                <form action="#" method="post">
+                    <p>El elemento select va a tener un name declarado, dentro de este, los options son todas las opciones que se nos van a desplegar para poder elegir, este elemento va a tener el atributo value definido que es el valor que se va a enviar atraves de este formulario.</p>
+                    <label for="provincias">Provincias</label>
+                    <select id="provincias" name="provincias">
+                        <option value="1">Buenos Aires</option>
+                        <option value="2">C&oacute;rdoba</option>
+                        <option value="3">Entre R&iacute;os</option>
+                    </select>
+                    <input type="submit" value="Enviar">
+                </form>
+            </article>
+
+            <article>    
+                <h2>Textarea</h2>    
+                <form action="#" method="post">
+                    <p>El elemento textarea define un campo de entrada de varias líneas, el atributo rows especifica el número de líneas visibles en un &aacute;rea de texto y el atributo cols especifica el ancho</p>
+                    <textarea name="mensaje" id="" cols="50" rows="10" placeholder="Deja tu mensaje..."></textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </article>
+
+            <article>    
+                <h2>Output</h2>    
+                <form action="#" oninput="resultado.value=parseInt(valor_a.value)+parseInt(valor_b.value)" method="post">
+                    <p>El elemento output nos permite ver calculos en vivo, dependiendo de los valores que se manejen.</p>
+                    <input type="number"  id="valor_a" name="valor_a" value="50">
+                    +
+                    <input type="number" id="valor_b" name="valor_b" value="">
+                    =
+                    <output name="resultado" for="valor_a valor_b"></output>
+                </form>
+            </article>
+
+        </section>
+        <section>
+            <h1>Tipos de inputs</h1>
+            <article>
+                <h2>Text</h2>
+                <form action="#" method="post" >
+                    <p>El type con valor text sirve para el ingreso de datos alfanumericos</p>
+                    <label for="nombreyapellido"></label>
+                    <input id="nombreyapellido" type="text" name="nombreyapellido" placeholder="Ingrese su nombre y apellido" >
+                    <input type="submit" value="Enviar">
+                </form>
+            </article>
+            <article>
+                <h2>Number</h2>
+                <form action="#" method="post" >
+                    <p>El type con valor number sirve para el ingreso de datos numericos, puedo establecer min y max, para validar numeros validos</p>
+                    <label for="edad">Edad</label>
+                    <input id="edad" type="number" name="edad" placeholder="Ingrese su edad" min="0" max="200">
+                    <input type="submit" value="Enviar">
+                </form>
+            </article>
+            <article>    
+                <h2>Radio</h2>
+                <form action="#" method="post" >
+                    <p>Sirve para solo darle la posibilidad al usuario de seleccionar una sola opci&oacute;n, todos los inputs del mismo grupo deben tener el mismo name pero distinto value</p>
+                    <input id="hombre" type="radio" name="tipo_sexo" value="Hombre" checked> Hombre
+                    <input id="mujer" type="radio" name="tipo_sexo" value="Mujer"> Mujer
+                    <input id="otro" type="radio" name="tipo_sexo" value="otro"> Otro
+
+                    <input type="submit" value="Enviar">
+                </form>
+            </article>
+            <article>    
+                <form action="#" method="post" >
+                    <h2>Checkbox</h2>
+                    <p>Sirve para solo darle la posibilidad al usuario de seleccionar varias de opciones, todos los inputs deben tener distintos name y distintos value</p>                
+                    <p>Qu&eacute; lenguajes corren del lado del cliente?</p>
+                    <input id="php" type="checkbox" name="php" value="php"><label for="php"> PHP</label>
+                    <!-- Tiene el atributo checked asignado por eso, aparece seleccionado cuando carga la pagina -->
+                    <input id="javascript" type="checkbox" name="javascript" value="javascript" checked> <label for="javascript">JAVASCRIPT</label>
+                    <input id="css" type="checkbox" name="css" value="css"><label for="css">CSS</label>
+                    <input type="submit" value="Enviar">
+                </form>
+            </article>
+            <article>    
+                <form action="#" method="post" >
+                    <h2>Password</h2>
+                    <p>Sirve para el ingreso de contraseñas, evitando la visualizaci&oacute;n de la misma</p>                
+                    <label for="pass">Ingresa tu contraseña</label>
+                    <input id="pass" type="password" name="pass" >
+                    <input type="submit" value="Enviar">
+                </form>
+            </article>
+            <article>    
+                <form action="#" method="post" >
+                    <h2>Email</h2>
+                    <p>Sirve para el ingreso de correos electronicos, este tipo de input nos da automaticamente una validaci&oacute;n del tipo de correo electronico mientras estamos completando el campo.</p>                
+                    <label for="mail">Ingresa tu email</label>
+                    <input id="mail" type="email" name="emails" placeholder="Ingrese su email" required>
+                    <input type="submit" value="Enviar">
+                </form>
+            </article>
+            <article>    
+                <form action="#" method="post" >
+                    <h2>Tel</h2>
+                    <p>Sirve para el ingreso de numeros telefonicos, la mejor de sus cualidades es que cuando nos encontramos a nivel mobile, el teclado que nos aparece es el telefonico.</p>                
+                    <label for="tel">Ingresa tu telefono
+                        <input id="tel" type="tel" name="tel" placeholder="Ingrese su Telefono" 
+                               pattern="[0-9]{8,}" required>
+                    </label>
+                    <input type="submit" value="Enviar">
+                </form>
+            </article>
+            <article>    
+                <form action="#" method="post" >
+                    <h2>Fecha</h2>
+                    <p>Sirve para el ingreso de fechas y nos despliega un calendario</p>                
+                    <label for="fecha">¿Cu&aacute;ndo naciste?</label>
+                    <input id="fecha" type="date" name="fecha" >
+                    <input type="submit" value="Enviar">
+                </form>
+            </article>
+            <article>    
+                <form action="#" method="post" >
+                    <h2>Color</h2>
+                    <p>Sirve para el ingreso de colores y nos despliega una paleta de colores</p>                
+                    <label for="color">¿Cu&aacute;l es tu color preferido?</label>
+
+                    <input id="color" type="color" name="color" >
+
+
+                    <input type="submit" value="Enviar">
+                </form>
+            </article>
+            <article>    
+                <form action="#" method="post" >
+                    <h2>URL</h2>
+                    <p>Valida que las direcciones ingresadas sean url validas</p>                
+                    <label for="url">Ingrese una url</label>
+                    <input id="url" type="url" name="url" >
+
+
+                    <input type="submit" value="Enviar">
+                </form>
+            </article>
+            <article>    
+                <form action="#" method="post">
+                    <h2>Datalist</h2>
+                    <p>Sirve para especificar una lista predefinida de elementos para un campo input</p>
+                    <datalist id="informacion">
+                        <option value="Rafaela">
+                        <option value="San Justo">
+                        <option value="San Luis">
+                    </datalist>
+                    <label for="ciudad">Ciudad:</label>
+                    <input type="text" name="postal" list="informacion">
+
+                    <input type="submit" value="Enviar">
+                </form>
+            </article>
+        </section>
+        <section>
+            <h1>Atributos</h1>
+            <article>
+                <h2>Autofocus</h2>
+                <form action="#" method="post" >
+                    <p>El atributo autofocus permite que una vez cargada la pagina, el campo al que se le asigna sea el que tenga el cursor</p>
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" type="text" name="nombre" placeholder="Nombre" autofocus>
+                    <input type="submit" value="Enviar">
+                </form>
+            </article>
+            <article>
+                <h2>Placeholder</h2>
+                <form action="#" method="post" >
+                    <p>El atributo placeholder se muestra dentro del campo </p>
+                    <label for="nombre1">Nombre
+                        <input id="nombre1" type="text" name="nombre1" placeholder="Ingrese su Nombre">
+                    </label>
+                    <input type="submit" value="Enviar">
+                </form>
+            </article>
+            <article>            
+                <h2>Required</h2>
+                <form action="#" method="post" >
+                    <p>El atributo required sirve para identificar los campos que son obligatorios</p>
+                    <label for="apellido">Apellido</label>
+                    <input id="apellido" type="text" name="apellido" placeholder="Apellido" required>
+                    <input type="submit" value="Enviar">
+                </form>
+            </article>
+            <article>    
+                <h2>Value</h2>
+                <form action="#" method="post" >
+                    <p>Si declaramos el atributo value, este sera el contenido por defecto del campo</p>
+                    <label for="nombre2">Nombre:</label>
+                    <input id="nombre2" type="text" name="nombre2" value="Juan Perez">
+                    <input type="submit" value="Enviar">
+                </form>
+            </article>
+            <article>
+                <form action="#" method="post" >
+                    <h2>Pattern</h2>
+                    <p>Sirve para validar un campo con una expresion regular, en este caso, valida que la patente, tenga 3 letras mayusculas, seguidas por 3 n&uacute;meros</p>
+                    <label for="patente">Ingrese su patente</label>
+                    <input id="patente" type="text" name="patente" placeholder="AAA0000" pattern="[A-Z]{3}[0-9]{3}">
+
+                    <input type="submit" value="Enviar">
+                </form>
+            </article>
+        </section>
+        <footer>
+            Programaci&oacute;n Web 1 2020
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+/*Posición de los elementos en el grid
+Existen una serie de propiedades que se pueden utilizar para colocar los ítems dentro de la cuadrícula. 
+Con ellas podemos distribuir los elementos de una forma muy sencilla y cómoda. 
+Dichas propiedades son justify-items y align-items
+
+justify-items	start | end | center | stretch	Distribuye los elementos en el eje horizontal.
+align-items	start | end | center | stretch	Distribuye los elementos en el eje vertical.
+*/
+
+.grid {
+	display:grid;
+	display:grid;
+	grid-template-areas: 	"head head"
+							"menu main"
+							"foot foot";
+	justify-items:	start;
+	height: 200px;
+	align-items:	start;
+}
+
+.a { grid-area:head; background:blue }
+.b { grid-area:menu; background:red }
+.c { grid-area:main; background:green }
+.d { grid-area:foot; background:orange }
+
+
+
+
+

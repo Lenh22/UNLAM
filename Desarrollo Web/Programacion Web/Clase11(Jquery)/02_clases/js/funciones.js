@@ -1,0 +1,14 @@
+$(document).ready(function(){
+    $("#naranja").click(function(){
+        $("h1").removeClass();
+        $("h1").addClass("naranja");
+    });
+    $("#azul").click(function(){
+        $("h1").removeClass();
+        $("h1").addClass("azul");
+    });
+    $("#verde").click(function(){
+        $("h1").removeClass();
+        $("h1").addClass("verde");
+    });
+});

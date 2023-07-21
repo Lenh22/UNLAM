@@ -1,0 +1,5 @@
+var DISQUSWIDGETS;
+
+if (typeof DISQUSWIDGETS != 'undefined') {
+    DISQUSWIDGETS.displayCount({"text":{"and":"y","comments":{"zero":"\u00bfQuieres compartir tu opini\u00f3n?","multiple":"Leer {num} comentarios","one":"Leer 1 comentario"}},"counts":[{"id":"\/p\/css\/propiedades\/grid-css","comments":10}]});
+}

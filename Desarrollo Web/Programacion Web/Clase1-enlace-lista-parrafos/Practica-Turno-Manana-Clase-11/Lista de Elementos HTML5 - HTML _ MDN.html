@@ -1,0 +1,1285 @@
+<!DOCTYPE html>
+<!-- saved from url=(0070)https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos -->
+<html lang="es" dir="ltr" class=""><head prefix="og: http://ogp.me/ns#"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <script async="" src="./Lista de Elementos HTML5 - HTML _ MDN_files/analytics.js.descarga"></script><script>(function(d) { d.className = d.className.replace(/\bno-js/, ''); })(document.documentElement);</script>
+  <title>Lista de Elementos HTML5 - HTML | MDN</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+
+  
+<link rel="preload" href="https://developer.mozilla.org/static/fonts/locales/ZillaSlab-Bold.8d7f01331d2b.woff2" as="font" type="font/woff2" crossorigin="">
+<link rel="preload" href="https://developer.mozilla.org/static/fonts/locales/ZillaSlab-Regular.f9de6143fdfa.woff2" as="font" type="font/woff2" crossorigin="">
+    <link rel="home" href="https://developer.mozilla.org/es/">
+    <link rel="license" href="https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos#license">
+  
+
+  
+    
+    
+
+    <link href="./Lista de Elementos HTML5 - HTML _ MDN_files/mdn.aba181e2e425.css" rel="stylesheet" type="text/css">
+
+    
+  
+
+    <link href="./Lista de Elementos HTML5 - HTML _ MDN_files/wiki.733560e8e110.css" rel="stylesheet" type="text/css">
+
+
+    
+
+  <link href="./Lista de Elementos HTML5 - HTML _ MDN_files/locale-es.a0d0521e251c.css" rel="stylesheet" type="text/css">
+
+  
+    <script type="text/javascript" src="./Lista de Elementos HTML5 - HTML _ MDN_files/mozilla-dnthelper.3936bd979b1d.js.descarga" charset="utf-8"></script>
+    
+
+<script type="text/javascript">
+    // only load GA if DNT is not enabled
+    if (Mozilla && !Mozilla.dntEnabled()) {
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-36116321-5', 'mozilla.org');
+        ga('set', 'anonymizeIp', true);
+
+        
+
+        // dimension9 == "Section editing"
+        
+            // dimension12 == 'Page Revision'
+            ga('set', 'dimension12', '1332116');
+            // dimension17 == 'English Slug'
+            ga('set', 'dimension17', 'Web/Guide/HTML/HTML5/HTML5_element_list');
+
+        (function() {
+            // http://cfsimplicity.com/61/removing-analytics-clutter-from-campaign-urls
+            var win = window;
+            var removeUtms = function(){
+                var location = win.location;
+                if (location.href.indexOf('utm') != -1 && win.history.replaceState) {
+                    win.history.replaceState({}, '', location.pathname);
+                }
+            };
+
+            ga('send', 'pageview', {'hitCallback': removeUtms});
+        })();
+    }
+</script>
+
+  
+    <!-- common social tags -->
+    
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://developer.mozilla.org/static/img/opengraph-logo.72382e605ce3.png">
+    <meta property="og:site_name" content="Documentación web de MDN">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="https://developer.mozilla.org/static/img/opengraph-logo.72382e605ce3.png">
+    <meta name="twitter:site" content="@MozDevNet">
+    <meta name="twitter:creator" content="@MozDevNet">
+    <link rel="search" type="application/opensearchdescription+xml" href="https://developer.mozilla.org/es/search/xml" title="Documentación web de MDN">
+  
+
+  <!-- third-generation iPad with high-resolution Retina display: -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://developer.mozilla.org/static/img/favicon144.e7e21ca263ca.png">
+  <!-- iPhone with high-resolution Retina display: -->
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://developer.mozilla.org/static/img/favicon114.d526f38b09c5.png">
+  <!-- first- and second-generation iPad: -->
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://developer.mozilla.org/static/img/favicon72.cc65d1d762a0.png">
+  <!-- non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+  <link rel="apple-touch-icon-precomposed" href="https://developer.mozilla.org/static/img/favicon57.de33179910ae.png">
+  <!-- basic favicon -->
+     <!-- basic favicon -->
+  
+    
+  
+  <link rel="shortcut icon" href="https://developer.mozilla.org/static/img/favicon32.7f3da72dcea1.png">
+  <!--[if IE]>
+  <meta http-equiv="imagetoolbar" content="no">
+  <script type="text/javascript" src="https://developer.mozilla.org/static/build/js/html5shiv.3948ccddab6f.js" charset="utf-8"></script>
+  <![endif]-->
+
+  
+  <link rel="dns-prefetch" href="https://interactive-examples.mdn.mozilla.net/" pr="0.75">
+  <link rel="preconnect" href="https://interactive-examples.mdn.mozilla.net/" pr="0.75">
+
+  <link rel="preload" href="https://interactive-examples.mdn.mozilla.net/js/codemirror-5-31-0.js" as="script">
+  <link rel="preload" href="https://interactive-examples.mdn.mozilla.net/js/editor-js.js" as="script">
+
+  <link rel="alternate" type="application/json" href="https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos$json">
+  <link rel="canonical" href="https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos">
+
+  
+    
+      <link rel="alternate" hreflang="en-US" href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/HTML5_element_list" title="HTML5 element list">
+    
+      <link rel="alternate" hreflang="ar" href="https://developer.mozilla.org/ar/docs/Web/Guide/HTML/HTML5/HTML5_element_list" title="مجموعه عناصر لغة HTML5">
+    
+      <link rel="alternate" hreflang="cs" href="https://developer.mozilla.org/cs/docs/cs_HTML/HTML5/seznam_elementu_html5" title="Seznam elementů HTML5">
+    
+      <link rel="alternate" hreflang="de" href="https://developer.mozilla.org/de/docs/Web/HTML/HTML5/HTML5_element_list" title="Liste der HTML5-Elemente">
+    
+      <link rel="alternate" hreflang="fr" href="https://developer.mozilla.org/fr/docs/Web/Guide/HTML/HTML5/Liste_des_%C3%A9l%C3%A9ments_HTML5" title="Liste des éléments HTML5">
+    
+      <link rel="alternate" hreflang="he" href="https://developer.mozilla.org/he/docs/Web/Guide/HTML/HTML5/HTML5_element_list" title="רשימת האלמנטים של HTML5">
+    
+      <link rel="alternate" hreflang="ja" href="https://developer.mozilla.org/ja/docs/Web/Guide/HTML/HTML5/HTML5_element_list" title="HTML5 の要素">
+    
+      <link rel="alternate" hreflang="ko" href="https://developer.mozilla.org/ko/docs/Web/HTML/HTML5/HTML5_element_list" title="HTML5 요소 목록">
+    
+      <link rel="alternate" hreflang="pt-BR" href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5/HTML5_element_list" title="Lista de elementos do HTML5">
+    
+      <link rel="alternate" hreflang="zh-CN" href="https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/HTML5/HTML5_element_list" title="HTML5 标签列表">
+    
+  
+
+  <!-- document-specific social tags -->
+  <meta property="og:title" content="Lista de Elementos HTML5">
+  <meta property="og:url" content="https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos">
+  <meta name="twitter:url" content="https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos">
+  <meta name="twitter:title" content="Lista de Elementos HTML5">
+  
+  <meta property="og:description" content="Todos los elementos del estandar HTML5 están listados aquí, descritos por su etiqueta de apertura y agrupados por su función. Contrariamente al indice de elementos HTML el cual lista todas las posibles etiquetas, estandar, no-estandar, válidas, obsoletas o aquellas en desuso, esta lista solamente los elementos válidos de HTML5. Solamente aquellos elementos listados aquí son los que deberían ser usados en nuevos sitios Web.">
+  <meta name="description" content="Todos los elementos del estandar HTML5 están listados aquí, descritos por su etiqueta de apertura y agrupados por su función. Contrariamente al indice de elementos HTML el cual lista todas las posibles etiquetas, estandar, no-estandar, válidas, obsoletas o aquellas en desuso, esta lista solamente los elementos válidos de HTML5. Solamente aquellos elementos listados aquí son los que deberían ser usados en nuevos sitios Web.">
+  <meta name="twitter:description" content="Todos los elementos del estandar HTML5 están listados aquí, descritos por su etiqueta de apertura y agrupados por su función. Contrariamente al indice de elementos HTML el cual lista todas las posibles etiquetas, estandar, no-estandar, válidas, obsoletas o aquellas en desuso, esta lista solamente los elementos válidos de HTML5. Solamente aquellos elementos listados aquí son los que deberían ser usados en nuevos sitios Web.">
+  
+
+</head>
+<body data-slug="HTML/HTML5/HTML5_lista_elementos" contextmenu="edit-history-menu" data-search-url="" class="document  ">
+
+  <script type="text/javascript">
+    // make sure global mdn object exists
+    var mdn = window.mdn || {};
+
+    (function(win) {
+        'use strict';
+
+        (function(){
+  var FLAGS = {
+    'compat_data': true,'kumaediting': false,'line_length': true,'page_move': false,'registration_disabled': false,'search_suggestions': false,'section_edit': false,'sg_task_completion': false,'spam_admin_override': false,'spam_checks_enabled': true,'spam_spammer_override': false,'spam_submissions_enabled': false,'spam_testing_mode': false,'wiki_samples': true,'wiki_spam_exempted': false,'wiki_spam_training': false
+    },
+    SWITCHES = {
+    'wiki_error_on_delete': false,'wiki_force_immediate_rendering': false,'enable_optimizely': false,'welcome_email': true,'application_ACAO': true,'store_revision_ips': true,'dumb_doc_urls': true,'newsletter': true,'newsletter_article': true,'foundation_callout': false,'helpful-survey-2': true,'wiki_spam_training': true
+    },
+    SAMPLES = {
+    
+    };
+  window.waffle = {
+    "flag_is_active": function waffle_flag(flag_name) {
+      
+      return !!FLAGS[flag_name];
+    },
+    "switch_is_active": function waffle_switch(switch_name) {
+      
+      return !!SWITCHES[switch_name];
+    },
+    "sample_is_active": function waffle_sample(sample_name) {
+      
+      return !!SAMPLES[sample_name];
+    },
+    "FLAGS": FLAGS,
+    "SWITCHES": SWITCHES,
+    "SAMPLES": SAMPLES
+  };
+})();
+
+
+        // This needs to be set before ckeditor.js loads
+        window.CKEDITOR_BASEPATH = '/static/js/libs/ckeditor/build/ckeditor/';
+
+        // Site configuration
+        win.mdn.ckeditor = {};
+        win.mdn.features = {};
+        win.mdn.staticPath = 'https://developer.mozilla.org/static/';
+        win.mdn.wiki = {
+            autosuggestTitleUrl: '/es/docs/get-documents'
+        };
+        win.mdn.assets = {
+            css: {
+                'editor-content': ['https://developer.mozilla.org/static/build/styles/editor-content.fc2e2a3d4883.css','https://developer.mozilla.org/static/build/styles/editor-locale-es.a0d0521e251c.css',
+                ],
+
+                'wiki-compat-tables': ['https://developer.mozilla.org/static/build/styles/wiki-compat-tables.aed4662ba49c.css',]
+            },
+            js: {
+                'syntax-prism': ['https://developer.mozilla.org/static/build/js/syntax-prism.05dc5663d445.js',],
+                'wiki-compat-tables': ['https://developer.mozilla.org/static/build/js/wiki-compat-tables.003f4acf76ea.js',]
+            }
+        };
+
+        win.mdn.notifications = [];
+
+        
+
+        // interactive editor config
+        win.mdn.interactiveEditor = {
+            siteUrl: "https://developer.mozilla.org",
+            editorUrl: "https://interactive-examples.mdn.mozilla.net"
+        };
+
+    })(this);
+</script>
+    
+    <ul id="nav-access">
+  <li><a href="https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos#content" id="skip-main">Saltar al contenido principal</a></li>
+  <li><a id="skip-language" href="https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos#language">Seleccionar idioma</a></li>
+  <li><a href="https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos#q" id="skip-search">Saltar a la búsqueda</a></li>
+</ul>
+
+    <!-- Header -->
+    <header id="main-header" class="header-main">
+      <a href="https://developer.mozilla.org/es/" class="logo">Documentación web de MDN</a>
+      <div class="nav-toolbox-wrapper">
+        <nav id="main-nav" class="nav-main" role="navigation">
+    <ul>
+        <li class="nav-main-item">
+            <a href="https://developer.mozilla.org/es/docs/Web">Tecnologías
+                <i aria-hidden="true" class="icon-caret-down"></i>
+            </a>
+            <div class="submenu js-submenu" id="nav-tech-submenu">
+                <div class="submenu-column">
+                  <ul>
+                    <li><a href="https://developer.mozilla.org/es/docs/Web/HTML">HTML</a></li>
+                    <li><a href="https://developer.mozilla.org/es/docs/Web/CSS">CSS</a></li>
+                    <li><a href="https://developer.mozilla.org/es/docs/Web/JavaScript">JavaScript</a></li>
+                    <li><a href="https://developer.mozilla.org/es/docs/Web/Guide/Graphics">Gráficos</a></li>
+                    <li><a href="https://developer.mozilla.org/es/docs/Web/HTTP">HTTP</a></li>
+                    <li><a href="https://developer.mozilla.org/es/docs/Web/API">API / DOM</a></li>
+                    <li><a href="https://developer.mozilla.org/es/docs/Mozilla/Add-ons/WebExtensions">Extensiones de navegador</a></li>
+                    <li><a href="https://developer.mozilla.org/es/docs/Web/MathML">MathML</a></li>
+                  </ul>
+                </div>
+            </div>
+        </li>
+        <li class="nav-main-item">
+            <a href="https://developer.mozilla.org/es/docs/Learn">Referencias y guías
+                <i aria-hidden="true" class="icon-caret-down"></i>
+            </a>
+            <div class="submenu js-submenu" id="nav-learn-submenu">
+                <div class="submenu-column">
+                  <ul>
+                    <li><a href="https://developer.mozilla.org/es/docs/Learn">Aprender desarrollo web</a></li>
+                    <li><a href="https://developer.mozilla.org/es/docs/Web/Tutorials">Tutoriales</a></li>
+                    <li><a href="https://developer.mozilla.org/es/docs/Web/Reference">Referencias</a></li>
+                    <li><a href="https://developer.mozilla.org/es/docs/Web/Guide">Guías para desarrolladores</a></li>
+                    <li><a href="https://developer.mozilla.org/es/docs/Web/Accessibility">Accesibilidad</a></li>
+                    <li><a href="https://developer.mozilla.org/es/docs/Games">Desarrollo de juegos</a></li>
+                    <li><a href="https://developer.mozilla.org/es/docs/Web">...más documentos</a></li>
+                  </ul>
+                </div>
+            </div>
+        </li>
+        <li class="nav-main-item">
+            <a href="https://developer.mozilla.org/es/docs/MDN/Feedback">Comentarios
+                <i aria-hidden="true" class="icon-caret-down"></i>
+            </a>
+            <div class="submenu js-submenu" id="nav-contact-submenu">
+              <div class="submenu-column">
+                <ul>
+                  <li>
+                      <a href="https://support.mozilla.org/">Obtén ayuda de Firefox
+                          <i aria-hidden="true" class="icon-external-link"></i>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="https://stackoverflow.com/">Obtén ayuda de desarrollo web
+                          <i aria-hidden="true" class="icon-external-link"></i>
+                      </a>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                      <a href="https://developer.mozilla.org/es/docs/MDN/Community">Únete a la comunidad de MDN</a>
+                  </li>
+                  <li>
+                      <a target="_blank" href="https://bugzilla.mozilla.org/form.doc?bug_file_loc=https%3A//developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos">Denuncia un problema de contenido
+                          <i aria-hidden="true" class="icon-external-link"></i>
+                      </a>
+                  </li>
+                  <li>
+                      <a target="_blank" href="https://bugzilla.mozilla.org/form.mdn">Informar de un error. 
+                          <i aria-hidden="true" class="icon-external-link"></i>
+                      </a>
+                  </li>
+                </ul>
+              </div>
+          </div>
+      </li>
+  </ul>
+</nav>
+        <div id="toolbox" class="toolbox">
+  <ul>
+  <li class="nav-login"><div class="login">
+    
+        
+        <a href="https://developer.mozilla.org/users/github/login/?next=%2Fes%2Fdocs%2FHTML%2FHTML5%2FHTML5_lista_elementos" class="login-link js-login-link" data-service="GitHub" rel="nofollow">
+            Registrarse
+            <i class="icon-github" aria-hidden="true"></i>
+        </a>
+    
+</div></li>
+  </ul>
+</div>
+      </div>
+      <form id="nav-main-search" action="https://developer.mozilla.org/es/search" method="get" role="search" class="nav-main-search">
+  <div class="search-wrap">
+    <label for="main-q" class="offscreen">Buscar</label>
+    <input type="search" id="main-q" name="q" placeholder="Buscar" data-value="" value="" aria-hidden="true">
+    <span class="search-trigger"><i aria-hidden="true" class="icon-search"></i></span>
+    <button type="submit" class="offscreen">Buscar</button>
+    <button type="button" id="close-header-search" class="close-header-search transparent">
+        <span class="offscreen">Cerrar búsqueda</span>
+        <i aria-hidden="true" class="icon-times"></i>
+    </button>
+  </div>
+</form>
+    </header> 
+
+  <!-- Content will go here -->
+  <main id="content" role="main">
+      
+  <!-- heading -->
+  <div id="wiki-document-head" class="document-head">
+    <div class="center">
+      <!-- action buttons -->
+      <div class="document-actions">
+        
+
+  
+    
+    
+  
+
+  
+    
+  
+
+  
+
+  <ul class="page-buttons">
+      <li><button id="languages-menu" class="transparent" aria-haspopup="true" aria-owns="languages-menu-submenu" aria-expanded="false"><span>Idiomas</span><i aria-hidden="true" class="icon-language"></i></button>
+
+        <div class="submenu js-submenu" id="languages-menu-submenu">
+          <div class="submenu-column">
+            <ul id="translations">
+              
+                
+                
+                
+                  <li><bdi><a rel="internal" href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/HTML5_element_list" data-locale="en-US" title="Inglés (EE.UU.)">English (US) (en-US)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="https://developer.mozilla.org/ar/docs/Web/Guide/HTML/HTML5/HTML5_element_list" data-locale="ar" title="Árabe">عربي (ar)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="https://developer.mozilla.org/cs/docs/cs_HTML/HTML5/seznam_elementu_html5" data-locale="cs" title="Checo">Čeština (cs)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="https://developer.mozilla.org/de/docs/Web/HTML/HTML5/HTML5_element_list" data-locale="de" title="Alemán">Deutsch (de)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="https://developer.mozilla.org/fr/docs/Web/Guide/HTML/HTML5/Liste_des_%C3%A9l%C3%A9ments_HTML5" data-locale="fr" title="Francés">Français (fr)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="https://developer.mozilla.org/he/docs/Web/Guide/HTML/HTML5/HTML5_element_list" data-locale="he" title="Hebreo">עברית (he)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="https://developer.mozilla.org/ja/docs/Web/Guide/HTML/HTML5/HTML5_element_list" data-locale="ja" title="Japonés">日本語 (ja)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="https://developer.mozilla.org/ko/docs/Web/HTML/HTML5/HTML5_element_list" data-locale="ko" title="Coreano">한국어 (ko)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5/HTML5_element_list" data-locale="pt-BR" title="Portugués (Brasil)">Português (do&nbsp;Brasil) (pt-BR)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/HTML5/HTML5_element_list" data-locale="zh-CN" title="Chino (simplificado)">中文 (简体) (zh-CN)</a></bdi></li>
+                
+              
+
+              
+            </ul>
+          </div>
+        </div>
+      </li>
+      
+      <li class="page-buttons-edit"><a href="https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos$edit" class="button neutral" id="edit-button" rel="nofollow">Editar<i aria-hidden="true" class="icon-pencil"></i></a></li>
+      
+
+        
+
+        <li class="page-buttons-advanced"><button id="advanced-menu" class="only-icon" aria-haspopup="true" aria-owns="advanced-menu-submenu" aria-expanded="false"><span>Avanzado</span><i aria-hidden="true" class="icon-cog"></i></button>
+        <div class="submenu js-submenu" id="advanced-menu-submenu">
+          <!-- this page -->
+          <div class="submenu-column">
+            <div class="title">Avanzado</div>
+            <ul>
+                <li><a href="https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos$history" rel="nofollow">Historial</a></li>
+                
+                
+                
+
+
+                
+
+                
+                
+                
+                <li class="page-print"><a href="https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos#" onclick="return window.print();">Imprimir este artículo</a></li>
+            </ul>
+          </div>
+        </div>
+  </li></ul>
+      </div>
+
+      <div class="document-title">
+        
+
+        <h1>Lista de Elementos HTML5</h1>
+      </div>
+    </div>
+  </div>
+  
+  <div id="toc" class="toc">
+    <div class="center">
+      <div class="toc-head">Saltar a:</div>
+        <ol class="toc-links">
+          <li><a href="https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos#Elemento_ra%C3%ADz" rel="internal" class="">Elemento raíz</a></li><li><a href="https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos#Metadatos_del_documento" rel="internal" class="">Metadatos del documento</a></li><li><a href="https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos#Scripting" rel="internal" class="">Scripting</a></li><li><a href="https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos#Secciones" rel="internal" class="">Secciones</a></li><li><a href="https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos#Agrupaci%C3%B3n_de_Contenido" rel="internal" class="">Agrupación de Contenido</a></li><li><a href="https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos#Sem%C3%A1ntica_a_nivel_de_Texto" rel="internal" class="">Semántica a nivel de Texto</a></li><li><a href="https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos#Ediciones" rel="internal" class="">Ediciones</a></li><li><a href="https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos#Contenido_incrustado" rel="internal" class="">Contenido incrustado</a></li><li><a href="https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos#Datos_tabulares" rel="internal" class="">Datos tabulares</a></li><li><a href="https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos#Formularios" rel="internal" class="">Formularios</a></li><li><a href="https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos#Elementos_interactivos" rel="internal" class="">Elementos interactivos</a></li><li><a href="https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos#Ver_tambi%C3%A9n" rel="internal" class="">Ver también</a>
+        </li></ol>
+    </div>
+  </div>
+  
+
+      <div class="center clear">
+      
+
+    <div class="wiki-main-content" id="document-main"><div class="center">
+      <!-- start the main content container -->
+        <div id="wiki-column-container" class="wiki-left-closed wiki-left-none">
+
+          <!-- content row with three strips -->
+          <div class="column-container column-container-reverse">
+
+            <!-- center: main article content -->
+            <div id="wiki-content" class="column-all wiki-column text-content">
+
+              
+
+              
+              
+
+              
+
+              
+                
+              
+              
+
+              <!-- just the article content -->
+              <article id="wikiArticle">
+                
+                  
+                    <p>Todos los <strong>elementos del estandar HTML5</strong> están listados aquí, descritos por su etiqueta de apertura y agrupados por su función. Contrariamente al <a href="https://developer.mozilla.org/en-US/docs/HTML/Element" title="HTML/Element">indice de elementos HTML</a> el cual lista todas las posibles etiquetas, estandar, no-estandar, válidas, obsoletas o aquellas en desuso, esta lista solamente los elementos válidos de HTML5. Solamente aquellos elementos listados aquí son los que deberían ser usados en nuevos sitios Web.</p>
+
+<p>El simbolo <a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5"><img src="./Lista de Elementos HTML5 - HTML _ MDN_files/HTML5_Badge_32.png" alt="This element was added as part of HTML5" style="height: 16px; vertical-align: middle; width: 16px;" title="This element has been added in HTML5"></a> indica que el elemento fue añadido en HTML5. Nótese que otros elementos listados aqui pueden haber sido modificados o extendido en su significado por la especificación HTML5.</p>
+
+<h2 id="Elemento_raíz">Elemento raíz</h2>
+
+<table class="standard-table">
+ <tbody>
+  <tr>
+   <td>Elemento</td>
+   <td>Descripcion</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/%3C!doctype%20html%3E" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !" class="new" rel="nofollow">&lt;!doctype html&gt;</a></td>
+   <td>Define que el documento esta bajo el estandar de HTML 5</td>
+  </tr>
+ </tbody>
+</table>
+
+<table class="standard-table">
+ <thead>
+  <tr>
+   <th scope="col">Elemento</th>
+   <th scope="col">Descripción</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/html" title="El elemento HTML &lt;html&gt; (o elemento HTML raiz) representa la raiz de un documento HTML. El resto de elementos descienden de este elemento."><code>&lt;html&gt;</code></a></td>
+   <td>Representa la raíz de un documento HTML o XHTML. Todos los demás elementos deben ser descendientes de este elemento.</td>
+  </tr>
+ </tbody>
+</table>
+
+<h2 id="Metadatos_del_documento">Metadatos del documento</h2>
+
+<table class="standard-table">
+ <thead>
+  <tr>
+   <th scope="col">Elemento</th>
+   <th scope="col">Descripción</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/head" title="El elemento HTML &lt;head&gt; provee información general (metadatos) acerca del documento, incluyendo su título y enlaces a scripts y hojas de estilos."><code>&lt;head&gt;</code></a></td>
+   <td>Representa una colección de metadatos acerca del documento, incluyendo enlaces a, o definiciones de, scripts y hojas de estilo.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/title" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>&lt;title&gt;</code></a></td>
+   <td>Define el título del documento, el cual se muestra en la barra de título del navegador o en las pestañas de página. Solamente puede contener texto y cualquier otra etiqueta contenida no será interpretada.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/base" title="El elemento HTML &lt;base&gt; especifica la dirección URL base que se utilizará para todas las direcciones URL relativas contenidas dentro de un documento.  Sólo puede haber un elemento &lt;base&gt; en un documento."><code>&lt;base&gt;</code></a></td>
+   <td>Define la URL base para las URLs relativas en la página.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/link" title="El elemento HTML &lt;link&gt; especifica la relación entre el documento actual y un recurso externo. Los usos posibles de este elemento incluyen la definición de un marco relacional para navegación. Este elemento es más frecuentemente usado para enlazar hojas de estilos."><code>&lt;link&gt;</code></a></td>
+   <td>Usada para enlazar JavaScript y CSS externos con el documento HTML actual.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/meta" title="meta de &quot;metainformation&quot; - metainformación. Sirve para aportar información sobre el documento.."><code>&lt;meta&gt;</code></a></td>
+   <td>Define los metadatos que no pueden ser definidos usando otro elemento HTML.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/style" title="style - estilo. Es el elemento encargado de indicar la información de estilo."><code>&lt;style&gt;</code></a></td>
+   <td>Etiqueta de estilo usada para escribir CSS en línea.</td>
+  </tr>
+ </tbody>
+</table>
+
+<h2 id="Scripting">Scripting</h2>
+
+<table class="standard-table">
+ <thead>
+  <tr>
+   <th scope="col">Elemento</th>
+   <th scope="col">Descripción</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/script" title="El elemento HTML Script (&lt;script&gt;) se utiliza para insertar o hacer referencia a un script ejecutable dentro de un documento HTML o XHTML."><code>&lt;script&gt;</code></a></td>
+   <td>Define ya sea un script interno o un enlace hacia un script externo. El lenguaje de programación es JavaScript</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/noscript" title="noscript de -no script . Aporta contenidos alternativos al elemento script. las aplicaciones de usuario que no soporten scripts deben mostrar en su lugar el contenido de este elemento."><code>&lt;noscript&gt;</code></a></td>
+   <td>Define un contenido alternativo a mostrar cuando el navegador no soporta scripting.</td>
+  </tr>
+ </tbody>
+</table>
+
+<h2 id="Secciones">Secciones</h2>
+
+<table class="standard-table">
+ <thead>
+  <tr>
+   <th scope="col">Elemento</th>
+   <th scope="col">Descripción</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/body" title="El Elemento HTML &lt;body&gt; representa el contenido de un documento HTML. Sólo puede haber un elemento &lt;body&gt; en un documento."><code>&lt;body&gt;</code></a></td>
+   <td>
+    <div>Representa el contenido principal de un documento HTML. Solo hay un elemento <code>&lt;body&gt;</code> en un documento.</div>
+   </td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/section" title="El elemento de HTML section (&lt;section&gt;) representa una sección genérica de un documento. Sirve para determinar qué contenido corresponde a qué parte de un esquema. Piensa en el esquema como en el índice de contenido de un libro; un tema común y subsecciones relacionadas.  Es, por lo tanto, una etiquéta semántica. Su funcionalidad principal es estructurar semánticamente un documento a la hora de ser representado por parte de un agente usuario. Por ejemplo, un agente de usuario que represente el documento en voz, podría exponer al usuario el índice de contenido por niveles para navegar rápidamente por las distintas partes."><code>&lt;section&gt;</code></a> <a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5"><img src="./Lista de Elementos HTML5 - HTML _ MDN_files/HTML5_Badge_32.png" alt="This element has been added in HTML5" style="height: 16px; vertical-align: middle; width: 16px;" title="This element has been added in HTML5"></a></td>
+   <td>Define una sección en un documento.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/nav" title="Descripción"><code>&lt;nav&gt;</code></a> <a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5"><img src="./Lista de Elementos HTML5 - HTML _ MDN_files/HTML5_Badge_32.png" alt="This element has been added in HTML5" style="height: 16px; vertical-align: middle; width: 16px;" title="This element has been added in HTML5"></a></td>
+   <td>Define una sección que solamente contiene enlaces de navegación</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/article" title="El Elemento article de HTML (&lt;article&gt;) representa una composición auto-contenida en un documento, página, una aplicación o en el sitio, que se destina a distribuir de forma independiente o reutilizable, por ejemplo, en la sindicación. Podría ser un mensaje en un foro, un artículo de una revista o un periódico, una entrada de blog, un comentario de un usuario, un widget interactivo o gadget, o cualquier otro elemento independiente del contenido."><code>&lt;article&gt;</code></a> <a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5"><img src="./Lista de Elementos HTML5 - HTML _ MDN_files/HTML5_Badge_32.png" alt="This element has been added in HTML5" style="height: 16px; vertical-align: middle; width: 16px;" title="This element has been added in HTML5"></a></td>
+   <td>Define contenido autónomo que podría existir independientemente del resto del contenido.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/aside" title=""><code>&lt;aside&gt;</code></a> <a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5"><img src="./Lista de Elementos HTML5 - HTML _ MDN_files/HTML5_Badge_32.png" alt="This element has been added in HTML5" style="height: 16px; vertical-align: middle; width: 16px;" title="This element has been added in HTML5"></a></td>
+   <td>Define algunos contenidos vagamente relacionados con el resto del contenido de la página. Si es removido, el contenido restante seguirá teniendo sentido</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/en-US/docs/HTML/Element/Heading_Elements"><code>&lt;h1&gt;,&lt;h2&gt;,&lt;h3&gt;,&lt;h4&gt;,&lt;h5&gt;,&lt;h6&gt;</code></a></td>
+   <td>Los elemento de cabecera &nbsp;implementan seis niveles de cabeceras de documentos; <code>&lt;h1&gt;</code> es la de mayor y&nbsp;<code>&lt;h6&gt;</code> es la de menor impotancia. Un elemento de cabecera describe brevemente el tema de la sección que introduce.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/header" title="El elemento de HTML Header (&lt;header&gt;) representa un grupo de ayudas introductorias o de navegación. Puede contener algunos elementos de encabezado, pero también otros elementos como un logo, una sección que aglutine secciones de encabezados, una formulario de búsqueda o cosas parecidas."><code>&lt;header&gt;</code></a> <a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5"><img src="./Lista de Elementos HTML5 - HTML _ MDN_files/HTML5_Badge_32.png" alt="This element has been added in HTML5" style="height: 16px; vertical-align: middle; width: 16px;" title="This element has been added in HTML5"></a></td>
+   <td>Define la cabecera de una página o sección. Usualmente contiene un logotipo, el título del sitio Web y una tabla de navegación de contenidos.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/footer" title="El Elemento HTML Footer (&lt;footer&gt;) representa un pie de página para el contenido de sección más cercano o el elemento  raíz de sección (p.e, su ancestro mas cercano &lt;article&gt;, &lt;aside&gt;, &lt;nav&gt;, &lt;section&gt;,&lt;blockquote&gt;, &lt;body&gt;, &lt;details&gt;, &lt;fieldset&gt;, &lt;figure&gt;, &lt;td&gt;). Un pie de página típicamente contiene información acerca de el autor de la sección, datos de derechos de autor o enlaces a documentos relacionados."><code>&lt;footer&gt;</code></a> <a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5"><img src="./Lista de Elementos HTML5 - HTML _ MDN_files/HTML5_Badge_32.png" alt="This element has been added in HTML5" style="height: 16px; vertical-align: middle; width: 16px;" title="This element has been added in HTML5"></a></td>
+   <td>Define el pie de una página o sección. Usualmente contiene un mensaje de derechos de autoría, algunos enlaces a información legal o direcciones para dar información de retroalimentación.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/address" title="El elemento HTML &lt;address&gt; aporta información de contacto para su &lt;article&gt; más cercano o ancestro &lt;body&gt;; en el último caso lo aplica a todo el documento."><code>&lt;address&gt;</code></a></td>
+   <td>Define una sección que contiene información de contacto.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/main" title="El elemento HTML &lt;main&gt;  representa el contenido principal del &lt;body&gt; de un documento o aplicación. El área principal del contenido consiste en el contenido que está directamente relacionado, o se expande sobre el tema central de un documento o la funcionalidad central de una aplicación. Este contenido debe ser único al documento, excluyendo cualquier contenido que se repita a través de un conjunto de documentos como barras laterales, enlaces de navegación, información de derechos de autor, logos del sitio y formularios de búsqueda (a menos, claro, que la función principal del documento sea un formulario de búsqueda)."><code>&lt;main&gt;</code></a><a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5"><img src="./Lista de Elementos HTML5 - HTML _ MDN_files/HTML5_Badge_32.png" alt="This element has been added in HTML5" style="height: 16px; vertical-align: middle; width: 16px;" title="This element has been added in HTML5"></a></td>
+   <td>Define el contenido principal o importante en el documento. Solamente existe un elemento <code>&lt;main&gt;</code> en el documento.</td>
+  </tr>
+ </tbody>
+</table>
+
+<h2 id="Agrupación_de_Contenido">Agrupación de Contenido</h2>
+
+<table class="standard-table">
+ <thead>
+  <tr>
+   <th scope="col">Elemento</th>
+   <th scope="col">Descripción</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/p" title="El elemento p (párrafo) es el apropiado para distribuir el texto en párrafos."><code>&lt;p&gt;</code></a></td>
+   <td>Define una parte que debe mostrarse como un párrafo.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/hr" title="descripción de uno o dos párrafosEl elemento HTML &lt;hr&gt; representa un cambio de tema entre párrafos (por ejemplo, un cambio de escena en una historia, un cambio de tema en una sección). En versiones previas de HTML representaba una línea horizontal. Aún puede ser representada como una línea horizontal en los navegadores visuales, pero ahora es definida en términos semánticos y no tanto en términos representativos."><code>&lt;hr&gt;</code></a></td>
+   <td>Representa un quiebre temático entre parrafos de una sección o articulo o cualquier contenido.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/pre" title="El Elemento HTML &lt;pre&gt; (o Texto HTML Preformateado) representa texto preformateado. El texto en este elemento típicamente se muestra en una fuente fija, no proporcional, exactamente como es mostrado en el archivo. Los espacios dentro de este elemento también son mostrados como están escritos."><code>&lt;pre&gt;</code></a></td>
+   <td>Indica que su contenido esta preformateado y que este formato debe ser preservado.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/blockquote" title="blockquote -cita en bloque . Crea citas en bloque, marca las citas a otros autores o documentos."><code>&lt;blockquote&gt;</code></a></td>
+   <td>Representa una contenido citado desde otra fuente.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/ol" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>&lt;ol&gt;</code></a></td>
+   <td>Define una lista ordenada de artículos.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/ul" title="ul de &quot;unordered list&quot; -lista no ordenada . crea una lista no ordenada."><code>&lt;ul&gt;</code></a></td>
+   <td>Define una lista de artículos sin orden.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/li" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>&lt;li&gt;</code></a></td>
+   <td>Define un artículo de una lista ennumerada.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/dl" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>&lt;dl&gt;</code></a></td>
+   <td>Define una lista de definiciones, es decir, una lista de términos y sus definiciones asociadas.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/dt" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>&lt;dt&gt;</code></a></td>
+   <td>Representa un término definido por el siguiente&nbsp;<code>&lt;dd&gt;</code>.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/dd" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>&lt;dd&gt;</code></a></td>
+   <td>Representa la definición de los terminos listados antes que él.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/figure" title=""><code>&lt;figure&gt;</code></a> <a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5"><img src="./Lista de Elementos HTML5 - HTML _ MDN_files/HTML5_Badge_32.png" alt="This element has been added in HTML5" style="height: 16px; vertical-align: middle; width: 16px;" title="This element has been added in HTML5"></a></td>
+   <td>Representa una figura ilustrada como parte &nbsp;del documento.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/figcaption" title="El elemento HTML &lt;figcaption&gt;  representa un subtítulo ( content ) o leyenda asociada el contenido de the &lt;figure&gt; element al cual está anidado, pudiendo ser colocado como  the first o last child de the &lt;figure&gt; element,  es importante destacar que the &lt;figcaption&gt; element es opcional"><code>&lt;figcaption&gt;</code></a> <a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5"><img src="./Lista de Elementos HTML5 - HTML _ MDN_files/HTML5_Badge_32.png" alt="This element has been added in HTML5" style="height: 16px; vertical-align: middle; width: 16px;" title="This element has been added in HTML5"></a></td>
+   <td>Representa la leyenda de una figura.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/div" title="div de &quot;division&quot; -división . Sirve para crear secciones o agrupar contenidos."><code>&lt;div&gt;</code></a></td>
+   <td>Representa un contenedor genérico sin ningún significado especial.</td>
+  </tr>
+ </tbody>
+</table>
+
+<h2 id="Semántica_a_nivel_de_Texto">Semántica a nivel de Texto</h2>
+
+<table class="standard-table">
+ <thead>
+  <tr>
+   <th scope="col">Elemento</th>
+   <th scope="col">Descripción</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/a" title="El Elemento HTML Anchor &lt;a&gt; crea un enlace a otras páginas de internet, archivos o ubicaciones dentro de la misma página, direcciones de correo, o cualquier otra URL."><code>&lt;a&gt;</code></a></td>
+   <td>Representa un&nbsp;<em>hiperenlace</em> , enlazando a otro recurso.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/em" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>&lt;em&gt;</code></a></td>
+   <td>Representa un texto&nbsp;<em>enfatizado</em> , como un acento de intensidad.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/strong" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>&lt;strong&gt;</code></a></td>
+   <td>Representa un texto especialmente&nbsp;<em>importante</em> .</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/small" title="Es un elemento HTML () que aplica el tamaño mínimo de la fuente de texto del navegador."><code>&lt;small&gt;</code></a></td>
+   <td>Representa un&nbsp;<em>comentario aparte</em> , es decir, textos como un descargo de responsabilidad o una nota de derechos de autoría, que no son esenciales para la comprensión del documento.<code> </code></td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/s" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>&lt;s&gt;</code></a></td>
+   <td>Representa contenido que <em>ya</em>&nbsp;<em>no es exacto o relevante</em> .</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/cite" title="cite -cita . Marca una referencia a una fuente, o el autor de un texto citado."><code>&lt;cite&gt;</code></a></td>
+   <td>Representa el&nbsp;<em>título de una obra</em> .</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/q" title="El elemento q (cita) crea citas en linea, marca las citas a otros autores o documentos."><code>&lt;q&gt;</code></a></td>
+   <td>Representa una&nbsp;<em>cita textual</em> &nbsp;inline.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/dfn" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>&lt;dfn&gt;</code></a></td>
+   <td>Representa un término cuya&nbsp;<em>definición</em> &nbsp;está contenida en su contenido ancestro más próximo.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/abbr" title="El elemento HTML &lt;abbr&gt; (o Elemento de Abreviación HTML) representa una abreviación y opcionalmente proporciona a descripción completa para ella. Si está presente, el atributo title debe contener la descripción completa y nada más."><code>&lt;abbr&gt;</code></a></td>
+   <td>Representa una&nbsp;<em>abreviación&nbsp;</em> o un&nbsp;<em>acrónimo</em> ; la expansión de la abreviatura puede ser representada por el atributo <code>title</code>.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/data" title="El Elemento HTML   vincula un contenido dado, con una traducción legible por la máquina. Si el contenido es el tiempo o con fechas relacionadas, el &lt;time&gt; debe ser utilizado."><code>&lt;data&gt;</code></a> <a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5"><img src="./Lista de Elementos HTML5 - HTML _ MDN_files/HTML5_Badge_32.png" alt="This element has been added in HTML5" style="height: 16px; vertical-align: middle; width: 16px;" title="This element has been added in HTML5"></a></td>
+   <td>Asocia un <em>equivalente legible por máquina&nbsp;</em>a sus contenidos. (Este elemento está sólamente en la versión de la &nbsp;WHATWG del estandar HTML, y no en la versión de la W3C de HTML5).</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/time" title="Descripción"><code>&lt;time&gt;</code></a> <a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5"><img src="./Lista de Elementos HTML5 - HTML _ MDN_files/HTML5_Badge_32.png" alt="This element has been added in HTML5" style="height: 16px; vertical-align: middle; width: 16px;" title="This element has been added in HTML5"></a></td>
+   <td>Representa un valor de&nbsp;<em>fecha&nbsp;</em>y&nbsp;<em>hora</em>; el equivalente legible por máquina puede ser representado en el atributo&nbsp;<span style="font-family: courier new,andale mono,monospace; line-height: normal;">datetime</span>.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/code" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>&lt;code&gt;</code></a></td>
+   <td>Representa un <em>código de&nbsp;</em><em>ordenador</em> .</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/var" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>&lt;var&gt;</code></a></td>
+   <td>Representa a una <em>variable, </em>es decir<em>, una expresión matemática o contexto de programación, un identificador que represente a una constante, un símbolo que identifica una cantidad física, un parámetro de una función o un marcador de posición en prosa</em><em>.</em></td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/samp" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>&lt;samp&gt;</code></a></td>
+   <td>Representa la <em>salida</em> de un programa o un ordenador.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/kbd" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>&lt;kbd&gt;</code></a></td>
+   <td>Representa la&nbsp;<em>entrada de usuario</em>, por lo general desde un teclado, pero no necesariamente, este puede representar otras formas de entrada de usuario, como comandos de voz transcritos.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/sub" title="El elemento HTML &lt;sub&gt; define un fragmento de texto que se debe mostrar, por razones tipográficas, más bajo, y generalmente más pequeño, que el tramo principal del texto, es decir, en subíndice."><code>&lt;sub&gt;</code></a>,<a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/sup" title="El elemento HTML &lt;sup&gt; define un fragmento de texto que se debe mostrar, por razones tipográficas, más alto, y generalmente más pequeño, que el tramo principal del texto, es decir, en superíndice."><code>&lt;sup&gt;</code></a></td>
+   <td>Representan un <em>subíndice</em> y un&nbsp;<em>superíndice,&nbsp;</em>respectivamente.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/i" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>&lt;i&gt;</code></a></td>
+   <td>Representa un texto en una voz o estado de ánimo&nbsp;<em>alterno</em>, o por lo menos de diferente calidad, como una designación taxonómica, un término técnico, una frase idiomática, un pensamiento o el nombre de un barco.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/b" title="b de bold=negrita."><code>&lt;b&gt;</code></a></td>
+   <td>Representa un texto hacia el cual se llama la atención para&nbsp;<em>propósitos utilitaros.&nbsp;</em> No confiere ninguna importancia adicional y no implica una voz alterna.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/u" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>&lt;u&gt;</code></a></td>
+   <td>Representa una anotación no textual&nbsp;<em>sin-articular</em>, como etiquetar un texto como mal escrito o etiquetar un nombre propio en texto en Chino.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/mark" title="El  Elemento HTML Mark  &lt;mark&gt; representa un texto resaltado, es decir, una ejecución de texto marcado para referencia, debido a su relevancia en un contexto particular. Por ejemplo, se puede utilizar en una página que muestra los resultados de búsqueda para resaltar cada uno de estos por palabra."><code>&lt;mark&gt;</code></a> <a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5"><img src="./Lista de Elementos HTML5 - HTML _ MDN_files/HTML5_Badge_32.png" alt="This element has been added in HTML5" style="height: 16px; vertical-align: middle; width: 16px;" title="This element has been added in HTML5"></a></td>
+   <td>Representa texto resaltado con propósitos de <em>referencia</em>, es decir por su relevancia en otro contexto.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/ruby" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !" class="new" rel="nofollow"><code>&lt;ruby&gt;</code></a> <a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5"><img src="./Lista de Elementos HTML5 - HTML _ MDN_files/HTML5_Badge_32.png" alt="This element has been added in HTML5" style="height: 16px; vertical-align: middle; width: 16px;" title="This element has been added in HTML5"></a></td>
+   <td>
+    <p>Representa contenidos a ser marcados con <em>anotaciones ruby</em>, &nbsp;recorridos cortos de texto presentados junto al texto. Estos son utilizados con regularidad en conjunto a lenguajes de Asia del Este, donde las anotaciones actúan como una guía para la pronunciación, como el&nbsp;<em>furigana</em> Japonés.</p>
+   </td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/rt" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !" class="new" rel="nofollow"><code>&lt;rt&gt;</code></a> <a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5"><img src="./Lista de Elementos HTML5 - HTML _ MDN_files/HTML5_Badge_32.png" alt="This element has been added in HTML5" style="height: 16px; vertical-align: middle; width: 16px;" title="This element has been added in HTML5"></a></td>
+   <td>Representa el&nbsp;<em>texto de una anotación ruby</em> .</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/rp" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !" class="new" rel="nofollow"><code>&lt;rp&gt;</code></a> <a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5"><img src="./Lista de Elementos HTML5 - HTML _ MDN_files/HTML5_Badge_32.png" alt="This element has been added in HTML5" style="height: 16px; vertical-align: middle; width: 16px;" title="This element has been added in HTML5"></a></td>
+   <td>Representa los <em>paréntesis&nbsp;</em>alrededor de una anotación ruby, usada para mostrar la anotación de manera alterna por los navegadores que no soporten despliegue estandar para las anotaciones.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/bdi" title="El elemento HTML &lt;bdi&gt; (o elemento de aislamiento Bi-Direccional) aisla un trozo de texto para que pueda ser formateado con una dirección diferente al texto que hay fuera de él."><code>&lt;bdi&gt;</code></a> <a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5"><img src="./Lista de Elementos HTML5 - HTML _ MDN_files/HTML5_Badge_32.png" alt="This element has been added in HTML5" style="height: 16px; vertical-align: middle; width: 16px;" title="This element has been added in HTML5"></a></td>
+   <td>Representa un texto que debe ser <em>aislado</em> de sus alrededores para el formateado bidireccional del texto. &nbsp;Permite incrustar un fragmento de texto con una direccionalidad diferente o desconocida.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/bdo" title="bdo Bi-Directional Overriding=Anulación de bidireccionalidad."><code>&lt;bdo&gt;</code></a></td>
+   <td>Representa la <em>direccionalidad</em> de sus descendientes con el fin de anular de forma explícita al algoritmo bidireccional Unicode.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/span" title="span - abarcar. Es un contenedor en línea. Sirve para aplicar estilo al texto o agrupar elementos en línea."><code>&lt;span&gt;</code></a></td>
+   <td>Representa texto sin un significado específico. &nbsp;Este debe ser usado cuando <em>ningún otro</em> elemento semántico le confiere un significado adecuado, en cuyo caso, provendrá de atributos globales como&nbsp;<code>class</code>, <code>lang</code>, o <code>dir</code>.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/br" title="El elemento HTML line break &lt;br&gt; produce un salto de línea en el texto (retorno de carro). Es útil para escribir un poema o una dirección, donde la división de las líneas es significante."><code>&lt;br&gt;</code></a></td>
+   <td>Representa un <em>salto de línea</em>.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/wbr" title="Por la misma razón el elemento &lt;wbr&gt; no introduce un guión en el salto de línea  .  Para hacer aparecer un guión solo al final de la línea , usar la entidad de caracter del  guión de separación  (&amp;﻿shy;) en su lugar."><code>&lt;wbr&gt;</code></a> <a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5"><img src="./Lista de Elementos HTML5 - HTML _ MDN_files/HTML5_Badge_32.png" alt="This element has been added in HTML5" style="height: 16px; vertical-align: middle; width: 16px;" title="This element has been added in HTML5"></a></td>
+   <td>Representa una <em>oportunidad de salto de línea, </em>es decir, un punto sugerido de envoltura donde el texto de múltiples líneas puede ser dividido para mejorar su legibilidad.</td>
+  </tr>
+ </tbody>
+</table>
+
+<h2 id="Ediciones">Ediciones</h2>
+
+<table class="standard-table">
+ <thead>
+  <tr>
+   <th scope="col">Elemento</th>
+   <th scope="col">Descripción</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/ins" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>&lt;ins&gt;</code></a></td>
+   <td>Define una <em>adición</em>&nbsp;en el documento.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/del" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>&lt;del&gt;</code></a></td>
+   <td>Define una <em>remoción</em> del documento.</td>
+  </tr>
+ </tbody>
+</table>
+
+<h2 id="Contenido_incrustado">Contenido incrustado</h2>
+
+<table class="standard-table">
+ <thead>
+  <tr>
+   <th scope="col">Elemento</th>
+   <th scope="col">Descripción</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/img" title="&lt;img&gt;"><code>&lt;img&gt;</code></a></td>
+   <td>Representa una <em>imagen</em>.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/iframe" title="El elemento HTML &lt;iframe&gt; representa un contexto de navegación anidada, el cual permite incorporar otra página HTML en la página actual. Cada elemento &lt;iframe&gt; tiene su propia historial de sesión y su propio objeto Document. El contexto de navegación que incluye el contenido implícito se llama contexto de navegación principal. El contexto de navegación de nivel superior (que no tiene padre) es típicamente la ventana del navegador."><code>&lt;iframe&gt;</code></a></td>
+   <td>Representa un <em>contexto anidado de navegación</em>, es decir, un documento HTML embebido.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/embed" title=""><code>&lt;embed&gt;</code></a> <a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5"><img src="./Lista de Elementos HTML5 - HTML _ MDN_files/HTML5_Badge_32.png" alt="This element has been added in HTML5" style="height: 16px; vertical-align: middle; width: 16px;" title="This element has been added in HTML5"></a></td>
+   <td>Representa un <em>punto de integración</em> para una aplicación o contenido interactivo externo que por lo general no es HTML.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/object" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !" class="new" rel="nofollow"><code>&lt;object&gt;</code></a></td>
+   <td>Representa un&nbsp;<em>recurso externo,&nbsp;</em>que será tratado como una imagen, un sub-documento HTML o un recurso externo a ser procesado por un&nbsp;&nbsp;plugin.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/param" title="param de &quot;parameter&quot; = parámetro. Permite especificar parámetros de ejecución para un objeto."><code>&lt;param&gt;</code></a></td>
+   <td>Define <em>parámetros</em> para el uso por los plugins invocados por los elementos&nbsp;<code>&lt;object&gt;</code>.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/video" title=""><code>&lt;video&gt;</code></a> <a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5"><img src="./Lista de Elementos HTML5 - HTML _ MDN_files/HTML5_Badge_32.png" alt="This element has been added in HTML5" style="height: 16px; vertical-align: middle; width: 16px;" title="This element has been added in HTML5"></a></td>
+   <td>Representa un&nbsp;<em>video</em> , y sus archivos de audio y capciones asociadas, con la interfaz necesaria para reproducirlos.&nbsp;</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/audio" title="El elemento audio se usa para insertar contenido de audio en un documento HTML o XHTML. El elemento audio se agregó como parte de HTML 5."><code>&lt;audio&gt;</code></a> <a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5"><img src="./Lista de Elementos HTML5 - HTML _ MDN_files/HTML5_Badge_32.png" alt="This element has been added in HTML5" style="height: 16px; vertical-align: middle; width: 16px;" title="This element has been added in HTML5"></a></td>
+   <td>Representa un <em>sonido</em> o&nbsp;<em>stream de audio.</em></td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/source" title=""><code>&lt;source&gt;</code></a> <a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5"><img src="./Lista de Elementos HTML5 - HTML _ MDN_files/HTML5_Badge_32.png" alt="This element has been added in HTML5" style="height: 16px; vertical-align: middle; width: 16px;" title="This element has been added in HTML5"></a></td>
+   <td>Permite a autores especificar recursos multimedia alternativos para los elementos multimedia como &nbsp;<code>&lt;video&gt;</code> o <code>&lt;audio&gt;</code>.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/track" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !" class="new" rel="nofollow"><code>&lt;track&gt;</code></a> <a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5"><img src="./Lista de Elementos HTML5 - HTML _ MDN_files/HTML5_Badge_32.png" alt="This element has been added in HTML5" style="height: 16px; vertical-align: middle; width: 16px;" title="This element has been added in HTML5"></a></td>
+   <td>Permite a autores especificar una <em>pista de texto</em> temporizado para elementos multimedia como&nbsp;<code>&lt;video&gt;&nbsp;</code>o&nbsp;<em>&nbsp;<code>&lt;audio&gt;</code>.</em></td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/canvas" title=""><code>&lt;canvas&gt;</code></a> <a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5"><img src="./Lista de Elementos HTML5 - HTML _ MDN_files/HTML5_Badge_32.png" alt="This element has been added in HTML5" style="height: 16px; vertical-align: middle; width: 16px;" title="This element has been added in HTML5"></a></td>
+   <td>Representa un&nbsp;<em>área de mapa de bits</em> &nbsp;en el que se pueden utilizar scripts para renderizar gráficos como gráficas, gráficas de juegos o cualquier imagen visual al vuelo.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/map" title="descripción de uno o dos párrafos"><code>&lt;map&gt;</code></a></td>
+   <td>En conjunto con&nbsp;<code>&lt;area&gt;</code>, define un <em>mapa de imagen</em>.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/area" title="area de area=área"><code>&lt;area&gt;</code></a></td>
+   <td>En conjunto con &nbsp;<code>&lt;map&gt;</code>, define un <em>mapa de imagen</em>.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/SVG/Element/svg" title="The svg element can be used to embed an SVG fragment inside the current document (for example, an HTML document). This SVG fragment has its own viewport and coordinate system."><code>&lt;svg&gt;</code></a> <a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5"><img src="./Lista de Elementos HTML5 - HTML _ MDN_files/HTML5_Badge_32.png" alt="This element has been added in HTML5" style="height: 16px; vertical-align: middle; width: 16px;" title="This element has been added in HTML5"></a></td>
+   <td>Define una <em>imagen vectorial</em>&nbsp;embebida.</td>
+  </tr>
+  <tr>
+   <td><code><a href="https://developer.mozilla.org/es/docs/Web/MathML/Elemento/math" title="&lt;math&gt;" class="new" rel="nofollow">&lt;math&gt;</a></code> <a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5"><img src="./Lista de Elementos HTML5 - HTML _ MDN_files/HTML5_Badge_32.png" alt="This element has been added in HTML5" style="height: 16px; vertical-align: middle; width: 16px;" title="This element has been added in HTML5"></a></td>
+   <td>Define una <em>fórmula matemática</em>.</td>
+  </tr>
+ </tbody>
+</table>
+
+<h2 id="Datos_tabulares">Datos tabulares</h2>
+
+<table class="standard-table">
+ <thead>
+  <tr>
+   <th scope="col">Elemento</th>
+   <th scope="col">Descripción</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/table" title="El Elemento de Tabla HTML (&lt;table&gt;) representa datos en dos o mas dimensiones."><code>&lt;table&gt;</code></a></td>
+   <td>Representa <em>datos con más de una dimensión.</em></td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/caption" title="Es el encargado de darle un título descríptivo a las tablas."><code>&lt;caption&gt;</code></a></td>
+   <td>Representa el <em>título de una tabla</em>.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/colgroup" title="colgroup de column group = Grupo de columnas. Permite crear grupos de columnas."><code>&lt;colgroup&gt;</code></a></td>
+   <td>Representa un <em>conjunto de una o más columnas</em> de una tabla.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/col" title="Permite especificar propiedades para una columna o un grupo de ellas."><code>&lt;col&gt;</code></a></td>
+   <td>Representa una&nbsp;<em>columna </em>de una tabla.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/tbody" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !" class="new" rel="nofollow"><code>&lt;tbody&gt;</code></a></td>
+   <td>Representa el bloque de filas que describen los&nbsp;<em>datos contretos&nbsp;</em> de una tabla.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/thead" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !" class="new" rel="nofollow"><code>&lt;thead&gt;</code></a></td>
+   <td>Representa el bloque de filas que describen las <em>etiquetas de columna</em> de una tabla.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/tfoot" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !" class="new" rel="nofollow"><code>&lt;tfoot&gt;</code></a></td>
+   <td>Representa los bloques de filas que describen los&nbsp;<em>resúmenes de columna&nbsp;</em> de una tabla.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/tr" title="El elemento HTML fila de tabla (table row) &lt;tr&gt; define una fila de celdas en una tabla. Estas pueden ser una mezcla de elementos &lt;td&gt; y &lt;th&gt;."><code>&lt;tr&gt;</code></a></td>
+   <td>Representa una <em>fila de celdas&nbsp;</em>en una tabla.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/td" title="El elemento HTMLCelda de tabla (&lt;td&gt;) define la celda de una tabla que contiene datos. Esta participa en el modelo de tablas."><code>&lt;td&gt;</code></a></td>
+   <td>Representa una <em>celda de datos</em> en una tabla.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/th" title="El elemento HTML &lt;th&gt; define una celda como la cabecera de una columna en una tabla. La naturaleza exacta de esta cabecera está definida por los atributos scope y headers."><code>&lt;th&gt;</code></a></td>
+   <td>
+    <p>Representa una <em>celda encabezado&nbsp;</em>en una tabla.&nbsp;</p>
+   </td>
+  </tr>
+ </tbody>
+</table>
+
+<h2 id="Formularios">Formularios</h2>
+
+<table class="standard-table">
+ <thead>
+  <tr>
+   <th scope="col">Elemento</th>
+   <th scope="col">Descripción</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/form" title="El elemento HTML form (&lt;form&gt;) representa una sección de un documento que contiene controles interactivos que permiten a un usuario enviar información a un servidor web."><code>&lt;form&gt;</code></a></td>
+   <td>Representa un <em>formulario</em>, consistendo de controles que puede ser enviado a un servidor para procesamiento.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/fieldset" title="El elemento fieldset (grupo de campos) permite organizar en grupos los campos de un formulario."><code>&lt;fieldset&gt;</code></a></td>
+   <td>Representa un <em>conjunto de controles</em>.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/legend" title="El elemento &lt;legend&gt; (leyenda) crea un título para un grupos los campos (&lt;fieldset&gt;) de un formulario."><code>&lt;legend&gt;</code></a></td>
+   <td>Representa el <em>título </em>de un&nbsp;<code>&lt;fieldset&gt;</code>.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/label" title="El Elemento HTML &lt;label&gt; representa una etiqueta para un elemento en una interfaz de usuario. Este puede estar asociado con un control ya sea mediante la utilizacion del atributo for, o ubicando el control dentro del elemento label. Tal control es llamado &quot;el control etiquetado&quot; del elemento label."><code>&lt;label&gt;</code></a></td>
+   <td>Representa el <em>título</em> de un control de formulario.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/input" title="El elemento HTML &lt;input&gt; se usa para crear controles interactivos para formularios basados en la web, que reciban datos del usuario. La forma en que &lt;input&gt; funciona varía considerablemente dependiendo del valor de su atributo type."><code>&lt;input&gt;</code></a></td>
+   <td>Representa un <em>campo de datos escrito&nbsp;</em>que permite al usuario editar los datos.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/button" title="button = botón."><code>&lt;button&gt;</code></a></td>
+   <td>Representa un&nbsp;<em>botón</em> .</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/select" title="El elemento select (&lt;select&gt;) de HTML representa un control que muestra un menú de opciones. Las opciones contenidas en el menú son representadas por elementos &lt;option&gt;, los cuales pueden ser agrupados por elementos &lt;optgroup&gt;. La opcion puede estar preseleccionada por el usuario."><code>&lt;select&gt;</code></a></td>
+   <td>Representa un control que permite la <em>selección entre un conjunto de opciones</em>.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/datalist" title="El código HTML () contiene un conjunto de &lt;opción&gt; elementos que representan las posibles opciones para el valor de otros controles."><code>&lt;datalist&gt;</code></a> <a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5"><img src="./Lista de Elementos HTML5 - HTML _ MDN_files/HTML5_Badge_32.png" alt="This element has been added in HTML5" style="height: 16px; vertical-align: middle; width: 16px;" title="This element has been added in HTML5"></a></td>
+   <td>Representa un <em>conjunto de opciones predefiniddas&nbsp;</em>para otros controles.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/optgroup" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !" class="new" rel="nofollow"><code>&lt;optgroup&gt;</code></a></td>
+   <td>Representa un <em>conjunto de opciones,&nbsp;</em>agrupadas lógicamente.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/option" title="En un formulario Web , el elemento HTML &lt;option&gt;  se usa para representar un item dentro de un &lt;select&gt;, un  &lt;optgroup&gt; o un  elemento HTML5 &lt;datalist&gt; ."><code>&lt;option&gt;</code></a></td>
+   <td>Representa una <em>opción</em> en un elemento&nbsp;<code>&lt;select&gt;</code>, o una sugerencia de un elemento&nbsp;<code>&lt;datalist&gt;</code>.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/textarea" title="El elemento HTML &lt;textarea&gt; representa un control para edición muti-línea de texto plano."><code>&lt;textarea&gt;</code></a></td>
+   <td>Representa un <em>control de edición de texto multi-línea.</em></td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/keygen" title="El elemento keygen de HTML existe para facilitar la generación de llaves, y el envío de la clave pública como parte de un formulario HTML. Este mecanismo está diseñado para utilizarse con sistemas de gestión de certificados basados en la Web. Se espera que el elemento keygen se utilice en un formulario HTML, junto con otra información necesaria para la construcción de una solicitud de certificado, y que el resultado del proceso será un certificado firmado."><code>&lt;keygen&gt;</code></a> <a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5"><img src="./Lista de Elementos HTML5 - HTML _ MDN_files/HTML5_Badge_32.png" alt="This element has been added in HTML5" style="height: 16px; vertical-align: middle; width: 16px;" title="This element has been added in HTML5"></a></td>
+   <td>Representa un control de <em>par generador de llaves.</em></td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/output" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !" class="new" rel="nofollow"><code>&lt;output&gt;</code></a> <a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5"><img src="./Lista de Elementos HTML5 - HTML _ MDN_files/HTML5_Badge_32.png" alt="This element has been added in HTML5" style="height: 16px; vertical-align: middle; width: 16px;" title="This element has been added in HTML5"></a></td>
+   <td>Representa el <em>resultado de un cálculo.</em></td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/progress" title="La etiqueta HTML &lt;progress&gt; se utiliza para visualizar el progreso de una tarea. Aunque los detalles de como se muestran depende directamente del navegador que utiliza el cliente, aunque básicamente aparece una barra de progreso."><code>&lt;progress&gt;</code></a> <a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5"><img src="./Lista de Elementos HTML5 - HTML _ MDN_files/HTML5_Badge_32.png" alt="This element has been added in HTML5" style="height: 16px; vertical-align: middle; width: 16px;" title="This element has been added in HTML5"></a></td>
+   <td>Representa el <em>progreso de finalización </em>de una tarea.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/meter" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !" class="new" rel="nofollow"><code>&lt;meter&gt;</code></a> <a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5"><img src="./Lista de Elementos HTML5 - HTML _ MDN_files/HTML5_Badge_32.png" alt="This element has been added in HTML5" style="height: 16px; vertical-align: middle; width: 16px;" title="This element has been added in HTML5"></a></td>
+   <td>Representa la <em>medida&nbsp;</em>escalar (o el valor fraccionario) dentro de un rango conocido.</td>
+  </tr>
+ </tbody>
+</table>
+
+<h2 id="Elementos_interactivos">Elementos interactivos</h2>
+
+<table class="standard-table">
+ <thead>
+  <tr>
+   <th scope="col">Elemento</th>
+   <th scope="col">Descripción</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/details" title="El elemento HTML Details &lt;details&gt; es usado como un widget de revelación a través del cual el usuario puede obtener información adicional ."><code>&lt;details&gt;</code></a> <a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5"><img src="./Lista de Elementos HTML5 - HTML _ MDN_files/HTML5_Badge_32.png" alt="This element has been added in HTML5" style="height: 16px; vertical-align: middle; width: 16px;" title="This element has been added in HTML5"></a></td>
+   <td>Representa un <em>widget</em> desde el que un usuario puede obtener información o controles adicionales.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/summary" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !" class="new" rel="nofollow"><code>&lt;summary&gt;</code></a> <a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5"><img src="./Lista de Elementos HTML5 - HTML _ MDN_files/HTML5_Badge_32.png" alt="This element has been added in HTML5" style="height: 16px; vertical-align: middle; width: 16px;" title="This element has been added in HTML5"></a></td>
+   <td>Representa un <em>resumen, título</em> o&nbsp;<em>leyenda</em> para un elemento&nbsp;&nbsp;<code>&lt;details&gt; </code>dado.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/command" title="El elemento command representa un comando que el usuario puede invocar ."><code>&lt;command&gt;</code></a> <a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5"><img src="./Lista de Elementos HTML5 - HTML _ MDN_files/HTML5_Badge_32.png" alt="This element has been added in HTML5" style="height: 16px; vertical-align: middle; width: 16px;" title="This element has been added in HTML5"></a></td>
+   <td>Representa un <em>comando</em>&nbsp;que un usuario puede invocar.</td>
+  </tr>
+  <tr>
+   <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/menu" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>&lt;menu&gt;</code></a> <a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5"><img src="./Lista de Elementos HTML5 - HTML _ MDN_files/HTML5_Badge_32.png" alt="This element has been added in HTML5" style="height: 16px; vertical-align: middle; width: 16px;" title="This element has been added in HTML5"></a></td>
+   <td>Representa una <em>lista de comandos</em> .</td>
+  </tr>
+ </tbody>
+</table>
+
+<h2 id="Ver_también">Ver también</h2>
+
+<ul>
+ <li><a href="https://developer.mozilla.org/en-US/docs/HTML/HTML5" title="HTML/HTML5">Un conjunto de documentos sobre HTML5</a>.</li>
+ <li>La <a href="https://developer.mozilla.org/en-US/docs/HTML/Element" title="HTML/Element">referencia de todos las etiquetas HTML</a>, incluso elementos no validos en HTML5.</li>
+ <li>Otra manera de listar las etiquetas: la <a href="http://joshduck.com/periodic-table.html" title="http://joshduck.com/periodic-table.html" class="external external-icon" rel="noopener">Tabla Periodica de elementos HTML5</a> por Josh Duck.</li>
+</ul>
+                  
+                
+              </article>
+
+              <!-- contributors -->
+              <div class="wiki-block contributors">
+                <h2 class="offscreen">Etiquetas y colaboradores del documento</h2>
+                
+                
+
+                
+                  <div class="contributors-sub">
+                    <i aria-hidden="true" class="icon-group icon-fw"></i>&nbsp;<strong>Colaboradores en esta página:</strong> 
+        <a href="https://developer.mozilla.org/es/profiles/cocoletzimata">cocoletzimata</a>, 
+    
+        <a href="https://developer.mozilla.org/es/profiles/Duque61">Duque61</a>, 
+    
+        <a href="https://developer.mozilla.org/es/profiles/raecillacastellana">raecillacastellana</a>, 
+    
+        <a href="https://developer.mozilla.org/es/profiles/maymaury">maymaury</a>, 
+    
+        <a href="https://developer.mozilla.org/es/profiles/squidjam">squidjam</a>, 
+    
+        <a href="https://developer.mozilla.org/es/profiles/on3_g">on3_g</a>
+    
+                  </div>
+                
+
+                
+                  <div class="contributors-sub">
+                    <i aria-hidden="true" class="icon-clock-o icon-fw"></i>&nbsp;<strong>Última actualización por:</strong>
+                    <a href="https://developer.mozilla.org/es/profiles/cocoletzimata">cocoletzimata</a>,
+                    <time datetime="2017-12-01T05:45:52.623528-08:00">1 dic. 2017 5:45:52</time>
+                  </div>
+                
+              </div>
+            </div>
+
+            
+          </div>
+        </div>
+      </div>
+    </div> <!-- ends "main-content" -->
+
+    
+      <div class="newsletter-box">
+        <div class="newsletter">
+    <form id="newsletterForm" class="newsletter-form nodisable" name="newsletter-form" action="https://www.mozilla.org/en-US/newsletter/" method="post">
+        <div class="newsletter-head">
+            <h2 class="newsletter-teaser">Aprender lo mejor del desarrollo web</h2>
+            <p class="newsletter-description">Obtén lo mejor y más reciente de MDN directamente en tu bandeja de entrada.</p>
+            
+            <p class="newsletter-lang">Por ahora, el boletín solo está disponible en inglés.</p>
+            
+        </div>
+
+        <div class="newsletter-fields">
+            <input type="hidden" id="fmt" name="fmt" value="H">
+            <input type="hidden" id="newsletterNewslettersInput" name="newsletters" value="app-dev">
+            <div id="newsletterErrors" class="newsletter-errors"></div>
+
+            <div id="newsletterEmail" class="form-group newsletter-group-email">
+                <label for="newsletterEmailInput" class="form-label offscreen">Correo electrónico</label>
+                <input type="email" id="newsletterEmailInput" name="email" class="form-input newsletter-input-email" required="" placeholder="you@example.com" size="30">
+            </div>
+
+            <div id="newsletterPrivacy" class="form-group form-group-agree newsletter-group-privacy hidden">
+                <input type="checkbox" id="newsletterPrivacyInput" name="privacy" required="">
+                <label for="newsletterPrivacyInput">
+                Estoy de acuerdo con que Mozilla administre mis datos según la <a href="https://www.mozilla.org/privacy/"> Política de privacidad</a>.
+                </label>
+            </div>
+            <div id="newsletterSubmit" class="newsletter-group-submit">
+                <button id="newsletter-submit" type="submit" class="button neutral newsletter-submit">Suscribirse</button>
+            </div>
+        </div>
+    </form>
+    <div id="newsletterThanks" class="newsletter-thanks hidden">
+        <h2>¡Gracias! Comprueba tu correo para confirmar la subscripción.</h2>
+        <p>Si no has confirmado nunca una subscripción a boletines relacionados con Mozilla, tendrás que hacerlo. Comprueba tu correo o carpeta de spam para ver si recibiste un correo nuestro.
+        </p>
+    </div>
+    <button id="newsletterHide" type="button" class="only-icon newsletter-hide"><span>Ocultar registro al boletín</span><i aria-hidden="true" class="icon-times"></i></button>
+</div>
+      </div>
+    
+
+  <menu type="context" id="edit-history-menu">
+    <menuitem data-action="/es/docs/HTML/HTML5/HTML5_lista_elementos$edit" label="Editar página"></menuitem>
+    <menuitem data-action="/es/docs/HTML/HTML5/HTML5_lista_elementos$history" label="Ver historial de la página"></menuitem>
+  </menu>
+
+      </div>
+  </main>
+  <!-- Footer -->
+    <footer id="nav-footer" class="nav-footer">
+      <div class="center">
+          <a href="https://developer.mozilla.org/es/" class="nav-footer-logo">Documentación web de MDN</a>
+          <div class="footer-group footer-group-mdn">
+            <h2 class="footer-title">MDN</h2>
+            <ul class="footer-list">
+              <li><a href="https://developer.mozilla.org/es/docs/Web">Tecnologías web</a></li>
+              <li><a href="https://developer.mozilla.org/es/docs/Learn">Aprender Desarrollo web</a></li>
+              <li><a href="https://developer.mozilla.org/docs/MDN/About">Acerca de MDN</a></li>
+              <li><a href="https://developer.mozilla.org/es/docs/MDN/Feedback">Comentarios</a></li>
+              <li class="footer-social"><a href="https://twitter.com/mozdevnet" class="only-icon"><i aria-hidden="true" class="icon-twitter"></i> <span>Twitter</span></a></li>
+              <li class="footer-social"><a href="https://github.com/mdn/" class="only-icon"><i aria-hidden="true" class="icon-github"></i> <span>GitHub</span></a></li>
+            </ul>
+          </div>
+
+          <a href="https://mozilla.org/" class="nav-footer-mozilla">Mozilla</a>
+          <div class="footer-group footer-group-mozilla">
+            <h2 class="footer-title">Mozilla</h2>
+            <ul class="footer-list">
+              <li><a href="https://www.mozilla.org/about/">Acerca de</a></li>
+              <li><a href="https://www.mozilla.org/contact/">Contáctanos</a></li>
+              <li><a href="https://donate.mozilla.org/?utm_source=developer.mozilla.org&amp;utm_medium=referral&amp;utm_content=footer">Donar</a></li>
+              <li><a href="https://www.mozilla.org/firefox/?utm_source=developer.mozilla.org&amp;utm_campaign=footer&amp;utm_medium=referral">Firefox</a></li>
+              <li class="footer-social"><a href="https://twitter.com/mozilla" class="only-icon"><i aria-hidden="true" class="icon-twitter"></i> <span>Twitter</span></a></li>
+              <li class="footer-social"><a href="https://www.facebook.com/mozilla" class="only-icon"><i aria-hidden="true" class="icon-facebook"></i> <span>Facebook</span></a></li>
+              <li class="footer-social"><a href="https://www.instagram.com/mozillagram/" class="only-icon"><i aria-hidden="true" class="icon-instagram"></i> <span>Instagram</span></a></li>
+            </ul>
+          </div>
+
+          
+  
+    <form class="languages go" method="get" action="https://developer.mozilla.org/es/docs/Web">
+      <label for="language">Otros idiomas:</label>
+      <select id="language" class="wiki-l10n" name="next" dir="ltr">
+        <option title="Español" data-locale="es" value="/es/docs/HTML/HTML5/HTML5_lista_elementos" selected="">
+          Español (es)
+        </option>
+        
+          <option title="Inglés (EE.UU.)" data-locale="es" value="/en-US/docs/Web/Guide/HTML/HTML5/HTML5_element_list">
+            English (US) (en-US)
+          </option>
+          <option title="Árabe" data-locale="es" value="/ar/docs/Web/Guide/HTML/HTML5/HTML5_element_list">
+            عربي (ar)
+          </option>
+          <option title="Checo" data-locale="es" value="/cs/docs/cs_HTML/HTML5/seznam_elementu_html5">
+            Čeština (cs)
+          </option>
+          <option title="Alemán" data-locale="es" value="/de/docs/Web/HTML/HTML5/HTML5_element_list">
+            Deutsch (de)
+          </option>
+          <option title="Francés" data-locale="es" value="/fr/docs/Web/Guide/HTML/HTML5/Liste_des_%C3%A9l%C3%A9ments_HTML5">
+            Français (fr)
+          </option>
+          <option title="Hebreo" data-locale="es" value="/he/docs/Web/Guide/HTML/HTML5/HTML5_element_list">
+            עברית (he)
+          </option>
+          <option title="Japonés" data-locale="es" value="/ja/docs/Web/Guide/HTML/HTML5/HTML5_element_list">
+            日本語 (ja)
+          </option>
+          <option title="Coreano" data-locale="es" value="/ko/docs/Web/HTML/HTML5/HTML5_element_list">
+            한국어 (ko)
+          </option>
+          <option title="Portugués (Brasil)" data-locale="es" value="/pt-BR/docs/Web/HTML/HTML5/HTML5_element_list">
+            Português (do&nbsp;Brasil) (pt-BR)
+          </option>
+          <option title="Chino (simplificado)" data-locale="es" value="/zh-CN/docs/Web/Guide/HTML/HTML5/HTML5_element_list">
+            中文 (简体) (zh-CN)
+          </option>
+      </select>
+      <noscript>&lt;button type="submit"&gt;Ir&lt;/button&gt;</noscript>
+    </form>
+  
+
+
+          
+            <ul class="footer-tos">
+              <li><a href="https://www.mozilla.org/about/legal/terms/mozilla">Condiciones</a></li>
+              <li><a href="https://www.mozilla.org/privacy/websites/">Privacidad</a></li>
+              <li><a href="https://www.mozilla.org/privacy/websites/#cookies">Cookies</a></li>
+            </ul>
+
+            <div id="license" class="contentinfo">
+              <p>© 2005-2018 Mozilla y colaboradores individuales.</p> <p>El contenido está disponible bajo <a href="https://developer.mozilla.org/en-US/docs/MDN/About#Copyrights_and_licenses">estas licencias</a>.</p>
+            </div>
+          
+      </div>
+    </footer> 
+
+  <!-- site js -->
+  
+    
+    <!--[if lte IE 8]><script type="text/javascript" src="https://developer.mozilla.org/static/build/js/selectivizr.091e18cf669b.js" charset="utf-8"></script><![endif]-->
+
+    
+    <script type="text/javascript" src="./Lista de Elementos HTML5 - HTML _ MDN_files/javascript.dfc549c2dccc.js.descarga"></script>
+    <script type="text/javascript" src="./Lista de Elementos HTML5 - HTML _ MDN_files/main.7d60b1e16ebc.js.descarga" charset="utf-8"></script>
+    <script>
+    if (window.mdn && mdn.analytics) mdn.analytics.trackOutboundLinks();
+</script>
+    
+
+  
+
+    <script async="" type="text/javascript" src="./Lista de Elementos HTML5 - HTML _ MDN_files/wiki.c60705233ffd.js.descarga" charset="utf-8"></script>
+
+
+
+  
+
+  
+
+  
+
+  
+    <script async="" type="text/javascript" src="./Lista de Elementos HTML5 - HTML _ MDN_files/newsletter.7cd3274169f2.js.descarga" charset="utf-8"></script>
+  
+
+
+
+</body></html>

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Yanone+Kaffeesatz&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin: 1em;
+    text-align: center;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.fuente-yanone{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.fuente-roboto{
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    width: 90%;
+    margin: auto;
+}
+
+input[type=text],select{
+    width: 100%;
+    padding: 0.5em;
+    box-sizing: border-box;
+}
+.blanco{
+    color:#fff;
+}
+.fondo1{
+    background-image: url(../img/fondo01.png);
+}
+.fondo2{
+    background-image: url(../img/fondo02.png);
+}
+.fondo3{
+    background-image: url(../img/fondo03.png);
+}
+.negro{
+    color:#000;
+}
+.parametro{
+    margin: 1em 0;
+}
+.parametro h4{
+    margin-bottom: 0.3em;
+}
+.personalizacion{
+    display: flex;
+    justify-content: space-between;
+}
+.personalizacion article{
+    width: calc(50% - 2em);
+}
+.texto{
+    text-align: center;
+}
+.vista-previa{
+    background-color: #ccc;
+}
+.texto-centrado{
+    text-align: center;
+}
+.texto-izquierda{
+    text-align: left;
+}
+.texto-derecha{
+    text-align:right;
+}
+.vista-previa{
+    padding: 0.5em;
+}
+

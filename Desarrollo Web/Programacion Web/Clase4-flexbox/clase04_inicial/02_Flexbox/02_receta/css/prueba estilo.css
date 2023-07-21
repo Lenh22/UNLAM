@@ -1,0 +1,116 @@
+/*Resetea la conf basica de la pagina*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /*Texto principal del body*/
+    color: #644434;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /*Agregar imagen de fondo*/
+    background-image: url(AcavaelUrl) ;
+}
+h1{
+/*Le agrega un fondo al cuadro del texto*/
+    background-color: #896755;
+/*Alinea la caja al centro*/
+    text-align: center;
+
+    color: blanchedalmond;
+    border-bottom: 4px solid #644434;
+    padding: 20px;
+    font-size: 25px;
+}
+h2{
+    background-color: #644434;
+    /*Color de texto*/
+    color: white;
+    /*Tamaño de la fuente*/
+    font-size: 16px;
+    /*Cambiar el tipo*/
+    display: inline-block;
+    /*Ajusta el relleno*/
+    padding: 5px 15px 5px 5px; 
+    /*Ajusta margen*/
+    margin: 10px 0px;
+
+}
+h3{
+    /*Agrega un bordado en un costado y con Dotted linea punteada*/
+    border-bottom: 2px dotted #644434;
+    margin: 10px 0px;
+}
+main{
+/*Para que el main no ocupe el ancho*/
+    width: 80%;
+/*Centrando automatico*/
+    margin: auto;
+
+}
+main li{
+    /*Corre el margen izquierdo*/
+    margin-left: 20px;
+    /*Corre el margen de abajo*/
+    margin-bottom: 10px;
+}
+footer{
+    /*Alinea el texto*/
+    text-align: center;
+
+    color: white;
+    font-style: italic;
+    margin-top: 15px;
+    background-color: #896755;
+    padding: 20px;
+    font-size: 15px;
+    border-top: 4px solid #644434;
+
+}
+    /*Cambiar formato a todos los Vinculos del footer*/
+footer a{
+    color: white;
+     /*Saca la linea de abajo de la palabra o decoracion*/
+    text-decoration: none;
+}
+footer a:hover{
+    /*La decoracion del texto de enlace cuando pasa el cursor (hover)*/
+    text-decoration: underline;
+    color: #644434;
+}
+aside img{
+    /*Pone el mismo tamaño a todas las fotos en aside*/
+    width: 200px;
+}
+nav{
+    background-color:#5c3a2c;
+    margin-bottom: 10px;
+
+}
+nav ul{
+    text-align: center;
+}
+nav li{
+    /*Le saca los puntitos al listado*/
+    list-style: none;
+    /*Poner un listado uno al lado de otro*/
+    display: inline-block;
+
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 7px;
+    background-color: #644434;
+}
+nav a:hover{
+    background-color: #896755;
+
+}
+/*Agregar clase en el htm se escribe class="Nombre", en este caso se llama "receta"*/
+.receta{
+    display: inline-block;
+    margin-right: 10px;
+
+}

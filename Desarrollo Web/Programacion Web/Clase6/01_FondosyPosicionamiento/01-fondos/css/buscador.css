@@ -1,0 +1,27 @@
+.buscador{
+    background-image: url(../img/buscar.png);
+    padding: 10px 10px 10px 35px;
+    width: 80%;
+    box-sizing: border-box;
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: 5px 3px;
+    border-radius: 10px;
+    border-radius: 10px 0px 0px 10px;
+}
+.boton-buscador{
+    background-image: url(../img/buscar.png);
+    width: 40px;
+    height: 40px;
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(188, 255, 244);
+    border: solid #212121 2px;
+    border-radius: 0px 10px 10px 0px;
+    cursor: pointer;
+}
+.contenedor-buscador{
+    display: flex;
+    
+}

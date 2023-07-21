@@ -1,0 +1,11 @@
+body{
+    font-family: 'Abel', sans-serif;
+}
+header, main{
+    max-width: 60em;
+    margin:auto;
+}
+.mapa iframe{
+    width: 100%;
+    height: 300px;
+}

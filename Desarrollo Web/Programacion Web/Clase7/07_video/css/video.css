@@ -1,0 +1,15 @@
+.contenedor{
+	/*Para los videos 16:9 al padre*/
+	position:relative;
+	padding-bottom: 56.25%;
+	height:0;
+}
+.contenedor iframe{
+	/*Para videos 16:9 al hijo*/
+	width:100%;
+	top:0;
+	left:0;
+	width:100%;
+	heigth:100%;
+	
+}

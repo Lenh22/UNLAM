@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giftcard</title>
+    <link rel="stylesheet" href="css/giftcard.css">
+     <link rel="stylesheet" href="css\header.css">
+    <link rel="stylesheet" href="css\footer.css">
+    <link rel="stylesheet" href="css\all-html.css">
+    <script src="https://kit.fontawesome.com/ed21872c78.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header-barra-principal">
+        <div>
+            <h1>Program<span>AR</span></h1>
+        </div>
+        <div>
+            <nav>
+                <ul class="flex-nav">
+                    <li><a href="#">JavaScript</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">HTML 5</a></li>
+                    <li><a href="#">Python></a></li>
+                    <li><a href="#">C#</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <form action="#" method="get" enctype="application/x-www-form.urlencoded">
+                <datalist id="cursos">
+                    <option value="JavaScript">
+                    <option value="CSS">
+                    <option value="HTML 5">
+                </datalist>
+                <input list="cursos" id="q" name="q" type="search" placeholder="Buscá tu curso acá" autocomplete="off">
+            </form>
+        </div>
+        <div>
+            <a href="#"><i class="fas fa-shopping-cart icono-carro"></i></a>
+        </div>
+    </header>
+<!---->
+    <main>
+        <section class="contenedor">
+           <article>
+            <div class="contenedor-previa">
+                VISTA PREVIA DE RESULTADO <br>
+                DE PERSONALIZACION
+            </div>
+            <article class="contenedor-miniatura">
+                <div class="caja-miniatura">
+                    <span>$ 00000</span>
+                </div>
+                <h4>GIFT CARD para</h4>
+                <h1>DESTINATARIO</h1>
+                
+            </article>
+            </article>
+            <div></div>
+
+            <article  class="contenedor-personalizacion">
+                <h2>Personalización de giftcard</h2>
+                <div class="contenedor-destinatario"> 
+                    <label for="nombreyapellido"></label>
+                    <input id="nombreyapellido" type="text" name="nombreyapellido"
+                    placeholder="Ingrese nombre de destinatario" required>
+                </div>
+                <h4 class="tituloColor">Color</h4>
+                <div class="contenedor-color">
+                        <div class="color-red" >
+                            <div id="circulo-red"></div>
+                            <input id="red" type="radio" name="color" value="red" ><label for="red"></label>
+                        </div>
+
+                        <div class="color-green" >
+                            <div id="circulo-green"></div>
+                            <input id="green" type="radio" name="color" value="green" > <label for="green"></label>
+                        </div>
+
+                        <div class="color-blue">
+                            <div id="circulo-blue"></div>
+                            <input id="blue" type="radio" name="color" value="blue"><label for="blue"></label>
+                        </div>
+                        
+                        <div class="color-black"> 
+                            <div id="circulo-black"></div>
+                            <input id="black" type="radio" name="color" value="black" checked > <label for="black"></label>
+                        </div>
+
+                        <div class="color-white">
+                            <div id="circulo-white"></div>
+                            <input id="white" type="radio" name="color" value="white"><label for="white"></label>
+                        </div>
+                        
+                    </form>
+                </div>
+                <h4>Tamaño fuente</h4>
+                <div class="contenedor-tam-fuente">
+                    <div >
+                        <span>20px</span>
+                        <input id="20px" type="radio" name="px" value="20px" ><label for="20px"></label>
+                    </div>
+                    <div >
+                        <span>28px</span>
+                        <input id="28px" type="radio" name="px" value="28px" > <label for="28px"></label>
+
+                    </div>
+                    <div>
+                        <span>32px</span>
+                        <input id="32px" type="radio" name="px" value="32px"><label for="32px"></label>
+                    </div>
+                    <div>
+                        <span>40px</span>
+                        <input id="48px" type="radio" name="px" value="40px" checked > <label for="48px"></label>
+                    </div>
+                    <div>
+                        <span>60px</span>
+                        <input id="60px" type="radio" name="px" value="60px"><label for="60px"></label>
+                    </div>
+                </div>
+                <div class="contenedor-monto">
+                    <h4>Monto $</h4>
+                    <label for="monto"></label>
+                    <input id="monto" type="number" name="monto" placeholder="Ingrese monto" required>
+
+                </div>
+                <h4>Ubicación</h4>
+                <section class="contenedor-ubicacion">
+                    <article >
+                        <div class="rectangulo-ubicacion">
+                            <div class="rectangulo-chico-infder"></div>
+                        </div>
+                        <input id="inf-der" type="radio" name="ubicaci" value="inf-der" ><label for="inf-der"></label>
+                    </article>
+
+                    <article>
+                        <div class="rectangulo-ubicacion">
+                            <div class="rectangulo-chico-supizq"></div>
+                        </div>
+                        <input id="sup-izq" type="radio" name="ubicaci" value="sup-izq" > <label for="sup-izq"></label>
+                    </article>
+
+                    <article>
+                        <div class="rectangulo-ubicacion">
+                            <div class="rectangulo-chico-supder"></div>
+                        </div>
+                        <input id="sup-der" type="radio" name="ubicaci" value="sup-der" checked><label for="sup-der"></label>
+                    </article>
+
+                </section>
+                <h4>Fondo</h4>
+                <div class="contenedor-fondo">
+                    <div>
+                        <div id="cuadrado-red"></div>
+                        <input id="cuad-red" type="radio" name="cuadrad" value="cuad-red" checked><label for="cuad-red"></label>
+                    </div>
+
+                    <div>
+                        <div id="cuadrado-green"></div>
+                        <input id="sup-izq" type="radio" name="cuadrad" value="sup-izq" > <label for="sup-izq"></label>
+                    </div>
+
+                    <div>
+                        <div id="cuadrado-blue"></div>
+                        <input id="sup-der" type="radio" name="cuadrad" value="sup-der"><label for="sup-der"></label>
+                    </div>
+
+                    <div>
+                        <div id="cuadrado-white"></div>
+                        <input id="sup-izq" type="radio" name="cuadrad" value="sup-izq" > <label for="sup-izq"></label>
+                    </div>
+
+                    <div>
+                        <div id="cuadrado-black"></div>
+                        <input id="sup-der" type="radio" name="cuadrad" value="sup-der"><label for="sup-der"></label>
+                    </div>
+
+                </div>
+                <div class="contenedor-input">
+                    <input type="submit" value="Confirmar" form="">
+
+                </div>
+
+            </article>
+
+
+
+        </section>
+
+
+    </main>
+    <!---->
+    <footer>
+        <div class="footer-flex">
+            <div>
+                <h4>Datos de los integrantes</h4>
+                <ul>
+                    <li>Lucas David Cardozo - xx.xxx.xxx</li>
+                    <li>Leandro Matias Alonso - xx.xxx.xxx</li>
+                    <li>Damián Edgardo Gutierrez - xx.xxx.xxx</li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Información adicional</h4>
+                <ul>
+                    <li><a href="$">Link 1</a></li>
+                    <li><a href="$">Link 2</a></li>
+                    <li><a href="$">Link 3</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <h4>Redes sociales</h4>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

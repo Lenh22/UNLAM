@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <h1>Contacto</h1>
+    </header>
+    <main>
+        <article>
+            <form action="#" method="GET">
+                <label for="nombre">Nombre y Apellido:</label>
+                <input type="text" id="nombre" name="nombre" required placeholder="Ingrese su nombre y apellido"> <br><br>
+
+                <label for="correo">Email:</label>
+                <input type="email" id="correo" name="correo"> <br><br>
+
+                <label for="consulta">Consulta:</label> <br>
+                <textarea name="consulta" id="consulta" cols="30" rows="10" maxlength="10"></textarea> <br><br>
+
+                <label for="provincia">Provincia</label>
+                <select name="provincia" id="provincia">
+                    <option value="1">Buenos Aires</option>
+                    <option value="2">CABA</option>
+                </select>
+
+
+                <input type="submit" value="enviar">
+            </form>
+        </article>
+    </main>
+</body>
+</html>

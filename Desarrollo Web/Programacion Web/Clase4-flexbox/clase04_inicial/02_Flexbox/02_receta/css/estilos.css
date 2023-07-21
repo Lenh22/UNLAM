@@ -1,0 +1,86 @@
+/*color claro: #896755
+  color oscuro: #624435
+*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    color:#624435;
+    font-family: georgia;
+    background-image: url(../img/fondo03.png);
+
+
+}
+header{
+    text-align: center;
+    color:#fff;
+    background-color: #896755;
+    padding:20px;
+    border-bottom:4px solid #624435;
+    margin-bottom: 30px;
+}
+main{
+    width:80%;
+    margin:auto;
+}
+h2{
+    width: 300px;
+    background-color: #624435;
+    color:#fff;
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+/*ul,ol{
+    padding-left: 25px;
+}*/
+li{
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+aside{
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+h4{
+    border-bottom: 2px dotted #624435;
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    color:#624435;
+}
+a:hover{
+    text-decoration: underline;
+    color:#000;
+}
+footer a{
+    color:#fff;
+}
+footer{
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    background-color: #896755;
+    border-top: 2px solid #624435;
+    padding: 15px;
+    font-style: italic;
+}
+.receta{
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px;
+}
+.arriba{
+    text-align: right;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+
+}
+.contenedor article{
+    width: 50%;
+}

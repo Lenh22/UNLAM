@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>FlexSlider</title>
+        <link rel="stylesheet" href="css/flexslider.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+        <script src="js/jquery.flexslider-min.js"></script>
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+        <link rel="stylesheet" href="css/demo.css"/>
+
+        <script type="text/javascript">
+            $(window).load(function() {
+                $('.flexslider').flexslider();
+            });
+        </script>
+    </head>
+    <body>
+        <section class="contenedor">
+            <article class="flexslider">
+                <ul class="slides">
+                    <li>
+                        <img src="img/inacup_samoa.jpg" />
+                        <p class="flex-caption">Ejemplo de Fondo 01</p>
+                    </li>
+                    <li>
+                        <img src="img/inacup_pumpkin.jpg" />
+                        <p class="flex-caption">Ejemplo de texto2</p>
+                    </li>
+                    <li>
+                        <img src="img/inacup_donut.jpg" />
+                    </li>
+                    <li>
+                        <img src="img/inacup_vanilla.jpg" />
+                    </li>
+                </ul>
+            </article>
+        </section>
+    </body>
+</html>

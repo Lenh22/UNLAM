@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+h1{
+    color: #fff;
+    font-size: 1.5em;
+    background-color: #375598;
+    text-align: center;
+    padding: 0.5em;
+    border-radius:0.5em;
+}
+h2{
+    color: #375598;
+    font-size: 1.4em;
+}
+h4{
+    margin-bottom: 0.7em;
+    font-size: 1.2em;
+}
+p{
+    font-size:1em;
+}
+header{
+    margin: 1em 0; 
+}
+
+.producto{
+    border:1px solid #b2b2b2;
+    border-radius: 0.5em;
+    padding: 1em;
+    margin-bottom: 1em;
+    box-sizing: border-box;
+}
+.producto img{
+    max-width: 100%;
+}
+.btn{
+    text-decoration: none;
+    padding: 0.4em;
+    border-radius: 0.5em;
+    background-color: #375598;
+    color: #fff;
+    transition: background-color 0.4s ease 0;
+}
+.btn:hover{
+    background-color:#4e7de8;
+}
+@media screen and (min-width:47em) {
+    .productos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .producto{
+        width: calc(50% - 1em);
+    }
+}
+@media screen and (min-width:60em) {
+    .producto{
+        width: calc(33% - 1em);
+    }
+    
+}
+@media screen and (min-width:70em) {
+    .producto{
+        max-width: 1300px;
+        margin: auto;
+    }
+
+}
+    

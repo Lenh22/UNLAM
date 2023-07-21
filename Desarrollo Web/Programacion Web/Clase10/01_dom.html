@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo DOM</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Bienvenido <span id="usuario"></span>!</h1>
+    </header>
+    <main>
+        <section>
+            <form action="">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" onkeyup="mostrarNombre()">
+            </form>
+            <!--onclick para mostrar algo cuando se le haga click-->
+            <button onclick="mostrarMensaje()">Saludar</button>
+        </section>
+    </main>
+    <!--Recomendado tener los links debajo antes del body-->
+    <script src="01_dom.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+header, main{
+    max-width: 60em;
+    margin: auto;
+}
+h1{
+    margin: 1em 0;
+}
+a{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: underline;
+}
+.texto{
+    margin: 1em 0;
+}
+.popup{
+    background-color: grey;
+    width: 50%;
+    height: 300px;
+    text-align: center;
+    position: fixed;
+    z-index:2;
+    top:30px;
+}

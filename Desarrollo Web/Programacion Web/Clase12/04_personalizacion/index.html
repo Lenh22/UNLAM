@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Personalización</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/funciones.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Personalización</h1>
+    </header>
+    <main>
+        <section class="personalizacion">
+            <article class="vista-previa">
+                <p id="texto"></p>
+            </article>
+            <article class="parametros">
+                <div class="parametro">
+                    <h4>Cambiá el fondo</h4>
+                    <input type="radio" value="1" name="fondo"> Fondo 1
+                    <input type="radio" value="2" name="fondo"> Fondo 2
+                    <input type="radio" value="3" name="fondo"> Fondo 3
+                </div>
+                <div class="parametro">
+                    <h4>Cambiá la tipografía</h4>
+                    <select name="tipografia" id="tipografia">
+                        <option value="roboto">Roboto</option>
+                        <option value="yanone">Yanone Kaffeesatz</option>
+                    </select>
+                </div>
+                <div class="parametro">
+                    <h4>Ingresa un texto</h4>
+                    <input type="text" name="nombre" id="nombre">
+                </div>
+                <div class="parametro">
+                    <h4>Cambiá el color del texto</h4>
+                    <input type="radio" value="negro" name="color"> Negro
+                    <input type="radio" value="blanco" name="color"> Blanco
+                </div>
+                <div class="parametro">
+                    <h4>Cambiá la alineacion</h4>
+                    <select name="alineacion" id="alineacion">
+                        <option value="centrado">Centrado</option>
+                        <option value="izquierda">Izquierda</option>
+                        <option value="derecha">Derecha</option>
+                    </select>
+                </div>
+            </article>
+        </section>
+    </main>
+</body>
+</html>

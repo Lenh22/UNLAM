@@ -1,0 +1,39 @@
+/*Para llevarlo al html es
+<link rel="stylesheet" href="Link">*/
+
+/*El "*{}" Le habla a todo*/
+*{
+    margin:0;
+}
+body{
+    /*Estilo de texto*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color:rgb(0, 0, 0);
+    /*Tamaño de la letra*/
+    font-size: 30px;
+}
+p{
+    color:grey;
+}
+.resaltado{
+    /*Grosor de la letra*/
+    font-weight:bold;
+    color:black;
+}
+#principal{
+    color: #ffffff;
+    /*centrar texto*/
+    text-align: center;
+    background-color: hsl(278, 63%, 33%);
+   /*Achica*/
+    padding: 20px;
+    /*Margen hacia afuera*/
+    margin: 10px;
+    margin-top: 10px;
+    /*Bordes*/
+    border: 2px solid black;
+
+}

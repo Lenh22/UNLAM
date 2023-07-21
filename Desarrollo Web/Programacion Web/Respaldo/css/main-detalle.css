@@ -1,0 +1,174 @@
+main section {
+    margin: 30px auto;
+}
+
+.curso-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 10%;
+    margin-right: 30%;
+}
+
+.curso-flex article {
+    margin: 0 10px 0 10px;
+}
+
+.curso-flex img {
+    width: 200px;
+    /*temporal*/
+    height: 100px;
+}
+
+.text-stl1 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.docente-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 90%;
+}
+
+.docente-flex article {
+    margin: 0 10px 0 10px;
+}
+
+.docente-flex img {
+    width: 150px;
+    /*temporal*/
+    border-radius: 50%;
+}
+
+.icono-estrellas {
+    font-size: 20px;
+    color: #FFBA08;
+}
+
+.aside-cursos-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+    margin: 30px auto;
+}
+
+.aside-cursos-flex article {
+    display: flex;
+    flex-direction: column;
+    width: calc(25% - 10px);
+    padding: 20px 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.aside-cursos-flex img {
+    max-width: 100%;
+}
+
+.img-precio {
+    position: relative;
+}
+
+.precio {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 1em;
+    z-index: 5;
+    text-align: right;
+    background-color: #2A2D34;
+    color: #fff;
+    padding: 3px;
+}
+
+.datos-articulo-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.derecha .titulo-curso {
+    font-size: 18px;
+    text-align: center;
+}
+
+.derecha a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    padding: 5px;
+}
+
+.derecha .detalle {
+    font-size: 13px;
+}
+
+.derecha .detalle:hover {
+    color: #B400F5;
+}
+
+.derecha .button-comprar:hover {
+    color: #2A2D34;
+    background-color: #FEC90B;
+    border-radius: 7px;
+}
+
+.izquierda .horas {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.datos-articulo-flex .derecha {
+    text-align: right;
+}
+
+.datos-articulo-flex .izquierda {
+    text-align: left;
+}
+
+.button-inscribirse {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #737373;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+.button-inscribirse:hover {
+    text-decoration: none;
+    color: #B400F5;
+    background-color: #2A2D34;
+    border-radius: 7px;
+}
+
+.unidad {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border: 1px solid #adadad;
+    border-radius: 5px;
+}
+
+.clase {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    background-color: #dedede;
+    border-bottom: 1px solid #9a9a9a;
+}
+
+.icono-check-circular {}
+
+.contenedor-contenidos p {
+    line-height: 50px;
+    padding: 0 5px;
+}

@@ -1,0 +1,26 @@
+@import '../fonts/fuentes.css';
+body{
+
+}
+h1{
+    color:#c31818;
+}
+h2{
+    color:#748ba2;
+}
+p{
+    color:#777;
+}
+footer{
+    color: orange;
+}
+header, main, footer{
+    max-width: 1300px;
+    margin: auto;
+}
+.verde{
+    color: green;
+}
+.comentario{
+    color:#ccc;
+}

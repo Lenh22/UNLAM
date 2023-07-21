@@ -1,0 +1,36 @@
+/*Grid por áreas
+Mediante los grids CSS es posible indicar el nombre y posición concreta de cada área de una cuadrícula. 
+Para ello utilizaremos la propiedad grid-template-areas, donde debemos especificar el orden de las áreas en la cuadrícula. 
+Posteriormente, en cada ítem hijo, utilizamos la propiedad grid-area para indicar el nombre del área del que se trata:
+*/
+
+.grid {
+	display:grid;
+	grid-template-areas: 	"head head"
+							"menu main"
+							"foot foot";
+}
+
+/*Grid con huecos
+Colocar huecos entre las celdas de la cuadrícula. 
+El código a añadir al ejemplo anterior sería el siguiente:
+*/
+
+.grid1 {
+	display:grid;
+	grid-template-areas: 	"head head"
+							"menu main"
+							"foot foot";
+	grid-column-gap: 100px;
+	grid-row-gap: 10px;
+}
+
+.a { grid-area:head; background:blue }
+.b { grid-area:menu; background:red }
+.c { grid-area:main; background:green }
+.d { grid-area:foot; background:orange }
+
+
+
+
+

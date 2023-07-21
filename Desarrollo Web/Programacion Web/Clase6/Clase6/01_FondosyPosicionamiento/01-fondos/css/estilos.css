@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+h3{
+    margin-top: 10px;
+}
+p{
+    margin-bottom: 5px;
+}
+header, main{
+    max-width: 960px;
+    margin: auto;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+article{
+    border-top: 2px dotted #000;
+    padding: 20px;
+}
+ul{
+    margin-left: 20px;
+}
+li{
+    margin-bottom: 10px;
+}
+.propiedad{
+    color: #8543e0;
+}
+.valor{
+    color: #e38d43;
+}

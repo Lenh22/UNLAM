@@ -1,0 +1,123 @@
+/*Caja donde estan el formulario y dato contacto
+Abarca el 90% de la pagina*/
+.container-formulario-datos{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 50%;
+    margin: auto;
+}
+/*Caja que contieene el formulario
+abarca el 50% del ancho de contariner-formulario-datos(que ocupa el 90% de la pagina)
+hago a los hijos flexibles, los posiciono en columna y los pongo contra el margen derecho*/
+.caja-formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: right;
+    width: 50%;
+}
+/* Caja que contiene los datos de la empresa
+abarca el 50% del ancho de container-formulario-datos*/
+.caja-dato-contacto{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom: 35px;
+
+}
+/* caja con el contenido de la info de la empresa, está dentro de .caja-dato-contacto       */
+.contenido-caja-dato{
+
+    width: 80%;
+    margin: 10px;
+    height: 90%;
+    border: 1px solid black;
+}
+/*Caja que contiene la iframe de la ubicación*/
+.container-ubicacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+    margin:auto;
+}
+.container-ubicacion h2{
+
+    margin: auto;
+    margin-top: 20px;
+}
+/* iframe que contiene el mapa*/
+iframe{
+    width: 100%;
+    border: 1px solid black;
+    padding-bottom: 50px;
+    margin:20px, 0px, 30px, 0px,  ; /* 10px arriba, 3px derecha, 30px abajo, 5px izquierda */
+
+}
+
+/* Ancho y margin de datos de solicitud para el  formulario*/
+.item-nombreApellido input, .item-edad input,.item-correo input, .item-numero input,
+.item-consulta textarea{
+
+    width: 80%;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/*Ancho y alto del boton enviar*/
+.input-enviar{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    background-color: black;
+    color: blanchedalmond;
+    margin-right: 10px;
+}
+
+.item-consulta textarea{
+
+    text-align: left;
+}
+
+.item-consulta{
+
+}
+
+/*Altura de datos a enviar en el formulario (exluido el textarea)*/
+.item-nombreApellido input, .item-edad input,.item-correo input, .item-numero input {
+
+    height: 40px;
+}
+
+
+/* li que están dentro de contenido-caja-dato*/
+.contenido-caja-dato li{
+    list-style: none;
+    text-align: center;
+}
+
+/* h2 que están dentro de contenido-caja-dato*/
+.contenido-caja-dato h2{
+
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+/* li que están dentro de contenido-caja-dato*/
+.lista-información-empresa li{
+
+    margin-bottom: 20px;
+
+}
+
+/*  h2 que hay en el main*/
+main h2{
+    margin-left: 13%;
+    margin-bottom: 20px;
+    margin-top: 20px; 
+}

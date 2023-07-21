@@ -1,0 +1,7 @@
+body{
+    background-image: url(../img/fondo01.png) ;
+    /*Degrades o su manera de repetir*/
+    background-repeat: repeat-x;
+    /*La posicion del fondo*/
+    background-position: top right;
+}

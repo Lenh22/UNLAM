@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 80%;
+}
+h2{
+    color: #375598;
+    font-size: 1.4em;
+    text-align: center;
+    margin: 0.5em 0;
+    text-transform: uppercase;
+    border: 2px dotted #b2b2b2;
+    padding: 0.3em 0;
+}
+h3{
+    color: #375598;
+    font-size: 1.3em;
+}
+h4{
+    margin-bottom: 0.7em;
+    font-size: 1.2em;
+}
+p{
+    1em;
+}
+footer{
+    background-color: #d3d3d3;
+    border-top: 5px solid #375598;
+    text-align: center;
+    padding: 2em 0;
+    font-size: 0.9em;
+    color: #717171;
+    margin-top: 1em;
+}
+header{
+    text-align: center;
+    background: #375598;
+    padding: 1.5em 0;
+    color:#fff;
+}
+iframe{
+    width: 100%;
+    border-radius: 1em;
+}
+main{
+    max-width: 80em;
+    margin: auto;
+}
+.btn{
+    text-decoration: none;
+    padding: 0.4em;
+    border-radius: 0.5em;
+    background-color: #375598;
+    color: #fff;
+    transition:0.4s;
+}
+.btn:hover{
+    background-color:#4e7de8;
+}
+.clear{
+    clear: both;
+}
+.producto{
+    border:1px solid #b2b2b2;
+    border-radius: 0.5em;
+    padding: 1em;
+    margin-bottom: 1em;
+    box-sizing: border-box;
+}
+.producto img{
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width:47em){
+    body{
+        font-size: 90%;
+    }
+    .producto{
+        width: 45%;
+        margin: 2.5%;
+        float: left;
+    }
+}
+@media screen and (min-width:60em){
+    body{
+        font-size: 100%;
+    }
+    .producto{
+        width: 30%;
+        margin: 1.5%;
+    }
+}
+@media screen and (min-width:70em){
+    .producto{
+        width: 23%;
+        margin: 1%;
+    }
+}
+@media screen and (min-width:80em){
+    .producto{
+        width: 18%;
+        margin: 1%;
+    }
+}

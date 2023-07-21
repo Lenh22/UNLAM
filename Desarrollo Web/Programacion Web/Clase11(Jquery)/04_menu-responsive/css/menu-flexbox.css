@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+ul {
+    background-color: #06a8de;
+}
+ul li{
+    list-style: none;
+    text-align: center;
+}
+ul li a{
+    color: #fff;
+    display: block;
+    padding:10px;
+    text-decoration: none;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #06a8de;
+}
+a.desplegable{
+    display: block;
+    width: 55px;
+    height: 55px;
+    background-image: url(../img/hamburger.gif);
+    background-color: #06a8de;
+    position:fixed;
+    top:0;
+    right: 0;
+    cursor: pointer;
+}
+a.desplegable:hover{
+    background-color:#000;
+}
+.menu{
+    display:none;
+}
+@media screen and (min-width:47em){
+    ul{
+        display: flex;
+        justify-content: center;
+    }
+    .menu{
+        display:block;
+    }
+    a.desplegable{
+        display: none;
+    }
+}

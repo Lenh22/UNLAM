@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <!--En CSS -->
+    <style>
+        h1{
+            color:brown;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contacto</h1>
+    </header>
+    <main>
+        <article>
+            <form action="#" method="GET">
+                <label for="nombre">Nombre y Apellido:</label>
+                <input type="text" id="nombre" name="nombre" required placeholder="Ingrese su nombre y apellido"> <br><br>
+
+                <label for="correo">Email:</label>
+                <input type="email" id="correo" name="correo"> <br><br>
+
+                <label for="consulta">Consulta:</label> <br>
+                <textarea name="consulta" id="consulta" cols="30" rows="10" maxlength="10"></textarea> <br><br>
+
+                <!--Deja abrir casillas-->>
+                <label for="provincia">Provincia</label>
+                <select name="provincia" id="provincia">
+                    <option value="1">Buenos Aires</option>
+                    <option value="2">CABA</option>
+                </select> <br> <br> <br>
+                <p>Sexo</p>
+                <!--Deja q se elija una de las casillas-->
+                <input type="radio" name="sexo" value="f" id="fem">
+                <label for="fem">Femenino</label>
+
+                <input type="radio" name="sexo" value="m" id="masc">
+                <label for="masc">Masculino</label>
+
+                <input type="radio" name="sexo" value="o" id="otro">
+                <label for="otro">Otro</label>
+                <br>
+                <!--Deja un cuadrito que apretar o sacar--> <!--Required hace q sea obligatorio-->
+                <label for="condiciones">Acepto Condiciones</label>
+                <input type="checkbox" name="condiciones" id="condiciones" checked required>
+                <!--Deja una lista de informacion-->
+                <datalist id="informacion">
+                    <option value="Rafaela">
+                    <option value="San Justo">
+                    <option value="San Luis">
+                </datalist>
+
+                <input type="submit" value="enviar">
+            </form>
+        </article>
+    </main>
+</body>
+</html>

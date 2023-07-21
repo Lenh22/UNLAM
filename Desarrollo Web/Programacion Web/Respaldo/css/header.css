@@ -1,0 +1,72 @@
+header {
+    background-color: #2A2D34;
+}
+
+header h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    color: #B400F5;
+    text-align: center;
+}
+
+header span {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #fff;
+}
+
+.header-barra-principal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-barra-principal form {
+    max-width: 100%;
+}
+
+.header-barra-principal input {
+    height: 25px;
+    border-radius: 8px;
+    border: none;
+}
+
+.header-barra-principal div {
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.icono-carro {
+    color: #fff;
+    font-size: 22px;
+}
+
+.icono-carro:hover {
+    color: #FEC90B;
+}
+
+.flex-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.flex-nav li {
+    list-style: none;
+    margin: 5px;
+    padding: 0 10px;
+}
+
+.flex-nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.flex-nav a:hover {
+    color: #B400F5;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Slider</title>
+        <!-- copiar desde acá-->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.bxslider.js"></script>
+        <link rel="stylesheet" href="css/jquery.bxslider.css">
+        <script type="text/javascript">
+            $(document).ready(function(){
+
+                $('.bxslider').bxSlider({
+                    mode: 'fade'
+                });
+            });
+        </script>
+        <!-- hasta acá-->
+        <style>
+            .contenedor{
+                max-width: 640px;
+                margin: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <section class="contenedor">
+            <ul class="bxslider">
+                <li><img src="img/foto01.jpg" /></li>
+                <li><img src="img/foto02.jpg" /></li>
+                <li><img src="img/foto03.jpg" /></li>
+            </ul>
+        </section>
+    </body>
+</html>

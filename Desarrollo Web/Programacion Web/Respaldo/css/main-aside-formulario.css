@@ -1,0 +1,91 @@
+
+body h1{
+    color: #181818;
+    font-size: 25px;
+    text-align: initial;
+    margin: 1%;
+    cursor: default;
+}
+body h2{
+    color: #5a5a5a;
+    margin: 1%;
+    font-size: 20px;
+    text-align: initial;
+    cursor: default;
+}
+.main-formulario-llenar{
+    margin: 2% 0%;
+
+}
+.main-formulario-llenar article{
+    padding: 1% 0%;
+    margin: 1% 0%;
+}
+.Formulario{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    position: relative;
+    z-index: 5;
+}
+.Formulario input{
+    height: 30px;
+    width: 260px;
+    border: revert;
+    margin: 1% 14px 2% 10px;
+    
+}
+
+.Restar{
+    /*Agregara un boton para restar persona*/
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-image: url(../img/iconos/restar.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.Casillas{
+    display: flex;
+    width: 900px;
+}
+.Casillas button{
+    margin-top: 10px;
+    position: relative;
+    top: 8px;
+}
+.AgregarPersona p{
+    font-size: 15px;
+    margin-bottom: 5px;
+    background-color: #B400F5;
+    color: aliceblue;
+    padding-left: 10px;
+}
+.AgregarPersona input{
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+.AgregarPersona input:hover{
+    background-color: #dadada;
+}
+.Inscripcion p{
+    font-size: 13px;
+}
+.Inscripcion input{
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+.Inscripcion input:hover{
+    background-color: #dadada;
+
+}
+
+
+

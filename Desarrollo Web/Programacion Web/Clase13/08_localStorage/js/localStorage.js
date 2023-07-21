@@ -1,0 +1,9 @@
+window.onload=function(){
+	//crearlo
+	//localStorage.setItem("precio",10);
+	//mostrarlo
+	console.log(localStorage.getItem("precio"));
+	//localStorage.setItem("precio",50);
+	//borrarlo
+	//localStorage.clear("precio");
+}

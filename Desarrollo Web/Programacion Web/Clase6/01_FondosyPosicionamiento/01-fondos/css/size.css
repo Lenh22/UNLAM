@@ -1,0 +1,7 @@
+body{
+    background-image: url(../img/fondo03.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #000;
+}

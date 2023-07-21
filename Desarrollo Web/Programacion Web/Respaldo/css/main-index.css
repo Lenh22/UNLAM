@@ -1,0 +1,123 @@
+main{margin: 30px 0px;}
+
+main section{margin: 15px auto;}
+
+main aside{margin: 15px auto;}
+
+main h2{
+	text-align: center;
+	font-size: 30px;
+}
+
+.main-instructivo-flex{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	width: 85%;
+}
+
+.main-instructivo-flex article{
+	width: calc(33% - 10px);
+	text-align: center;
+	background-color: #2A2D34;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.main-instructivo-flex p{
+	font-weight: 700;
+	font-size: 26px;
+	color: #fff;
+}
+
+.icono-doble-flecha{
+	font-size: 60px;
+	color: #2A2D34;
+}
+
+.main-cursos-flex{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	width: 85%;
+}
+
+.main-cursos-flex article{
+	display: flex;
+	flex-direction: column;
+	width: calc(33% - 60px);
+	padding: 20px 10px;
+	margin-bottom: 50px;
+	background-color: #fff;
+	border-radius: 10px;
+}
+
+.main-cursos-flex img{max-width: 100%;}
+
+.img-precio{position: relative;}
+
+.precio{
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	bottom: 1em;
+	z-index: 5;
+	text-align: right;
+	background-color: #2A2D34;
+	color: #fff;
+	padding: 3px;
+}
+
+.datos-articulo-flex{
+	display: flex;
+	justify-content: space-between;
+}
+
+.derecha .titulo-curso{
+	font-size: 18px;
+	text-align: center;
+}
+
+.derecha a{
+	display: block;
+	text-decoration: none;
+	color:#000;
+	text-align: center;
+	padding: 5px;
+}
+
+.derecha .detalle{font-size: 13px;}
+
+.derecha .detalle:hover{color: #B400F5;}
+
+.derecha .button-comprar:hover{
+	color: #2A2D34;
+	background-color: #FEC90B;
+	border-radius: 7px;
+}
+
+.izquierda .horas{
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.datos-articulo-flex .derecha{text-align: right;}
+.datos-articulo-flex .izquierda{text-align: left;}
+
+.aside-flex{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	width: 90%;
+}
+
+.aside-flex img{
+	display: inline-block;
+	max-width: 100px;
+}

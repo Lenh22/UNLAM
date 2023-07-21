@@ -1,0 +1,66 @@
+
+/* Aspecto, acá defino la apariencia de cada sección */
+.header {
+	padding: 1.2em; 
+	color: white; 
+	background-color: #0D47A1; 
+}
+
+.footer { 
+	padding: 1.2em; 
+	background-color: #2196F3; 
+}
+
+.main { 
+	padding: 1.2em; 
+	background-color: #BBDEFB; 
+}
+
+.sidebar { 
+	padding: 1.2em; 
+	background-color: #EEEEEE; 
+}
+
+
+/* Establezco la Grilla */
+.container {
+	margin: 0 auto;
+	width: 800px;
+	display: grid;
+	
+	/*Grid de 3x5*/
+	/* 3 columnas: 1a de 200px, 2a como margen (1%), 3a ocupa el espacio restante */
+	grid-template-columns: 200px 1% 1fr;
+	
+	/* 5 filas: grid-rows: 1a, 3a y 5a ancho automático, 2a y 4a como margen de 15px */
+	grid-template-rows: auto 15px auto 15px auto;
+}
+
+/* Establezco el espacio que ocupa cada sección en la grilla */
+
+.header,
+.footer {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.header {
+ grid-row: 1;
+}
+
+.footer {
+ grid-row: 5;
+}
+
+.sidebar {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.main {
+  grid-column: 3;
+  grid-row: 3;
+}
+
+/* Si deseo centrar el texto */
+.header > h2 {text-align:center};

@@ -1,0 +1,31 @@
+/*En las propiedades grid-template-columns y grid-template-rows podemos indicar expresiones de repetición, 
+indicando celdas que repiten un mismo patrón de celdas varias veces. 
+La expresión a utilizar sería la siguiente: repeat([núm de veces], [valor o valores])
+Asumiendo que tuvieramos un contenedor grid con 8 ítems hijos (o más), 
+el ejemplo anterior crearía una cuadrícula con 4 columnas (la primera de 100px de ancho, la segunda y tercera de 50px de ancho y la cuarta de 200px de ancho). 
+Por otro lado, tendría 2 filas (la primera de 50px de alto, y la segunda de 100px de alto). 
+En el caso de tener más ítems hijos, el patrón se seguiría repitiendo.
+*/
+
+.grid {
+  display: grid;
+  grid-template-columns: 100px repeat(2, 50px) 200px;
+  grid-template-rows: repeat(2, 50px 100px);
+}
+
+
+/*Es posible crear cuadrículas con un tamaño explícito. 
+Para ello, sólo tenemos que usar las propiedades CSS grid-template-columns y grid-template-rows.
+Sirven para indicar las dimensiones de cada celda de la cuadrícula, diferenciando entre columnas y filas.*/
+
+.a { background:blue }
+.b { background:red }
+.c { background:green }
+.d { background:orange }
+.e { background:blue }
+.f { background:red }
+.g { background:green }
+.h { background:orange }
+
+
+

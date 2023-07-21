@@ -1,0 +1,68 @@
+*{
+	/*La propiedad border-box recalcula el ancho de una caja 
+	para que el width sea la estrictamente la suma 
+	de border + padding + ancho o altura que sea necesario 
+	para que se cumpla */
+		box-sizing: border-box;
+}
+body{
+	font-family: arial;
+}
+article{
+	padding: 50px;
+	text-align: center;
+	background: #ccc;
+	border:2px solid #000;
+    margin-bottom:20px;
+/*calcula cuandro agranda y el cuanto px
+ deja de borde de separacion (lo q agranda - separacion)*/
+	width: calc(50%-10px);
+
+	
+}
+
+.contenedor {
+/*Se hara flex*/
+	display: flex;
+/*La direccion del flex de izq a derecha*/
+	flex-direction: row;
+/*La direccion del flex de derecha a izq*/
+	flex-direction:row-reverse;
+/*Q se posicione en columna*/
+	flex-direction: column;
+/*Q se pocicione en el inicio*/
+	justify-content: flex-start;
+/*Q se pocicione en el centro*/
+	justify-content: center;
+/*Q se pocicione en al final*/
+	justify-content: flex-end;
+/*Q se pocicione un poco separado entre ellos*/
+	justify-content: space-around;
+/*Q se pocicione muy separado entre ellos*/
+	justify-content:space-between ;
+/*Todos los elemenos alinean centrado*/
+	align-items: center;
+/*Todos los elemenos alinean hacia arriba*/
+	align-items: flex-start;
+/*Todos los elemenos aliean hacia abajo*/
+	align-items: flex-end;
+/*Maneja todo en una linea o lo corta en otra linea*/
+	flex-wrap: wrap ;
+/*Bordes redondeados*/
+	border-radius: 20px;
+}
+.item1{
+/*Ordeno como quiero sus posiciones*/
+	order: 3;
+}
+.item2{
+	order: 1;
+}
+.item3{
+	order: 4;
+}
+.item4{
+	order: 2;
+/*Los que no tienen Order se van al principio de los
+de Order*/
+}

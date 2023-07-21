@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/nivo-slider.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/micss.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+    <script src="js/jquery.nivo.slider.js"></script> 
+    <script>
+        $(document).ready(function(){
+            $('#sliderHome').nivoSlider();
+        });
+    </script>
+</head>
+<body>
+    <section class="contenedor">
+        <article class="slider-wrapper theme-default">
+            <div id="sliderHome" class="nivoSlider"> 
+                <img src="img/toystory.jpg" alt="" /> 
+                <img src="img/up.jpg" alt="" title="si queremos ponerle un texto" /> 
+                <img src="img/walle.jpg" alt="" data-transition="slideInLeft" /> 
+                <img src="img/nemo.jpg" alt="" title="titulo" />
+                <img src="img/Chrysanthemum.jpg" alt="">
+            </div>
+        </article>
+    </section>
+</body>
+</html>

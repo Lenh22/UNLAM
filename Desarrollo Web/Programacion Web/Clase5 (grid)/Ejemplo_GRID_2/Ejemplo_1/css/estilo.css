@@ -1,0 +1,29 @@
+/*Para activar la cuadrícula grid hay que utilizar sobre el elemento contenedor la propiedad display y especificar el valor grid o inline-grid.
+Este valor influye en como se comportará la cuadrícula con el contenido exterior.*/
+
+.grid {
+	display: grid;
+	/*display: inline-grid;*/
+	grid-template-columns: 50px 300px;
+	grid-template-rows: 200px 75px;
+}
+
+
+/*Es posible crear cuadrículas con un tamaño explícito. 
+Para ello, sólo tenemos que usar las propiedades CSS grid-template-columns y grid-template-rows.
+Sirven para indicar las dimensiones de cada celda de la cuadrícula, diferenciando entre columnas y filas.*/
+
+.a { background:blue }
+.b { background:red }
+.c { background:green }
+.d { background:orange }
+
+/*En el ejemplo anterior se ha utilizado píxels como unidades de las celdas de la cuadrícula.
+Sin embargo, también podemos utilizar otras unidades (e incluso combinarlas) como porcentajes, la palabra clave auto (que obtiene el tamaño restante)
+o la unidad especial fr (fraction), que simboliza una fracción de espacio restante en el grid.*/ 
+
+.grid1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr 1fr;
+}

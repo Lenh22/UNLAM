@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css\all-html.css">
+	<link rel="stylesheet" type="text/css" href="css\header.css">
+	<link rel="stylesheet" type="text/css" href="css\main-aside-contacto.css">
+	<link rel="stylesheet" type="text/css" href="css\footer.css">
+    <script src="https://kit.fontawesome.com/ed21872c78.js" crossorigin="anonymous"></script>
+    <title>Contacto</title>
+</head>
+<body>
+    
+		<header class="header-barra-principal">
+            <div>
+                <h1>Program<span>AR</span></h1>
+            </div>
+            
+            <div>
+                <nav>
+                    <ul class="flex-nav">
+                        <li><a href="#">JavaScript</a></li>
+                        <li><a href="#">CSS</a></li>
+                        <li><a href="#">HTML 5</a></li>
+                        <li><a href="#">Python></a></li>
+                        <li><a href="#">C#</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <form action="#" method="get" enctype="application/x-www-form.urlencoded">
+                <datalist id="cursos">
+                    <option value="JavaScript">
+                    <option value="CSS">
+                    <option value="HTML 5">
+                </datalist>
+                <input list="cursos" id="q" name="q" type="search" placeholder="Buscá tu curso acá" autocomplete="off">
+                </form>
+            </div>
+            <div>
+                <a href="#"><i class="fas fa-shopping-cart icono-carro"></i></a>
+                </a>
+            </div>
+    </header> 
+    <main>
+        <h2>CONTACTO</h2>
+        <!-- Formulario -->
+        <section class="container-formulario-datos" >
+            <article class="caja-formulario">
+                    <!--Nombre y apellido-->
+                    <form action="#" method="POST">
+                        <div  class="item-nombreApellido">
+                        <label for="nomyApe"></label>
+                        <input id="nomyApe" type="text" 
+                        name = "nomyApe" 
+                        placeholder="Ingrese nombre y apellido" required> 
+                    </div>    
+                     <!--Edad-->
+                     <div class="item-edad">
+                            <label for="edad"></label>
+                            </label>
+                            <input id="edad" type="number" name = "edad" 
+                            placeholder="Ingrese edad"
+                            min="0" max="200" required>
+                      </div>
+                         <!--Numero-->
+                     <div class="item-numero">
+                            <label for="numero"></label>
+                            </label>
+                            <input id="numero" type="number" 
+                            name = "numero" 
+                            placeholder="Ingrese numero"
+                            min="0" max="20" >
+                        </div>
+       
+                        <!--Correo-->
+                     <div  class="item-correo">
+                        <label for="mail"></label>
+                        </label>
+                        <input id="mail" type="email" 
+                        name = "mail" 
+                        placeholder="Ingrese mail"
+                          required >
+                      </div>
+                      <!--Consulta-->
+                     <div  class="item-consulta">
+                        <textarea name="consulta" 
+                        id="consulta" cols="50" rows="10" maxlength="100" 
+                        placeholder="Deje su consulta..."></textarea>
+                        <input type="submit" value="enviar" class="input-enviar">
+                     </div>
+                    </form>
+            </article>
+
+            <!--Datos de contacto-->
+            <article class="caja-dato-contacto">
+                <aside class="contenido-caja-dato">
+                    <h2>ProgramAR</h2>
+                    <ul class="lista-información-empresa">
+                        <li>Empresa número uno</li>
+                        <li> +11 11 1111 1111</li>
+                        <li>Horario de atención</li>
+                        <li>Lunes a sabados: 8 hs a 20 hs  </li>
+                        <li>consultas@programAr.com.ar</li>
+                    </ul>
+                </aside>
+            </article>
+        </section>
+
+        <!--Ubicacion-->
+        <section>
+            <article class="container-ubicacion">
+                <h2>UBICACIÓN</h2>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.038094995701!2d-58.673433584767636!3d-34.704219080433546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc11f21838611%3A0x923bc37126a939fe!2sObarrio%201883%2C%20B1716%20Libertad%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1620564303887!5m2!1ses!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-flex">
+            <div>
+                <h4>Datos de los integrantes</h4>
+                <ul>
+                    <li>Lucas David Cardozo - xx.xxx.xxx</li>
+                    <li>Leandro Matias Alonso - xx.xxx.xxx</li>
+                    <li>Damián Edgardo Gutierrez - xx.xxx.xxx</li>
+                </ul>
+            </div>
+    
+            <div>
+                <h4>Información adicional</h4>
+                <ul>
+                    <li><a href="$">Link 1</a></li>
+                    <li><a href="$">Link 2</a></li>
+                    <li><a href="$">Link 3</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <h4>Redes sociales</h4>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

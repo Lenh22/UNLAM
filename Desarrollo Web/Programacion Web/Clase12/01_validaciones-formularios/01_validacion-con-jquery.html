@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejemplo Campos No Vacios</title>
+        <link rel="stylesheet" href="css/estilos.css">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/validacion.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Formulario de Contacto</h1>
+        </header>
+        <main>
+            <form action="#" name="form" id="form">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido">
+                <label for="provincia">Provincia:</label>
+                <select name="provincia" id="provincia">
+                    <option value="0"></option>
+                    <option value="1">Buenos Aires</option>
+                    <option value="2">Cordoba</option>
+                </select>
+                <label for="sexo">Sexo:</label>
+                <input type="radio" name="sexo" value="f">Femenino
+                <input type="radio" name="sexo" value="m">Masculino
+                <div class="condiciones">
+                    <label for="condiciones">Acepto Términos y Condiciones:</label>
+                    <input type="checkbox" name="condiciones" id="condiciones">
+                </div>
+                <input type="submit" value="Enviar">
+                <div id="mensaje" class="error">
+
+                </div>
+            </form>
+        </main>
+
+
+
+    </body>
+</html>

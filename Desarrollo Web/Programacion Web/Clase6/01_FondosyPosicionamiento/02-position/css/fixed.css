@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+h2{
+    background: #000;
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    color: #fff;
+    padding: 10px;
+}
+h3{
+    margin-top: 10px;
+}
+header, main{
+    max-width: 960px;
+    margin: auto;
+    box-sizing: border-box;
+}
+header{
+    background-color: #000;
+    text-align: center;
+    background-color: #45afab;
+    color: #fff;
+    padding: 15px 20px;
+}
+main{
+    background-color: #ccc;
+    padding-bottom: 10px;
+}
+article{
+    background: #783a80;
+    padding: 20px;
+    width: 300px;
+    box-sizing: border-box;
+    color:#fff;
+}
+.arriba{
+    width: 40px;
+    height: 40px;
+    display: block;
+    background-image: url(../img/arriba.png);
+    background-color: #783a80;
+    background-size: cover;
+    border-radius: 50%;
+    position:fixed;
+    right: 20px;
+    bottom:20px;
+}
+.arriba:hover{
+    background-color: #380d3d;
+}
+
+
+
+
+

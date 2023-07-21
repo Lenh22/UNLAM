@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\main-aside-formulario.css">
+    <link rel="stylesheet" href="css\header.css">
+    <link rel="stylesheet" href="css\footer.css">
+    <link rel="stylesheet" href="css\all-html.css">
+    <script src="https://kit.fontawesome.com/ed21872c78.js" crossorigin="anonymous"></script>
+
+
+    <title>Formulario</title>
+</head>
+<body>
+    <!--Logo-->
+    <header class="header-barra-principal">
+        <div>
+            <h1>Program<span>AR</span></h1>
+        </div>
+        <div>
+            <nav>
+                <ul class="flex-nav">
+                    <li><a href="#">JavaScript</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">HTML 5</a></li>
+                    <li><a href="#">Python></a></li>
+                    <li><a href="#">C#</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <form action="#" method="get" enctype="application/x-www-form.urlencoded">
+                <datalist id="cursos">
+                    <option value="JavaScript">
+                    <option value="CSS">
+                    <option value="HTML 5">
+                </datalist>
+                <input list="cursos" id="q" name="q" type="search" placeholder="Buscá tu curso acá" autocomplete="off">
+            </form>
+        </div>
+        <div>
+            <a href="#"><i class="fas fa-shopping-cart icono-carro"></i></a>
+        </div>
+    </header>
+
+    <main class="main-formulario-llenar">
+        <h1>Titulo del Curso</h1>
+        
+        <h2>Inscripcion</h2>
+    <!--Para la pagina, las inscripciones tiene que tener al menos 3 casillas 
+        de alumnos para llenar, ademas
+        debe tener una opcion de quitar al alumno-->
+        <section class="Formulario">
+            <article class="Casillas">
+                <form action="#" method="post"  id="form1">
+                <div>
+                    <input type="text" name="nombre1" id="nombre1" placeholder="Ingrese nombre" required>
+                    <input type="text" name="apellido1" id="apellido1" placeholder="Ingrese apellido" required>
+                    <input type="number" name="dni1" id="dni1" placeholder="Ingrese su DNI" required>
+                   
+                    <button type="reset" class="Restar"></button>
+                </div>
+                <div>
+                    <input type="text" name="nombre1" id="nombre1" placeholder="Ingrese nombre" required>
+                    <input type="text" name="apellido1" id="apellido1" placeholder="Ingrese apellido" required>
+                    <input type="number" name="dni1" id="dni1" placeholder="Ingrese su DNI" required>
+         
+                    <button type="reset" class="Restar"></button>
+                </div>
+                <div>
+                    <input type="text" name="nombre1" id="nombre1" placeholder="Ingrese nombre" required>
+                    <input type="text" name="apellido1" id="apellido1" placeholder="Ingrese apellido" required>
+                    <input type="number" name="dni1" id="dni1" placeholder="Ingrese su DNI" required>
+                  
+                    <button type="reset" class="Restar"></button>
+                </div>
+                </form>
+            </article>
+
+     <article>
+    <!--Boton para agregar personas-->
+        <div  class="Inscripcion">
+        <input type="submit" form="form1" value="Inscribirse"></input>
+        </div>
+    <!--La multiplicacion del importe con alumnos, en value lo dejo fijo por ahora-->
+    </article>
+    <article  class="AgregarPersona" >
+      <!-- <form action="#" oninput="resultado.value=parseInt(valor_a.value)*parseInt(valor_b.value)" method="post">
+            <p>Importe:</p>
+            <input type="number" name="valor_a" id="valor_a" value="1" placeholder="Cantidad de Inscripciones">
+            *
+            <input type="numer" name="valor_b" id="valor_b" value="4000" placeholder="Precio del curso">
+            =
+            <output name="resultado" for="valor_a valor_b"></output> <br>
+      -->
+        <p>$4000</p>
+        <input  type="submit" value="AgregarPersona">
+    </article>
+
+            
+        </section>
+
+    </main>
+    <!--El Footer debe tener 3 columnas, Datos de nuestro grupo, Menu inferior, Link de redes sociales-->
+    <footer>
+        <div class="footer-flex">
+            <div>
+                <h4>Datos de los integrantes</h4>
+                <ul>
+                    <li>Lucas David Cardozo - xx.xxx.xxx</li>
+                    <li>Leandro Matias Alonso - xx.xxx.xxx</li>
+                    <li>Damián Edgardo Gutierrez - xx.xxx.xxx</li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Información adicional</h4>
+                <ul>
+                    <li><a href="$">Link 1</a></li>
+                    <li><a href="$">Link 2</a></li>
+                    <li><a href="$">Link 3</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <h4>Redes sociales</h4>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+<!--Edit Len 2.3 -->

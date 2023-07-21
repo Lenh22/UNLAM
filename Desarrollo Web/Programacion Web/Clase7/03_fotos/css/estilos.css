@@ -1,0 +1,33 @@
+.galeria img{
+    /*Muestra el maximo dependiendo la pagina*/
+    max-width: 100%;
+    margin-bottom: 1em;
+}
+@media screen and (min-width:47em) {
+    .galeria{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .galeria img{
+        width:calc(50% - 1em) ;
+    }
+    
+}
+@media screen and (min-width:60em) {
+    .galeria img{
+        width: calc(33% - 1em);
+    }   
+}
+@media screen and (min-width:70em){
+	.galeria img{
+	width: calc(25% - 1em);
+	}
+}
+h2.ems{
+    font-size: 1.5em;
+}
+h2.rem{
+    font: 1.5rem;
+}
+
