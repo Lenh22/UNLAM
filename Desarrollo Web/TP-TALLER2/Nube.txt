@@ -1,0 +1,27 @@
+NUBE
+CARACTERISTICAS
+-BAJA DEMANDA DE AUTOSERVICIO- interfaz sumple para procesar, almacenar y red
+-AMPLIO ACCESO A LA RED- Bastantes plataformas como moviles, telefonos, pcs, etc
+-AGRUPACION DE RECURSOS- recursos para el cliente,asignan/reasignan segun la demanda
+-ELASTICIDAD RAPIDA- accede a los recursos cuando los necesite de manera eficaz
+-SERVICIOS MEDIDOS- se paga lo q se reserva en la marcha, si no usa algo no lo pagara
+ 
+PUBLICA-en la internet abierta, proveer entre empresas
+HIBRIDA- Mezcla sin problema de la PUBLICA y PRIVADA
+PRIVADA-infraestructura de uso exclusivo de un unico
+
+INFRAESTRUCTURA-redes, almacenamiento,espacio,etc
+PLATAFORMA-Hadware,sofware,donde se desarrolla
+APLICACIONES- centrada con licencia el software
+
+Historia:
+1950, evolucionao, facilitaban accesos en el CPU con datos y mas, 1970 el SO VM haciendo q
+todo no sea fisico, teninedo su propia memoria, una virtualizacion
+Avanzamos hasta el pago por uso, aprovechando de la nube solo la necesidad
+y pagando por ella. Mejoro recursos y eficacia
+
+Agilidad, flexibilidad y competitividad
+Es la estrategia de la nube
+
+Gartner predice, mercado mundial de servicios nube publica
+Aliyun, nube mas grande china

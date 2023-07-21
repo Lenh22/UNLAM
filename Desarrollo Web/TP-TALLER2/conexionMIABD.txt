@@ -1,0 +1,7 @@
+const connection = mysql.createConnection({
+    host: 'localhost',
+    user: 'root',
+    password: '',
+    database: 'Libreria',
+    //port: 3306
+ });
