@@ -1,0 +1,56 @@
+			Clase padre
+abstract Class Padre
+			Clase hijos
+public class Hijo extends Padre
+(super /las cosas de padre/)
+			Clase Exception
+public class Nombre extends Exception
+	public Nombre(String mensaje){
+super(mensaje)
+}
+			Implementar
+public class Nombre implements NombreDelImplemento
+
+
+			Usar en un metodo el Exception
+public Integer nombre () throws nombreException {
+throw new nombreException("Mensaje avisado");
+}
+			Con tipos de Set
+	Agregar
+nombre.add(loQueQuierasAgregar);
+	Cantidad
+nombre.size();
+	Recorrer 2 Set para ver si un valor no es igual
+for(Vehiculo i: vehiculos){
+for(Vehiculo j:vehiculos)					{
+if(i!=j && i.getLatitud().equals(j.getLatitud()) && i.getLongitud().equals(j.getLongitud())) {
+huboColicion=true;
+
+
+			Con tipos de Map
+	Agregar
+
+nombre.put(Key, valor);
+nombre.put(algo.getAlgo(), otroAlgo.getOtroAlgo());
+	Cantidad
+
+nombre.size();
+	Mostrar el Key o Valor
+
+nombre.get(Key/valor);
+	Ver si el Map lo contiene
+
+nombre.containsKey(buscado/buscado.getAlgo());
+nombre.containsValuer(buscado/buscado.getAlgo());
+
+			If para ver si es de ese tipo
+if(nombre instanceof delTipo)
+
+			
+
+
+
+
+
+

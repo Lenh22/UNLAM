@@ -1,0 +1,30 @@
+a. charAt(int index);
+Retorna el caracter de la posicion que usted elija, 
+solo esa letra (La primera posicion es 0)
+
+b. equals(String anotherString);
+Compara dos cadenas de caracteres(palabras), si son iguales dice True,
+ si no lo son dice False
+
+c. equalsIgnoreCase(String anotherString)
+Es igual a equals, solamente que ignora las mayusculas y minusculas
+
+d. length();
+Muestra el tamaño que posee la palabra u oracion 
+(Osea la longitud de la cadena)
+
+e. substring(beginIndex, endIndex);
+Devuelve la cadena seleccionada, desde un punto hacia el otro que elejis 
+
+f. split(String regex)
+Divide la cadena con lo que elijas de adentro de ella, sea una letra, o un signo, 
+la cortara cuantas veces este lo elejido en varios trozos 
+
+g. toLowerCase();
+Retorna la cadena todo en minusculas
+
+h. toUpperCase();
+Retorna la cadena todo en mayusculas
+
+i. trim(); 
+Elimina espacios vacios al principio o final de una cadena de caracteres

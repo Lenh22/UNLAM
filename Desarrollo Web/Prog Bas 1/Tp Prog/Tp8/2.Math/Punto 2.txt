@@ -1,0 +1,50 @@
+Math...
+a. abs(int a);
+Valor absoluto de un numero int
+
+b. abs(double a);
+Valor absoluto de un numero double
+
+c. abs(float a);
+Valor absoluto de un numero float
+
+d. abs(long a);
+Valor absoluto de un numero long
+
+e. pow(double a, double b)
+Potencia el numero "a" con el numero "b" (2(a) elevado a la 3(b))
+
+f. random()
+Da un numero aleatorio entre 0 y 1
+
+g. round(float a);
+Redondea un numero que sea float (2,3 seria 2)
+
+h. round(double a);
+Redondea un numero que sea double 
+
+i. sqrt(double a); 
+La raiz cuadrada de algun numero mayor a 0
+
+//Algunas para agregar//
+
+j. exp(double a)
+Potencia el numero Euler (e) la cantidad que elijas
+
+k. sin(double a) // cos(double a) // tan(double a) 
+Estas son: 
+seno 		//  coseno   	 // tangente	  
+
+L. asin(double a) // acos(double a) // atan(double a)
+	arcoseno  // arcocoseno   // arcotangente
+M. log(double a)
+Logaritmo neperiano
+
+n. min (int a , int b)
+El minimo entre 2 numeros
+
+o. max (int a , int b)
+El maximo entre 2 numeros 
+
+p. floor (double a)
+Redondea un numero hacia el menor
