@@ -1,0 +1,59 @@
+[{
+	"dni": 101,
+	"name": "Juan Otaegui",
+	"date_of_bith": 19820520,
+	"loves": [
+		"redondos",
+		"charly",
+		"calamaro"
+	],
+	"weight": "65 Kg",
+	"gender": "m",
+	"voto": 63.0
+},
+{
+	"dni": 102,
+	"name": "Jose Leta",
+	"loves": [
+		"backstreetboys",
+		"nsync",
+		"spice girls"
+	],
+	"weight": "80 Kg",
+	"gender": "m",
+	"voto": 43.0
+},
+{
+    "dni": 103, 
+	"name": "Cristobal Santamaria",
+	"date_of_bith": 19550606,
+	"loves": [
+		"rolling stones",
+		"queen"
+	],
+	"weight": "85 Kg",
+	"gender": "m",
+	"votes": 99.0
+},
+{
+	"dni": 104, 
+	"name": "Josefina Anchorena",
+	"loves": [
+		"nsync"
+	],
+	"weight": "60 Kg",
+	"gender": "f",
+	"votes": 99.0
+},
+{
+	"dni": 105,
+	"name": "Abril Bermudez",
+	"loves": [
+		"nsync",
+		"charly"
+	],
+	"weight": "71 Kg",
+	"gender": "f",
+	"votes": 40.0
+}]
+

@@ -1,0 +1,23 @@
+Desarrollo:
+
+1.- Tema propuesto
+2.- Vision
+3.- Mision
+4.- Objetivos (generales/especificos)
+5.- Planteo/justificacion de la problematica (el por que de la necesidad del sistema - vender la solución)
+6.- Modelo de Negocio Canvas
+7.- GANTT - cronograma (presentar tiempo del desarrollo)
+8.- Delimitacion del problema (Hasta donde contempla la solución del problema o la app)
+9.- Factibilidad.
+10.- Hipotesis (* puede semejarse a la justificación de la implementacion del sistema)
+11.- relevamiento
+12.- Graficas a consideracion (UML - Caso de uso, diagrama de funciones/relaciones,DER,etc)
+13.- Contingencia/DR- Disaster Recovery Plan (si lo requiere)
+14.- Matriz Foda
+15.- Analisis de costos VAN/TIR (optativo si el proyecto lo amerita)
+16.- Modelo de Negocio Canvas
+17.- Mockap (Una maqueta que sugiere cómo se verá el diseño final y, por lo general, se comparte con los clientes y las partes interesadas. Un prototipo)
+18.- Conslusión
+
+
+- Presentacion de una carpeta en formato digital.
