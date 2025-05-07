@@ -1,0 +1,182 @@
+------Tarea 1------
+
+1) ¿Cuáles son las principales distinciones entre Derecho Positivo y Derecho Natural, así como entre Derecho Objetivo y Derecho Subjetivo, y cómo se clasifican las fuentes del derecho?
+
+-El derecho positivo lo establece algún estado en un tiempo y espacio determinado. Se debaten las leyes a ser o no aprobadas. Ej: Ley de transito
+-El derecho natural son reglas universales por la naturaleza humana, que surgen del razonamiento, son genéricas. Ej.: Derecho a vivir, a la verdad, a la libertad, a la dignidad, etc.
+-El derecho objetivo: Es quien debe cumplir la conducta en la sociedad. Impone respetar lo ajeno privado
+-El derecho subjetivo: Es a quien le deben cumplir la conducta. Impone exigir el cumplimiento
+Ej: Debes pagar una deuda (Objetivo), del otro lado esta quien pueda exigir el derecho del pago de esa deuda (Subjetivo)
+
+2) ¿Cómo se define el concepto de ley y cuáles son sus características fundamentales? ¿Qué principios rigen la aplicación e interpretación de la ley?
+
+La ley es general, obligatoria y se escribe de la autoridad competente, debiendo estar con la constitución nacional y derechos humanos. La función es regular conductas sociales
+Esta la ley material y formal
+-La formal: Impuesta de forma jurídica siguiendo la Constitución, bien legislativa por el Congreso. Ej: Feriado nacional, tratados internacionales (Por el congreso o Legislaturas)
+-La material: Puede no ser aprobada de forma por el Congreso, pero es una norma general obligatoria. Ej: Pago de impuestos, Usar barbijo en lugares cerrados (Autoridades competentes), o un pueblo tiene una constumbre (Consuetudinario)
+Los principios básicos podrían ser 
+**La Inexcusabilidad: Que no sepas de la ley no es excusa para que no sean cumplidas. Una vez que la ley este en marcha presume que la ley es conocida por todos
+**Principio de la Irretroactividad: Las leyes tienen fechas para su publicación oficial, el mismo dia o al octavo dia. Desde el dia estipulado pasa a ser obligatoria respetarla. Hay leyes que pueden regirse de inmediato e incluso con retroactividad (Hechos jurídicos ocurridos antes de la sancion). Si no le ponen fecha, será obligatoria en el octavo dia
+
+3) ¿Qué se entiende por "Orden Público" y cómo se relaciona con la autonomía de la voluntad en el ámbito legal? ¿Qué ejemplos de conductas abusivas se mencionan en el material y cuáles son sus posibles efectos?
+El orden publico es un conjunto de principios que una sociedad considera importantes, tanto en organización, moral, seguridad y paz
+La autonomía de voluntad es el cual las personas pueden decidir libremente sobre sus relaciones jurídicas (Contratos entre personas como gusten), pero con el limite de que no puede ir contra el orden publico
+Un abuso que menciona es cuando se usa un derecho de forma contraria a los fines del ordenamiento juridico, excediendo los limites de la buena fe, moral y costumbre
+El abuso dominante es un ámbito del mercado, donde se abusa del poder de su posición para perjudicar a otros
+
+
+
+4) ¿Cuáles son los elementos esenciales de una relación jurídica? ¿Cuáles son los atributos de la personalidad y cuál es la relevancia del concepto de persona jurídica, incluyendo su clasificación y capacidad?
+
+5) ¿Cómo se distingue entre hecho y hecho jurídico, y qué características definen un acto jurídico? ¿Cuál es el principio de libertad de formas en los instrumentos privados y cómo se diferencia de los instrumentos públicos?
+*Hecho: Un suceso en la realidad (Llover, caminar, hablar)
+*Hecho jurídico: Un suceso que si se produce tiene consecuencias jurídicas
+
+-----Tarea 2------
+
+1) ¿Cuáles son las principales ramas del derecho y cómo se relaciona la informática con el derecho, influyendo en áreas como el Derecho Comercial, Civil, Laboral y Penal?   
+-Derecho positivo: Privado y publico
+*Publico: Normativa con intervención del estado como poder publico, con interés estatal directo. El Estado actúa con autoridad (No en igualdad). Teniendo derecho penal, constitucional, administrativo, internacional publico, procesal
+*Privado: Relaciones entre partes en igualdad de condiciones, se rige entre particulares (Derecho civil, comercial, laboral)
+
+-La relación con la informática:
+*Comercial: Contratar sobre objetos relativos a la tecnología (Compraventa, regulación de pagos, firmas digitales, protección del consumidor digital)
+*Civil: Involucrar información de base de datos de las personas (Difamación online, contratos a distancia, derechos de privacidad)
+*Laboral: Puede ser objeto de inicio o fin de una relación laboral(Regulacion del Homeoffice, monitoreos, documentacion)
+*Penal: Delitos que se configuran mediante via informática (Hacking, pruebas digitales, protección penal de datos)
+
+2) ¿Qué se entiende por Informática Jurídica y cuáles son sus áreas principales de aplicación, incluyendo la gestión de expedientes judiciales, la recuperación de documentos jurídicos y el desarrollo de sistemas expertos para el razonamiento jurídico?   
+
+Informatica Juridica: Se le dice asi a la aplicación de tecnologías informáticas al mundo del derecho (Expedientes judiciales, administrar casos jurídicos, base de datos y búsquedas de normativas/fallos). Siendo asi un instrumento en el ámbito del derecho (Para jueces, abogados, peritos, etc)
+Contraposición, el derecho informatico es la transformación del derecho en composición en actividades novedosas en el ámbito social, requiriendo nuevas regulaciones con lo informatico
+Las principales áreas:
+Informatica jurídica de:
+*Gestion: Uso de compus y software para expedientes, administrar casos, procesar 
+*Documental: Creación de bases de datos jurídicas para recuperar leyes, fallos y documentos jurídicos mediante motores de búsqueda.
+*Decisoria: Desarrollo de sistemas expertos basados en inteligencia artificial que simulan el razonamiento jurídico (aunque en la práctica no se han desarrollado ampliamente aún).
+
+
+3) ¿Cómo ha evolucionado la protección legal del software, desde los intentos iniciales de patentarlo hasta su inclusión en las leyes de derecho de autor, y cuáles son los principales convenios internacionales que abordan esta cuestión? 
+Comenzó la protección con patentes, pero fue rechazado en 1972
+Se incorporo el software dentro del régimen del derechos de autor
+Convenios Internacionales relevantes:
+Convenio de Berna (1886, revisado en París 1971): protege obras literarias y artísticas, incluyendo el software como obra intelectual
+Convención Universal de Ginebra: también incluye protección de software como derecho de autor
+Convenio sobre la Patente Europea (1973): confirma que el software como tal no es patentable, salvo si forma parte de una invención industrial
+
+4) ¿Qué se define como Derecho Informático, cuál es su objeto de estudio y cuáles son las características, elementos y principios jurídicos aplicables en el mundo virtual, incluyendo la libertad de expresión, comercio y la protección de la intimidad? 
+*Derecho informatico: Rama del derecho que regula los efectos jurídicos derivados del uso de tecnologías informaticas  
+*Objeto de estudio: Los hecho informáticos (actos jurídicos realizados mediante compus o tecnología digital)
+Características:
+Es autónomo y dinámico
+Tiene fuentes dispersas en varias ramas (civil, penal, comercial, internacional)
+Es multidisciplinario y supranacional (por la naturaleza global de Internet)
+Principios jurídicos aplicables al mundo virtual:
+Libertad de expresión en internet
+Libertad de comercio electrónico
+No discriminación de medios digitales
+Principio protector (proteger a la parte más débil)
+Derecho a la intimidad y privacidad
+Libertad de información y autodeterminación informativa
+Carácter internacional del Derecho Informático
+
+5) ¿Cuáles son los conceptos y nociones clave del documento electrónico y la firma digital, incluyendo sus características de integridad, inalterabilidad y perdurabilidad, y cómo se relaciona el Derecho Informático con la protección de la intimidad y los datos personales?   
+Es una manifestación de voluntad con soporte digital (bits), equivalente a un documento en papel.
+
+Debe cumplir con tres características principales:
+
+Integridad: no debe haber sido modificado.
+
+Inalterabilidad: debe ser difícil de alterar una vez almacenado.
+
+Perdurabilidad: debe poder conservarse de forma segura a lo largo del tiempo.
+
+Firma digital:
+
+Asegura la autoría y la integridad de los documentos electrónicos.
+
+Permite que un documento digital tenga el mismo valor probatorio que uno firmado a mano.
+
+Relación con protección de intimidad y datos personales:
+
+El uso de documentos electrónicos y firmas digitales debe respetar la protección de los datos personales, garantizando privacidad y seguridad, de acuerdo a leyes como la Ley 25.326 de Protección de Datos Personales en Argentina.
+
+6) ¿De qué manera la comprensión del Derecho Informático y sus principios fundamentales puede capacitar al Licenciado en Gestión de la Tecnología para abordar los desafíos legales y éticos emergentes en la era digital, como la protección de datos, la seguridad de la información y la regulación de las actividades en el ciberespacio, asegurando así un desarrollo tecnológico responsable y conforme a derecho?
+El conocimiento del Derecho Informático permite:
+
+Comprender y cumplir normas de protección de datos personales.
+Garantizar la seguridad de la información en proyectos tecnológicos.
+Respetar la regulación de actividades en el ciberespacio (e-commerce, redes sociales, bases de datos, etc.).
+Actuar éticamente en el manejo de la tecnología.
+Prevenir riesgos legales en desarrollo de software, gestión de datos, uso de redes
+Asegurar un desarrollo tecnológico responsable y conforme al derecho nacional e internacional
+
+----Tarea 3----------
+1) ¿Cuáles son las dos categorías principales en las que se divide la Propiedad Intelectual, y qué tipo de creaciones abarca cada una? 
+  
+La Propiedad Intelectual se divide en:
+Propiedad Industrial: Incluye invenciones (patentes), marcas, modelos y diseños industriales, e indicaciones geográficas de origen.
+Derechos de Autor: Abarca obras literarias y artísticas como novelas, poesías, música, pinturas, películas, obras arquitectónicas, etc.
+
+2) ¿Qué derechos incluye la Propiedad Industrial y cuál es su función principal en el mercado?   
+
+La Propiedad Industrial incluye:
+-Patentes, modelos industriales, marcas, nombres comerciales e indicaciones de origen.
+-Su función principal es proteger los signos que identifican productos o servicios y evitar el uso no autorizado que pueda inducir a error a los consumidores o causar competencia desleal.
+-También incentiva a las empresas a invertir en innovación y calidad, ya que protege legalmente sus creaciones e imagen
+
+
+3) ¿En qué consisten los Derechos de Autor, y cuál es la diferencia entre los Derechos Morales y los Derechos Patrimoniales?   
+Los Derechos de Autor protegen obras originales literarias, científicas o artísticas.
+
+Derechos Morales:
+Son irrenunciables e inalienables.
+Ej: derecho al reconocimiento de autoría y a la integridad de la obra.
+Derechos Patrimoniales (o de explotación):
+Son transferibles y temporales.
+Incluyen reproducción, distribución, comunicación pública y transformación.
+El autor puede autorizar o ceder estos derechos a terceros.
+
+4) ¿Qué es una Marca, y cuál es su importancia para los consumidores y las empresas?   
+Una Marca es un signo distintivo (nombre, logo, símbolo, forma, sonido, etc.) que permite identificar productos o servicios de una empresa y diferenciarlos de los de la competencia.
+
+Importancia:
+
+Ayuda al consumidor a identificar y confiar en un producto o empresa.
+
+Refuerza la imagen y reputación comercial.
+
+Permite a las empresas posicionarse y fidelizar clientes.
+
+El registro de la marca da derechos exclusivos para impedir usos no autorizados y evitar confusión en el mercado
+.
+
+5) ¿Qué es una Patente, y cómo se diferencia de un Modelo de Utilidad y un Modelo Industrial? 
+Patente:
+Derecho exclusivo sobre una invención técnica (producto o procedimiento nuevo, con actividad inventiva y aplicación industrial). Dura 20 años.
+
+Modelo de Utilidad:
+Es una mejora funcional en objetos ya existentes. No requiere actividad inventiva. Dura 10 años. Más económico y más fácil de obtener.
+
+Modelo Industrial:
+Protege el diseño estético u ornamental de un producto (no funcional). Dura 5 años renovables. No implica invención técnica.
+
+Cada uno protege un aspecto distinto: invención (patente), mejora funcional (modelo de utilidad) o diseño visual (modelo industrial)
+.  
+
+6) Pregunta Reflexiva: ¿Cómo los conceptos de Propiedad Intelectual, incluyendo los Derechos de Autor, Propiedad Industrial y Patentes, se relacionan y son aplicables en la gestión y el desarrollo de nuevas tecnologías por parte de un Licenciado en Gestión de la Tecnología?
+
+La Propiedad Intelectual es clave para la protección, uso y comercialización de las innovaciones tecnológicas. Un Licenciado en Gestión de la Tecnología debe:
+
+Identificar y proteger desarrollos propios o de terceros mediante patentes, marcas o derechos de autor.
+
+Evitar conflictos legales por uso indebido de contenidos, software o diseños.
+
+Gestionar activos intangibles como el know-how, software, bases de datos, licencias y modelos.
+
+Tomar decisiones estratégicas sobre cuándo registrar una invención, cómo licenciarla o cuándo usar modelos de licencias abiertas (ej: Creative Commons).
+
+Respetar la legislación nacional e internacional y adaptarse a entornos digitales donde los contenidos se difunden con rapidez.
+
+En resumen, la Propiedad Intelectual no solo protege la creatividad, sino que es una herramienta estratégica de valor y competitividad en el desarrollo tecnológico.
+
