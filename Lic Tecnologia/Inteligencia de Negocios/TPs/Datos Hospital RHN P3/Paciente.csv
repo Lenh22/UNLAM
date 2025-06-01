@@ -1,0 +1,301 @@
+﻿ID_Paciente,Nombre,Edad,Sexo,Ciudad,Provincia
+1,Paciente 1,56,F,Salta,Salta
+2,Paciente 2,36,F,Paraná,Santa Fe
+3,Paciente 3,75,F,Neuquén,Neuquén
+4,Paciente 4,25,M,Buenos Aires,Buenos Aires
+5,Paciente 5,67,F,San Rafael,Mendoza
+6,Paciente 6,56,M,Neuquén,Neuquén
+7,Paciente 7,79,F,Posadas,Misiones
+8,Paciente 8,85,F,San Juan,San Juan
+9,Paciente 9,40,F,Villa María,Córdoba
+10,Paciente 10,76,M,San Rafael,Mendoza
+11,Paciente 11,38,F,Mar del Plata,Buenos Aires
+12,Paciente 12,50,M,Salta,Salta
+13,Paciente 13,36,M,Mendoza,Mendoza
+14,Paciente 14,41,F,Mendoza,Mendoza
+15,Paciente 15,57,F,Posadas,Misiones
+16,Paciente 16,62,F,Córdoba,Córdoba
+17,Paciente 17,22,F,Villa María,Córdoba
+18,Paciente 18,40,M,San Miguel de Tucumán,Tucumán
+19,Paciente 19,22,M,La Plata,Buenos Aires
+20,Paciente 20,77,F,Posadas,Misiones
+21,Paciente 21,45,M,San Juan,San Juan
+22,Paciente 22,67,F,Córdoba,Córdoba
+23,Paciente 23,23,M,San Juan,San Juan
+24,Paciente 24,27,F,Río Cuarto,Córdoba
+25,Paciente 25,49,M,Salta,Salta
+26,Paciente 26,46,F,Bahía Blanca,Buenos Aires
+27,Paciente 27,43,M,San Miguel de Tucumán,Tucumán
+28,Paciente 28,43,F,San Miguel de Tucumán,Tucumán
+29,Paciente 29,19,M,Paraná,Santa Fe
+30,Paciente 30,29,F,Salta,Salta
+31,Paciente 31,23,M,Posadas,Misiones
+32,Paciente 32,28,F,Córdoba,Córdoba
+33,Paciente 33,25,M,Salta,Salta
+34,Paciente 34,65,M,Buenos Aires,Buenos Aires
+35,Paciente 35,72,F,Mendoza,Mendoza
+36,Paciente 36,28,M,Rosario,Santa Fe
+37,Paciente 37,44,F,Paraná,Santa Fe
+38,Paciente 38,31,F,San Rafael,Mendoza
+39,Paciente 39,60,M,Neuquén,Neuquén
+40,Paciente 40,81,M,Salta,Salta
+41,Paciente 41,24,M,Mendoza,Mendoza
+42,Paciente 42,78,M,Paraná,Santa Fe
+43,Paciente 43,79,M,Bahía Blanca,Buenos Aires
+44,Paciente 44,85,F,Neuquén,Neuquén
+45,Paciente 45,35,M,Santa Fe,Santa Fe
+46,Paciente 46,53,F,Neuquén,Neuquén
+47,Paciente 47,35,M,Córdoba,Córdoba
+48,Paciente 48,80,M,Posadas,Misiones
+49,Paciente 49,26,M,Posadas,Misiones
+50,Paciente 50,81,F,Mendoza,Mendoza
+51,Paciente 51,70,M,San Miguel de Tucumán,Tucumán
+52,Paciente 52,53,F,Neuquén,Neuquén
+53,Paciente 53,31,M,Santa Fe,Santa Fe
+54,Paciente 54,48,M,Salta,Salta
+55,Paciente 55,22,M,Buenos Aires,Buenos Aires
+56,Paciente 56,26,F,Mendoza,Mendoza
+57,Paciente 57,72,F,Mar del Plata,Buenos Aires
+58,Paciente 58,21,M,Bahía Blanca,Buenos Aires
+59,Paciente 59,47,M,San Miguel de Tucumán,Tucumán
+60,Paciente 60,43,M,Resistencia,Chaco
+61,Paciente 61,82,M,Neuquén,Neuquén
+62,Paciente 62,53,M,Posadas,Misiones
+63,Paciente 63,30,M,Bahía Blanca,Buenos Aires
+64,Paciente 64,61,M,Posadas,Misiones
+65,Paciente 65,53,F,Neuquén,Neuquén
+66,Paciente 66,74,M,Río Cuarto,Córdoba
+67,Paciente 67,82,F,Posadas,Misiones
+68,Paciente 68,68,M,Posadas,Misiones
+69,Paciente 69,56,F,Posadas,Misiones
+70,Paciente 70,78,F,Córdoba,Córdoba
+71,Paciente 71,83,F,San Miguel de Tucumán,Tucumán
+72,Paciente 72,69,M,San Juan,San Juan
+73,Paciente 73,62,F,Neuquén,Neuquén
+74,Paciente 74,53,M,Buenos Aires,Buenos Aires
+75,Paciente 75,42,M,Posadas,Misiones
+76,Paciente 76,43,M,Santa Fe,Santa Fe
+77,Paciente 77,73,M,San Miguel de Tucumán,Tucumán
+78,Paciente 78,82,F,Salta,Salta
+79,Paciente 79,63,M,Neuquén,Neuquén
+80,Paciente 80,58,F,Salta,Salta
+81,Paciente 81,69,F,Villa María,Córdoba
+82,Paciente 82,81,F,Santa Fe,Santa Fe
+83,Paciente 83,37,F,San Rafael,Mendoza
+84,Paciente 84,30,M,Villa María,Córdoba
+85,Paciente 85,65,M,Salta,Salta
+86,Paciente 86,75,M,Posadas,Misiones
+87,Paciente 87,37,F,Salta,Salta
+88,Paciente 88,32,M,San Juan,San Juan
+89,Paciente 89,80,F,La Plata,Buenos Aires
+90,Paciente 90,73,M,San Rafael,Mendoza
+91,Paciente 91,59,M,Córdoba,Córdoba
+92,Paciente 92,72,F,Salta,Salta
+93,Paciente 93,53,M,La Plata,Buenos Aires
+94,Paciente 94,41,F,Resistencia,Chaco
+95,Paciente 95,27,F,Mar del Plata,Buenos Aires
+96,Paciente 96,58,M,Rosario,Santa Fe
+97,Paciente 97,70,M,Rosario,Santa Fe
+98,Paciente 98,29,M,La Plata,Buenos Aires
+99,Paciente 99,78,M,Río Cuarto,Córdoba
+100,Paciente 100,18,M,Rosario,Santa Fe
+101,Paciente 101,18,M,Villa María,Córdoba
+102,Paciente 102,50,M,San Rafael,Mendoza
+103,Paciente 103,76,F,San Miguel de Tucumán,Tucumán
+104,Paciente 104,73,M,Salta,Salta
+105,Paciente 105,56,F,Salta,Salta
+106,Paciente 106,40,F,Salta,Salta
+107,Paciente 107,41,F,San Miguel de Tucumán,Tucumán
+108,Paciente 108,68,M,San Juan,San Juan
+109,Paciente 109,29,M,Salta,Salta
+110,Paciente 110,37,M,Neuquén,Neuquén
+111,Paciente 111,36,M,Mendoza,Mendoza
+112,Paciente 112,55,F,San Juan,San Juan
+113,Paciente 113,43,F,Bahía Blanca,Buenos Aires
+114,Paciente 114,80,M,Salta,Salta
+115,Paciente 115,76,M,Resistencia,Chaco
+116,Paciente 116,20,F,Mar del Plata,Buenos Aires
+117,Paciente 117,24,M,Paraná,Santa Fe
+118,Paciente 118,27,F,San Miguel de Tucumán,Tucumán
+119,Paciente 119,36,F,Salta,Salta
+120,Paciente 120,73,M,La Plata,Buenos Aires
+121,Paciente 121,51,M,Rosario,Santa Fe
+122,Paciente 122,50,M,Mendoza,Mendoza
+123,Paciente 123,28,M,Mendoza,Mendoza
+124,Paciente 124,84,M,San Miguel de Tucumán,Tucumán
+125,Paciente 125,77,F,San Miguel de Tucumán,Tucumán
+126,Paciente 126,29,M,Villa María,Córdoba
+127,Paciente 127,74,M,Neuquén,Neuquén
+128,Paciente 128,37,M,San Miguel de Tucumán,Tucumán
+129,Paciente 129,56,F,Santa Fe,Santa Fe
+130,Paciente 130,79,F,Salta,Salta
+131,Paciente 131,78,F,San Rafael,Mendoza
+132,Paciente 132,77,F,Neuquén,Neuquén
+133,Paciente 133,67,M,Salta,Salta
+134,Paciente 134,64,F,Córdoba,Córdoba
+135,Paciente 135,61,F,Neuquén,Neuquén
+136,Paciente 136,85,F,Mendoza,Mendoza
+137,Paciente 137,41,M,Paraná,Santa Fe
+138,Paciente 138,21,M,La Plata,Buenos Aires
+139,Paciente 139,45,F,San Miguel de Tucumán,Tucumán
+140,Paciente 140,55,F,Córdoba,Córdoba
+141,Paciente 141,49,F,Neuquén,Neuquén
+142,Paciente 142,52,M,San Miguel de Tucumán,Tucumán
+143,Paciente 143,26,F,Salta,Salta
+144,Paciente 144,38,M,La Plata,Buenos Aires
+145,Paciente 145,39,F,Salta,Salta
+146,Paciente 146,81,M,San Juan,San Juan
+147,Paciente 147,26,F,San Rafael,Mendoza
+148,Paciente 148,72,M,Resistencia,Chaco
+149,Paciente 149,83,M,Rosario,Santa Fe
+150,Paciente 150,30,F,Resistencia,Chaco
+151,Paciente 151,42,M,Resistencia,Chaco
+152,Paciente 152,20,F,Córdoba,Córdoba
+153,Paciente 153,80,F,Bahía Blanca,Buenos Aires
+154,Paciente 154,46,F,Neuquén,Neuquén
+155,Paciente 155,83,F,Salta,Salta
+156,Paciente 156,66,F,San Juan,San Juan
+157,Paciente 157,61,M,Posadas,Misiones
+158,Paciente 158,66,M,Río Cuarto,Córdoba
+159,Paciente 159,29,F,Río Cuarto,Córdoba
+160,Paciente 160,37,M,San Rafael,Mendoza
+161,Paciente 161,57,F,Posadas,Misiones
+162,Paciente 162,45,M,Resistencia,Chaco
+163,Paciente 163,26,M,San Juan,San Juan
+164,Paciente 164,54,M,Resistencia,Chaco
+165,Paciente 165,85,M,Río Cuarto,Córdoba
+166,Paciente 166,33,M,Mendoza,Mendoza
+167,Paciente 167,75,F,Río Cuarto,Córdoba
+168,Paciente 168,63,F,Mendoza,Mendoza
+169,Paciente 169,18,M,Posadas,Misiones
+170,Paciente 170,42,M,La Plata,Buenos Aires
+171,Paciente 171,66,F,San Miguel de Tucumán,Tucumán
+172,Paciente 172,68,M,Posadas,Misiones
+173,Paciente 173,24,F,Salta,Salta
+174,Paciente 174,59,M,Córdoba,Córdoba
+175,Paciente 175,82,M,Buenos Aires,Buenos Aires
+176,Paciente 176,19,F,Neuquén,Neuquén
+177,Paciente 177,28,F,San Miguel de Tucumán,Tucumán
+178,Paciente 178,47,M,Neuquén,Neuquén
+179,Paciente 179,50,F,Rosario,Santa Fe
+180,Paciente 180,44,F,Salta,Salta
+181,Paciente 181,22,M,Posadas,Misiones
+182,Paciente 182,39,M,Santa Fe,Santa Fe
+183,Paciente 183,40,F,Salta,Salta
+184,Paciente 184,35,F,San Juan,San Juan
+185,Paciente 185,21,M,San Miguel de Tucumán,Tucumán
+186,Paciente 186,60,M,Salta,Salta
+187,Paciente 187,22,M,Neuquén,Neuquén
+188,Paciente 188,21,F,San Miguel de Tucumán,Tucumán
+189,Paciente 189,64,F,La Plata,Buenos Aires
+190,Paciente 190,42,M,Río Cuarto,Córdoba
+191,Paciente 191,83,M,San Juan,San Juan
+192,Paciente 192,75,M,Buenos Aires,Buenos Aires
+193,Paciente 193,38,M,San Rafael,Mendoza
+194,Paciente 194,70,M,Posadas,Misiones
+195,Paciente 195,78,F,San Miguel de Tucumán,Tucumán
+196,Paciente 196,29,M,San Juan,San Juan
+197,Paciente 197,43,F,Mendoza,Mendoza
+198,Paciente 198,31,F,Neuquén,Neuquén
+199,Paciente 199,57,F,Posadas,Misiones
+200,Paciente 200,36,F,Posadas,Misiones
+201,Paciente 201,41,F,San Juan,San Juan
+202,Paciente 202,57,M,Neuquén,Neuquén
+203,Paciente 203,50,M,San Juan,San Juan
+204,Paciente 204,27,F,Salta,Salta
+205,Paciente 205,61,F,San Juan,San Juan
+206,Paciente 206,25,M,Posadas,Misiones
+207,Paciente 207,28,M,Neuquén,Neuquén
+208,Paciente 208,53,M,San Juan,San Juan
+209,Paciente 209,71,F,Resistencia,Chaco
+210,Paciente 210,33,F,Neuquén,Neuquén
+211,Paciente 211,70,F,Santa Fe,Santa Fe
+212,Paciente 212,78,M,Neuquén,Neuquén
+213,Paciente 213,58,M,Neuquén,Neuquén
+214,Paciente 214,50,F,Mendoza,Mendoza
+215,Paciente 215,64,F,San Rafael,Mendoza
+216,Paciente 216,57,F,Salta,Salta
+217,Paciente 217,82,M,Rosario,Santa Fe
+218,Paciente 218,32,F,Resistencia,Chaco
+219,Paciente 219,37,M,La Plata,Buenos Aires
+220,Paciente 220,60,F,San Miguel de Tucumán,Tucumán
+221,Paciente 221,70,M,Resistencia,Chaco
+222,Paciente 222,68,M,San Juan,San Juan
+223,Paciente 223,55,F,Posadas,Misiones
+224,Paciente 224,28,M,San Juan,San Juan
+225,Paciente 225,52,F,Posadas,Misiones
+226,Paciente 226,73,M,San Miguel de Tucumán,Tucumán
+227,Paciente 227,41,M,Santa Fe,Santa Fe
+228,Paciente 228,83,F,Santa Fe,Santa Fe
+229,Paciente 229,42,M,Posadas,Misiones
+230,Paciente 230,33,F,Posadas,Misiones
+231,Paciente 231,84,M,Salta,Salta
+232,Paciente 232,73,F,San Juan,San Juan
+233,Paciente 233,35,M,San Miguel de Tucumán,Tucumán
+234,Paciente 234,56,M,Mendoza,Mendoza
+235,Paciente 235,56,M,Rosario,Santa Fe
+236,Paciente 236,61,F,Mendoza,Mendoza
+237,Paciente 237,25,F,Villa María,Córdoba
+238,Paciente 238,23,M,Mendoza,Mendoza
+239,Paciente 239,83,F,San Rafael,Mendoza
+240,Paciente 240,75,F,San Rafael,Mendoza
+241,Paciente 241,83,M,Neuquén,Neuquén
+242,Paciente 242,57,M,Buenos Aires,Buenos Aires
+243,Paciente 243,20,M,Salta,Salta
+244,Paciente 244,75,F,Neuquén,Neuquén
+245,Paciente 245,64,F,Villa María,Córdoba
+246,Paciente 246,54,F,Buenos Aires,Buenos Aires
+247,Paciente 247,54,M,Villa María,Córdoba
+248,Paciente 248,50,F,San Juan,San Juan
+249,Paciente 249,20,F,Neuquén,Neuquén
+250,Paciente 250,79,M,Resistencia,Chaco
+251,Paciente 251,73,M,San Miguel de Tucumán,Tucumán
+252,Paciente 252,52,M,Posadas,Misiones
+253,Paciente 253,29,M,Rosario,Santa Fe
+254,Paciente 254,30,F,Salta,Salta
+255,Paciente 255,83,M,San Juan,San Juan
+256,Paciente 256,68,M,Neuquén,Neuquén
+257,Paciente 257,29,F,Villa María,Córdoba
+258,Paciente 258,25,F,Posadas,Misiones
+259,Paciente 259,64,F,Buenos Aires,Buenos Aires
+260,Paciente 260,64,F,Resistencia,Chaco
+261,Paciente 261,77,F,San Juan,San Juan
+262,Paciente 262,83,F,Mendoza,Mendoza
+263,Paciente 263,57,M,La Plata,Buenos Aires
+264,Paciente 264,53,M,Córdoba,Córdoba
+265,Paciente 265,24,F,Mendoza,Mendoza
+266,Paciente 266,52,M,San Juan,San Juan
+267,Paciente 267,40,F,Posadas,Misiones
+268,Paciente 268,59,M,Neuquén,Neuquén
+269,Paciente 269,42,F,San Miguel de Tucumán,Tucumán
+270,Paciente 270,41,F,Posadas,Misiones
+271,Paciente 271,61,F,Mendoza,Mendoza
+272,Paciente 272,31,F,San Rafael,Mendoza
+273,Paciente 273,29,F,Salta,Salta
+274,Paciente 274,48,M,San Miguel de Tucumán,Tucumán
+275,Paciente 275,45,F,Mar del Plata,Buenos Aires
+276,Paciente 276,27,M,Mendoza,Mendoza
+277,Paciente 277,73,M,Salta,Salta
+278,Paciente 278,85,F,Neuquén,Neuquén
+279,Paciente 279,71,F,Córdoba,Córdoba
+280,Paciente 280,21,F,Río Cuarto,Córdoba
+281,Paciente 281,66,M,Neuquén,Neuquén
+282,Paciente 282,43,M,Resistencia,Chaco
+283,Paciente 283,28,M,Rosario,Santa Fe
+284,Paciente 284,30,F,Resistencia,Chaco
+285,Paciente 285,27,F,Neuquén,Neuquén
+286,Paciente 286,72,F,Salta,Salta
+287,Paciente 287,71,F,Rosario,Santa Fe
+288,Paciente 288,34,F,San Juan,San Juan
+289,Paciente 289,29,M,San Miguel de Tucumán,Tucumán
+290,Paciente 290,52,M,Neuquén,Neuquén
+291,Paciente 291,20,F,Neuquén,Neuquén
+292,Paciente 292,76,M,San Miguel de Tucumán,Tucumán
+293,Paciente 293,50,M,Resistencia,Chaco
+294,Paciente 294,61,M,San Miguel de Tucumán,Tucumán
+295,Paciente 295,64,M,Posadas,Misiones
+296,Paciente 296,36,F,Posadas,Misiones
+297,Paciente 297,61,F,Salta,Salta
+298,Paciente 298,32,M,Posadas,Misiones
+299,Paciente 299,82,M,Mendoza,Mendoza
+300,Paciente 300,23,F,Resistencia,Chaco
