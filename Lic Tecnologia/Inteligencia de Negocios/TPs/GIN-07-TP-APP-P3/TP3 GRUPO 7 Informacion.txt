@@ -1,0 +1,15 @@
+Sugeridos:
+1.Identificar si hay médicos que demoran mucho más que otros
+2.Ver cuáles patologías están generando más internaciones
+3.Detectar especialidades que sean costosas y lentas.
+4.Mapa de la cantidad de internaciones por cada Sede
+
+Interrogantes de cada pagina:
+General: Panorama general de las cosas
+Atención medica: ¿Qué sedes tienen mayor demanda de consultas por especialidad?
+Tiempo de espera: ¿Cómo varían los tiempos de espera según la provincia y especialidad?
+Costos Especialidad/Paciente:¿Qué especialidades generan mayor costo promedio por paciente?
+Evolución Internacional:¿Cuál es la evolución mensual de internaciones en los últimos dos años?
+Tasa Ocupación:¿Qué hospitales tienen la mayor tasa de ocupación de camas?
+Internacional: ¿Qué diagnósticos generan internaciones más prolongadas?
+
